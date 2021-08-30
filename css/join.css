@@ -1,0 +1,246 @@
+		* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		}
+		
+		a {
+			text-decoration: none;
+		}
+		
+		li {
+			list-style: none;
+		}
+		
+		address {
+			font-style: normal;			
+		}
+		
+		body {
+			font-family: 'Nanum Gothic', sans-serif;
+			font-size:0.75em;
+			margin:0 auto;
+			background: #101010;
+		}
+		
+
+		
+		
+		/*body안에 웹사이트 기본 사이즈 0.75em 서체지정*/
+	
+		/* ---------------------------------------네비게이션-------*/
+		
+		.page_01 {
+			width: 100%;
+			height: 600px;
+			margin-bottom: 200px;
+		}
+		
+		.page_01 header {
+			width: 100%;
+			height: 150px;
+			text-align: center;
+			position: fixed;
+			background: rgba(0,0,0,.7);
+			z-index :99999;
+		}
+		
+		.logo {
+			width: 78px;
+			height: 54px;
+			margin: 0px auto;
+			position: relative;
+		}		
+		
+		.logo img {
+			width: 100%;
+			vertical-align: bottom;
+			border: none;
+			position: absolute;
+			top: 50%;
+			margin-left: -39px;
+			margin-bottom: -27px;
+		}
+
+		.nav_content {
+			width: 40%;
+			margin: 0 auto;
+			margin-top: 40px;
+			line-height: 50px;
+			height: 50px;
+			text-align:center;
+			overflow: hidden;
+		}
+
+		.nav_content a {
+			width: 13.6%;
+			display: block;
+			float: left;
+			color: #fff;
+			font-size: 1.2em;
+			margin: 0 auto;
+			letter-spacing: 0.2em;
+		}
+		
+		.nav_content .mar {
+			margin-right: 8%;
+		}
+		
+		.nav_content a:hover {
+			border-bottom: 1px solid #f7e18a;
+			background: #111;
+		}
+		
+		.join_content {
+			color: #fff;
+			background: #000;
+			width: 100%;
+			height: 600px;
+			margin: 0 auto;
+			text-align: center;
+			border: 1px solid orange;
+			padding-top: 250px;
+			letter-spacing: 0.2em;
+			line-height: 1.5;
+			font-size: 1em;
+		}
+		
+		.join_content span {
+			display: block;
+			font-size: 4em;
+			padding: 25px;
+		}
+
+		/* ---------------------------------------약관1-------*/
+		.page_02 {
+			width: 100%;
+			height: 2350px;
+		}
+		.membership_title_box {
+			width: 60%;
+			height: 100px;
+			color: #fff;
+			margin: 0 auto;
+			text-align: center;
+			margin-bottom: 25px;
+		}
+		
+		.page_02 .title_01 {
+			font-size: 3em;
+			height: 50px;
+		}
+		
+		.page_02 .title_02 {
+			height: 20px;
+			text-align: right;	
+			font-size: 1.2em;		
+		}
+		
+		.page_02 .title_03 {
+			text-align: left;
+			font-size: 1.5em;
+			height: 30px;
+		}
+		
+		.membership_content_box {
+			width: 60%;
+			height: 300px;
+			background: #fff;
+			margin: 0 auto;
+			text-align: justify;
+			overflow: auto;
+		}
+		
+		.membership_content_box .content_01 {
+			line-height: 2;
+			font-size: 1.2em;
+			padding: 30px;
+		}
+		
+		.page_02 .check {
+			width: 60%;
+			height: 50px;
+			line-height: 50px;
+			color: #fff;
+			text-align: right;
+			margin: 0 auto;
+			margin-bottom: 200px;
+		}
+		
+		.page_02 .title_04 {
+			font-size: 1.2em;
+			
+		}
+		
+		.page_02 .title_05 {
+			font-size: 1.2em;
+			
+		}
+		
+		/* ---------------------------------------약관2-------*/
+
+		.personal_title_box {
+			width: 60%;
+			height: 100px;
+			color: #fff;
+			margin: 0 auto;
+			text-align: center;
+			margin-bottom: 25px;
+		}
+		
+		.personal_content_box {
+			width: 60%;
+			height: 750px;
+			background: #fff;
+			margin: 0 auto;
+			text-align: justify;
+			overflow: auto;
+		}
+		
+		.personal_content_box .content_02 {
+			line-height: 2;
+			padding: 30px;
+			font-size: 1.2em;
+		}
+
+		
+		/* ---------------------------------------유의사항-------*/
+		
+		 .page_02 .bottom {
+			width: 100%;
+			height: 450px;
+			padding: 0 20%;
+			margin: 0 auto;
+			background: #fff;
+			font-size: 1.2em;
+		 }
+		 
+		 .page_02 .alert_box {
+			 width: 60%;
+			 height: 300px;
+			padding-top: 50px;
+		 }
+		 
+		 .alret_title {
+			 margin-bottom: 20px;
+			 font-size: 1.5em;
+			 line-height: 1.5;
+			 font-weight: bold;
+		 }
+		 
+		 .alert_content_01 {
+			 margin-bottom: 20px;
+		 }
+		 
+		 .alert_content_02 {
+		 }
+		 
+		 .btn {
+			 width: 10%;
+			 height: 50px;
+			 line-height: 50px;
+			 margin: 50px auto;
+			 text-align: center;
+			 background: #101010;
+			 color: #fff;
+		 }

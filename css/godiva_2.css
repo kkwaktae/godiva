@@ -1,0 +1,126 @@
+		* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		}
+		
+		a {
+			text-decoration: none;
+		}
+		
+		li {
+			list-style: none;
+		}
+		
+		address {
+			font-style: normal;			
+		}
+		
+		body {
+			font-family: 'Nanum Gothic', sans-serif;
+			font-size:0.75em;
+			margin:0 auto;
+			background: #000;
+		}
+		
+
+		
+		
+		/*body안에 웹사이트 기본 사이즈 0.75em 서체지정*/
+	
+		/* ---------------------------------------대슬라이드-------*/
+		
+		.page_01 {
+			width: 100%;
+			height: 1080px;
+			background-image: url('../img/bslide/slide_02.png');
+			background-repeat: no-repeat;
+			background-size: cover;
+			margin-bottom: 200px;
+		}
+		
+		.page_01 header {
+			width: 100%;
+			height: 150px;
+			text-align: center;
+			position: fixed;
+			background: rgba(0,0,0,.7);
+			z-index :99999;
+		}
+		
+		.logo {
+			width: 78px;
+			height: 54px;
+			margin: 0px auto;
+			position: relative;
+		}		
+		
+		.logo img {
+			width: 100%;
+			vertical-align: bottom;
+			border: none;
+			position: absolute;
+			top: 50%;
+			margin-left: -39px;
+			margin-bottom: -27px;
+		}
+
+		.nav_content {
+			width: 40%;
+			margin: 0 auto;
+			margin-top: 40px;
+			line-height: 50px;
+			height: 50px;
+			text-align:center;
+			overflow: hidden;
+		}
+
+		.nav_content a {
+			width: 13.6%;
+			display: block;
+			float: left;
+			color: #fff;
+			font-size: 1.2em;
+			margin: 0 auto;
+			letter-spacing: 0.2em;
+		}
+		
+		.nav_content .mar {
+			margin-right: 8%;
+		}
+		
+		.nav_content a:hover {
+			border-bottom: 1px solid #f7e18a;
+			background: #111;
+		}
+
+		/* ---------------------------------------브랜드소개-------*/
+				
+		.page_02 {
+			width: 100%;
+			margin-bottom: 200px;
+		}
+
+		.brand_box {
+			width: 100%;
+			height: 900px;
+			background-image: url("../img/brand/back_image.jpg");
+			background-repeat: no-repeat;
+			background-size: 100% auto;
+			background-color: #fff;
+			position: relative;
+		}
+		
+		.brand_text {
+			width: 600px;
+			height: 525px;
+			background: #222;
+			box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+			position: absolute;
+			top: 180px;
+			left: 10%;
+			overflow: hidden;
+			text-align: justify;
+			color: #fff;
+			padding: 75px 5%;
+		}
