@@ -36,6 +36,7 @@
 			margin-bottom: 200px;
 		}
 		
+		
 		.page_01 header {
 			width: 100%;
 			height: 150px;
@@ -62,7 +63,7 @@
 			margin-bottom: -27px;
 		}
 
-		.nav_content {
+		.nav {
 			width: 40%;
 			margin: 0 auto;
 			margin-top: 40px;
@@ -72,21 +73,23 @@
 			overflow: hidden;
 		}
 
-		.nav_content a {
+		.nav li {
 			width: 13.6%;
-			display: block;
 			float: left;
-			color: #fff;
+		}
+		
+		.nav a {
+			display: block;		
+			color: #fff;	
 			font-size: 1.2em;
-			margin: 0 auto;
 			letter-spacing: 0.2em;
 		}
 		
-		.nav_content .mar {
+		.nav .mar {
 			margin-right: 8%;
 		}
 		
-		.nav_content a:hover {
+		.nav a:hover {
 			border-bottom: 1px solid #f7e18a;
 			background: #111;
 		}
@@ -241,6 +244,12 @@
 			 line-height: 50px;
 			 margin: 50px auto;
 			 text-align: center;
-			 background: #101010;
+			 background: #999;
 			 color: #fff;
+		 }
+		 
+		 .btn:hover {
+			background: #000;
+			color: #f7e18a;
+			transition-duration: 2s;
 		 }

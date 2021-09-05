@@ -8,7 +8,7 @@
 			text-decoration: none;
 		}
 		
-		li {
+		ul li {
 			list-style: none;
 		}
 		
@@ -32,18 +32,24 @@
 		
 		.page_01 {
 			width: 100%;
+			margin-bottom: 200px;
+		}
+		
+		.page_01 .slide {
+			width: 100%;
 			height: 1080px;
 			background-image: url('../img/bslide/slide_02.png');
 			background-repeat: no-repeat;
-			background-size: cover;
+			background-size: 100% auto;
 		}
+		
 		
 		.page_01 header {
 			width: 100%;
-			height: 144px;
+			height: 150px;
 			text-align: center;
 			position: fixed;
-			background: rgba(0,0,0,.3);
+			background: rgba(0,0,0,.7);
 			z-index :99999;
 		}
 		
@@ -64,7 +70,7 @@
 			margin-bottom: -27px;
 		}
 
-		.nav_content {
+		.nav {
 			width: 40%;
 			margin: 0 auto;
 			margin-top: 40px;
@@ -74,21 +80,23 @@
 			overflow: hidden;
 		}
 
-		.nav_content a {
+		.nav li {
 			width: 13.6%;
-			display: block;
 			float: left;
-			color: #fff;
-			font-size: 1.3em;
-			margin: 0 auto;
+		}
+		
+		.nav a {
+			display: block;		
+			color: #fff;	
+			font-size: 1.2em;
 			letter-spacing: 0.2em;
 		}
 		
-		.nav_content .mar {
+		.nav .mar {
 			margin-right: 8%;
 		}
 		
-		.nav_content a:hover {
+		.nav a:hover {
 			border-bottom: 1px solid #f7e18a;
 			background: #111;
 		}
@@ -97,34 +105,7 @@
 				
 		.page_02 {
 			width: 100%;
-			margin: 200px auto;
-		}
-		
-		.page_02 h1 {
-			margin: 0 auto;
 			margin-bottom: 200px;
-			color: #fff;
-			text-align: center;
-			overflow: hidden;
-			width: 30%;
-			height: 50px;
-		}
-		
-		.hrizon_line {
-			float: left;
-			width: 10%;
-			border-bottom: 1px solid #fff;
-			margin: 0 12.5%;
-			padding-top: 25px;
-		}
-		
-		.brand_title {
-			float: left;
-			width: 30%;
-			line-height: 50px;
-			height: 50px;
-			border: 1px solid #fff;
-			letter-spacing: 0.2em;
 		}
 
 		.brand_box {
@@ -133,24 +114,157 @@
 			background-image: url("../img/brand/back_image.jpg");
 			background-repeat: no-repeat;
 			background-size: 100% auto;
-			background-color: #fff;
+			background-color: #131313;
 			position: relative;
 		}
 		
 		.brand_text {
-			width: 600px;
+			max-width: 30%;
 			height: 500px;
 			background: #222;
 			box-shadow: 10px 10px 10px rgba(0,0,0,.5);
 			position: absolute;
-			top: 30%;
+			top: 180px;
 			left: 10%;
 			overflow: hidden;
 			text-align: justify;
 			color: #fff;
-			padding: 75px 5%;
+			padding: 75px 2%;
+			font-size: 1.2em;
+			letter-spacing: 0.1em;
+			line-height: 1.5;
 		}
 		
-		.all_text {
-			
+		.s1 {
+			font-family: 'Tinos', serif;
+			font-size: 4em;
+			line-height: 130px;
+			color: #f7e18a;
 		}
+
+		.s2 {
+			font-size: 2rem;
+		}
+		
+		/* ---------------------------------------메타포-------*/
+						
+		.page_03 {
+			width: 100%;
+			margin-bottom: 200px;
+		}
+		
+		.metaphor_box {
+			width: 60%;
+			height: 820px;
+			overflow: hidden;
+			margin: 0 auto;
+		}
+		
+		.metaphor_box .royalty, .quality, .global {
+			width: 33.333%;
+			float: left;
+			height: 600px;
+			margin: 0 auto;
+			padding: 0 5%;
+		}
+		
+		.metaphor_box .mar {
+			border-right: 1px solid #fff;
+		}
+		
+		.metaphor_box .image {
+			width: 100%;
+			margin: 0 auto;
+			height: 300px;
+			text-align: center;
+			padding: 30px 0;
+		}
+		
+		.metaphor_box img {
+			vertical-align: bottom;
+			border: none;
+			max-width: 80%;
+		}
+		
+		.metaphor_box .title {
+			width: 100%;
+			height: 100px;
+			text-align: center;
+			color: #fff; 
+			font: 2em/100px 'Tinos', serif;
+			margin: 0 auto;
+		}
+		
+		.metaphor_box .subtitle {
+			width: 100%;
+			height: 200px;
+			text-align: center;
+			color: #fff; 
+			font-size: 1.2em;
+			letter-spacing: 0.1em;
+			line-height: 1.5;
+			padding: 25% 0;
+			margin: 0 auto;
+		}
+		
+		
+		/* ---------------------------------------메뉴-------*/
+						
+		.page_04 {
+			width: 100%;
+			margin-bottom: 200px;
+		}
+		
+		.menu_box {
+			width: 100%;
+			height: 820px;
+		}
+		
+		/* ---------------------------------------비디오-------*/
+						
+		.page_05 {
+			width: 100%;
+			margin-bottom: 200px;
+		}
+		
+		.video_box {
+			width: 100%;
+			height: 1080px;
+		}
+		
+		/* ---------------------------------------이벤트-------*/
+						
+		.page_06 {
+			width: 100%;
+			margin-bottom: 200px;
+		}
+		
+		.event_box {
+			width: 100%;
+			height: 820px;
+		}
+		
+		/* ---------------------------------------커뮤니티-------*/
+						
+		.page_07 {
+			width: 100%;
+			margin-bottom: 200px;
+		}
+		
+		.community_box {
+			width: 100%;
+			height: 680px;
+		}
+		
+		/* ---------------------------------------footer-------*/
+						
+		.page_08 {
+			width: 100%;
+			background: #131313;
+		}
+		
+		.footer_box {
+			width: 100%;
+			height: 500px;
+		}
+		
