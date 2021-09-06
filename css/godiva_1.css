@@ -49,7 +49,7 @@
 			height: 150px;
 			text-align: center;
 			position: fixed;
-			background: rgba(0,0,0,.7);
+			background: rgba(0,0,0,.9);
 			z-index :99999;
 		}
 		
@@ -77,7 +77,8 @@
 			line-height: 50px;
 			height: 50px;
 			text-align:center;
-			overflow: hidden;
+			overflow: hidden; 
+			font-family:'Tinos', serif;
 		}
 
 		.nav li {
@@ -153,11 +154,31 @@
 			margin-bottom: 200px;
 		}
 		
-		.metaphor_box {
+		.back_img {
+			width: 100%;
+			height: 1080px;
+			background-image: url('../img/metaphor/fixed_01.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: 0 50%;
+			background-attachment: fixed;
+			padding: 130px 0;
+		}
+		
+		.back_board {
 			width: 60%;
+			height: 820px;
+			background: rgba(0,0,0,.8);
+			margin: 0 auto;
+			
+		}
+		
+		.metaphor_box {
+			width: 100%;
 			height: 820px;
 			overflow: hidden;
 			margin: 0 auto;
+			padding: 110px 0;
 		}
 		
 		.metaphor_box .royalty, .quality, .global {
@@ -213,12 +234,88 @@
 		.page_04 {
 			width: 100%;
 			margin-bottom: 200px;
+			background: #131313;
 		}
 		
 		.menu_box {
-			width: 100%;
+			width: 60%;
 			height: 820px;
+			padding: 110px 0;
+			overflow: hidden;
+			text-align: center;
+			margin: 0 auto;
 		}
+		
+		.menu_all {
+			width: 50%;
+			float: left;
+			position: relative;
+			overflow: hidden;
+		}
+		
+		.menu_all .menu_title {
+			width: 50%;
+			height: 310px;
+			position: absolute;
+			background: rgba(0,0,0,.8);
+			top: 25%;
+			left: 25%;
+			z-index :99999;
+			font: 4em/1.5 'Tinos', serif;
+			color: #fff;
+		}
+		
+		.menu_title span {
+			font-size: 1.5rem;
+			color: #f7e18a;
+		}
+		
+		.menu_all .top {
+		overflow: hidden;
+		}
+		
+		.menu_all .menu_01 {
+		float: left;
+		}
+		
+		.menu_all .menu_02 {
+		float: left;
+		}
+		
+		.menu_all .bottom {
+		overflow: hidden;	
+		}
+		
+		.menu_all .menu_03 {
+		float: left;
+		}
+		
+		.menu_all .menu_04 {
+		float: left;	
+		}
+		
+		.menu_all img {
+			vertical-align: bottom;
+			border: none;
+		}
+		
+		.menu_text {
+			width: 50%;
+			background: #f7e18a;
+			float: left;
+			color: #fff;
+		}
+		
+		.menu_text .title {
+			font: 3em/1.5 'Tinos', serif;
+			
+		}
+		
+		.menu_text .content {
+			font-size: 1rem;
+			line-height: 1.5;
+		}
+		
 		
 		/* ---------------------------------------비디오-------*/
 						
