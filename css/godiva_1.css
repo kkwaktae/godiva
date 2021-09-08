@@ -6,6 +6,7 @@
 		
 		a {
 			text-decoration: none;
+			color: #666;
 		}
 		
 		ul li {
@@ -66,19 +67,22 @@
 			border: none;
 			position: absolute;
 			top: 50%;
-			margin-left: -39px;
+			left: 50%;
 			margin-bottom: -27px;
+			margin-left: -39px;
 		}
 
-		.nav {
+		ul.nav {
 			width: 40%;
 			margin: 0 auto;
 			margin-top: 40px;
-			line-height: 50px;
+			line-height: 49px;
 			height: 50px;
 			text-align:center;
 			overflow: hidden; 
-			font-family:'Tinos', serif;
+			font-family:'Nanum Myeongjo', serif;	
+			font-size: 1em;
+			letter-spacing: 0.2em;
 		}
 
 		.nav li {
@@ -87,10 +91,8 @@
 		}
 		
 		.nav a {
-			display: block;		
+			display: block;	
 			color: #fff;	
-			font-size: 1.2em;
-			letter-spacing: 0.2em;
 		}
 		
 		.nav .mar {
@@ -99,7 +101,8 @@
 		
 		.nav a:hover {
 			border-bottom: 1px solid #f7e18a;
-			background: #111;
+			background: #222;
+			color: #f7e18a;
 		}
 
 		/* ---------------------------------------브랜드소개-------*/
@@ -120,24 +123,22 @@
 		}
 		
 		.brand_text {
-			max-width: 30%;
-			height: 500px;
+			width: 30%;
 			background: #222;
 			box-shadow: 10px 10px 10px rgba(0,0,0,.5);
 			position: absolute;
-			top: 180px;
-			left: 10%;
+			top: 35%;
+			right: 15%;
 			overflow: hidden;
-			text-align: justify;
 			color: #fff;
-			padding: 75px 2%;
 			font-size: 1.2em;
 			letter-spacing: 0.1em;
 			line-height: 1.5;
+			padding: 1% 3%;
 		}
 		
 		.s1 {
-			font-family: 'Tinos', serif;
+			font-family: 'Nanum Myeongjo', serif;
 			font-size: 4em;
 			line-height: 130px;
 			color: #f7e18a;
@@ -146,6 +147,36 @@
 		.s2 {
 			font-size: 2rem;
 		}
+		
+		.brand_text a.brand_btn {
+			display: block;
+			text-align: center;
+			width: 30%;
+			color: #f7e18a;
+			border: 1px solid #f7e18a;
+			padding: 2%;
+			margin: 10% auto;			
+		}
+		
+		.brand_text a:hover {
+			background: #f7e18a;
+			color: #fff;
+			transition-duration: 2s;
+		}
+				
+		.img_box01 {
+			width: 30%;
+			position: absolute;
+			top: 15%;
+			left: 5%;
+		}
+		
+		.img_box01 img {
+			vertical-align: bottom;
+			border: none;
+			
+		}
+		
 		
 		/* ---------------------------------------메타포-------*/
 						
@@ -160,45 +191,36 @@
 			background-image: url('../img/metaphor/fixed_01.jpg');
 			background-repeat: no-repeat;
 			background-size: cover;
-			background-position: 0 50%;
 			background-attachment: fixed;
-			padding: 130px 0;
-		}
-		
-		.back_board {
-			width: 60%;
-			height: 820px;
-			background: rgba(0,0,0,.8);
-			margin: 0 auto;
-			
+			position: relative;
 		}
 		
 		.metaphor_box {
-			width: 100%;
-			height: 820px;
+			width: 1000px;
+			height: 500px;
 			overflow: hidden;
 			margin: 0 auto;
-			padding: 110px 0;
+			text-align: center;
+			background: rgba(0,0,0,.8);
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin-top: -250px;
+			margin-left: -500px;
 		}
+		
 		
 		.metaphor_box .royalty, .quality, .global {
 			width: 33.333%;
 			float: left;
-			height: 600px;
 			margin: 0 auto;
-			padding: 0 5%;
-		}
-		
-		.metaphor_box .mar {
-			border-right: 1px solid #fff;
+			padding: 5%;
 		}
 		
 		.metaphor_box .image {
 			width: 100%;
 			margin: 0 auto;
-			height: 300px;
 			text-align: center;
-			padding: 30px 0;
 		}
 		
 		.metaphor_box img {
@@ -209,23 +231,25 @@
 		
 		.metaphor_box .title {
 			width: 100%;
-			height: 100px;
 			text-align: center;
 			color: #fff; 
-			font: 2em/100px 'Tinos', serif;
+			font:bold 1.7em/100px 'Nanum Myeongjo', serif;
 			margin: 0 auto;
+		}
+		
+		.metaphor_box .title span {
+			color: #f7e18a;
+			font-size: 1.3em;
 		}
 		
 		.metaphor_box .subtitle {
 			width: 100%;
-			height: 200px;
 			text-align: center;
 			color: #fff; 
 			font-size: 1.2em;
 			letter-spacing: 0.1em;
 			line-height: 1.5;
-			padding: 25% 0;
-			margin: 0 auto;
+			margin: 10% auto;
 		}
 		
 		
@@ -234,35 +258,45 @@
 		.page_04 {
 			width: 100%;
 			margin-bottom: 200px;
-			background: #131313;
+			background-color: #131313;
+			background-image: url('../img/menu/background.png');
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: 0 bottom;
+			
 		}
 		
 		.menu_box {
-			width: 60%;
+			width: 70%;
 			height: 820px;
-			padding: 110px 0;
 			overflow: hidden;
 			text-align: center;
 			margin: 0 auto;
+			padding: 100px 0;
+			background:
 		}
 		
 		.menu_all {
-			width: 50%;
 			float: left;
 			position: relative;
 			overflow: hidden;
 		}
 		
 		.menu_all .menu_title {
-			width: 50%;
-			height: 310px;
+			width: 250px;
+			height: 250px;
 			position: absolute;
 			background: rgba(0,0,0,.8);
-			top: 25%;
-			left: 25%;
+			top: 50%;
+			left: 50%;
 			z-index :99999;
-			font: 4em/1.5 'Tinos', serif;
+			font: bold 4em/1.5 'Nanum Myeongjo', serif;
 			color: #fff;
+			margin-top: -125px;
+			margin-left: -125px;
+			padding: 8% 0;
+			letter-spacing: 0.1em;
+			text-indent: 0.1em;			
 		}
 		
 		.menu_title span {
@@ -301,19 +335,40 @@
 		
 		.menu_text {
 			width: 50%;
-			background: #f7e18a;
-			float: left;
+			float: right;
 			color: #fff;
+			margin: 10% 0;
+			letter-spacing: 0.1em;		
+			text-indent: 0.1em;		
 		}
 		
 		.menu_text .title {
-			font: 3em/1.5 'Tinos', serif;
-			
+			font: bold 2.5em/1.5 'Nanum Myeongjo', serif;
+			margin: 10% 0;
+			letter-spacing: 0.1em;
+			text-indent: 0.1em;				
 		}
 		
 		.menu_text .content {
 			font-size: 1rem;
 			line-height: 1.5;
+			margin: 12% 0;
+		}
+		
+		.menu_text a.menu_btn {
+			display: block;
+			text-align: center;
+			width: 25%;
+			color: #f7e18a;
+			border: 1px solid #f7e18a;
+			padding: 2%;
+			margin: 10% auto;	
+		}
+		
+		.menu_text a:hover {
+			background: #f7e18a;
+			color: #fff;
+			transition-duration: 2s;
 		}
 		
 		
@@ -325,8 +380,11 @@
 		}
 		
 		.video_box {
-			width: 100%;
+			width: 1920px;
 			height: 1080px;
+			background: #fff;
+			margin: 0 auto;
+			text-align: center;
 		}
 		
 		/* ---------------------------------------이벤트-------*/
@@ -334,12 +392,112 @@
 		.page_06 {
 			width: 100%;
 			margin-bottom: 200px;
+			background: #131313;
+			background-image: url('../img/event/fixed_03.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: 0 middle;
+		}
+				
+		.event_box {
+			width: 70%;
+			height: 820px;
+			overflow: hidden;
+			text-align: center;
+			margin: 0 auto;
+			padding: 147px 0;
 		}
 		
-		.event_box {
-			width: 100%;
-			height: 820px;
+		.event_text {
+			width: 40%;
+			float: left;
+			color: #fff;
+			letter-spacing: 0.1em;
+			margin: 5% 0;
 		}
+		
+		.event_text .event_title {
+			font: bold 3em/1.5 'Nanum Myeongjo', serif;
+			margin: 10% 0;
+			letter-spacing: 0.1em;
+			text-indent: 0.1em;			
+		}
+		
+		.event_text .event_content {
+			font-size: 1rem;
+			line-height: 1.5;
+			margin: 10% 0;
+		}
+		
+		.event_text a.event_btn {
+			display: block;
+			text-align: center;
+			width: 25%;
+			color: #f7e18a;
+			border: 1px solid #f7e18a;
+			padding: 2%;
+			margin: 10% auto;	
+		}
+		
+		.event_text a:hover {
+			background: #f7e18a;
+			color: #fff;
+			transition-duration: 2s;
+		}
+		
+		
+		.event_banner {
+			float: right;
+			overflow: hidden;
+			
+		}
+		
+		.event_banner .first_line {
+			width: 100%;
+			margin-bottom: 20px;
+		}
+		
+		.event_banner .first_line img {
+			vertical-align: bottom;
+			border: none;
+			width: 30%;
+		}
+		
+		.event_banner .child {
+			margin-right: 20px;
+		}
+		
+		.child:hover {
+			
+		}
+		
+		.charlie:hover {
+			
+		}
+		
+		.child:korean {
+			
+		}
+		
+		.event_banner .charlie {
+			margin-left: 20px;
+		}
+		
+		.event_banner .second_line {
+			width: 100%;
+		}
+		
+		.event_banner .second_line img {
+			vertical-align: bottom;
+			border: none;
+			width: 30%;
+		}
+		
+		.event_banner .korean {
+			margin: 0 20px;
+		}
+		
+		
 		
 		/* ---------------------------------------커뮤니티-------*/
 						
@@ -347,10 +505,74 @@
 			width: 100%;
 			margin-bottom: 200px;
 		}
+				
+		.community_title {
+			width: 10%;
+			margin: 0 auto;
+			text-align: center;
+			color: #fff;
+			font: 1.5em 'Nanum Myeongjo', serif;
+			border: 1px solid #fff;
+			letter-spacing: 0.2em;
+			text-indent: 0.2em;
+			line-height: 50px;
+		}
+		
 		
 		.community_box {
 			width: 100%;
 			height: 680px;
+		}
+		
+		.community_content {
+			width: 100%;
+			margin: 10% auto;
+			overflow: hidden;
+			text-align: center;
+		}		
+		
+		.community_content img {
+			vertical-align: bottom;
+			width: 100%;
+			border:none;
+		}
+		
+		.community_content .image_01 {
+			width: 15%;
+			float: left;
+			opacity: 0.5;
+			background: #fff;
+		}
+		
+		.community_content .image_02 {
+			width: 15%;
+			float: left;
+		}
+		
+		.community_content .image_03 {
+			width: 15%;
+			float: left;
+		}
+		
+		.community_content .image_04 {
+			width: 15%;
+			float: left;
+		}
+		
+		.community_content .image_05 {
+			width: 15%;
+			float: left;
+		}
+		
+		.community_content .image_06 {
+			width: 15%;
+			float: left;
+			opacity: 0.5;
+			background: #fff;
+		}
+		
+		.community_content .mar {
+			margin-right: 2%;
 		}
 		
 		/* ---------------------------------------footer-------*/
@@ -365,3 +587,171 @@
 			height: 500px;
 		}
 		
+		.footer_box .box_01 {
+			width: 100%;
+			border-top: 1px solid #f7e18a;
+			border-bottom: 1px solid #f7e18a;
+			overflow: hidden;
+			text-align: center;
+		}
+		
+		.footer_logo_box {
+			width: 30%;
+			padding: 5% 5%;	
+			float: left;
+			text-align: center;
+		}
+		
+		.footer_logo_box img {
+			width: 50%;
+			vertical-align: bottom;
+			border:none;
+		}
+		
+		.footer_content_box {
+			width: 50%;
+			float: left;
+			overflow: hidden;
+			text-align: left;
+			margin: 0 auto;
+			padding: 2% 0;
+			font-size: 1.2em;
+			letter-spacing: 0.2em;
+			text-indent: 0.2em;
+			color: #fff;
+		}
+		
+		.footer_content_box li {
+			margin: 5% 0;
+			color: #f7e18a;
+		}
+		
+		.footer_content_box .site_map {
+			width: 28.333%;
+			float: left;
+			margin-right: 5%;
+		}
+		
+		.site_map a:hover {
+			text-decoration: underline;
+			color: #f7e18a;
+		}
+		
+		.site_map_title {
+			padding: 5% 0;
+			font-weight: bold;
+		}	
+
+		
+		.footer_content_box .customer_service {
+			width: 28.333%;
+			float: left;
+			margin-right: 10%;
+		}
+		
+		.customer_service a:hover {
+			text-decoration: underline;
+			color: #f7e18a;
+		}
+		
+		.customer_service_title {
+			padding: 5% 0;
+			font-weight: bold;
+		}	
+
+		.footer_content_box .business_time {
+			width: 28.333%;
+			float: left;
+		}
+		
+		.business_time_title {
+			padding: 5% 0 5% 10%;
+			font-weight: bold;
+		}	
+		
+		.image_tel {
+			width: 100%;
+			overflow: hidden;
+		}
+		
+		.image_tel .tel {
+			float: left;
+		}
+		
+		.image_tel li {
+			color: #fff;
+			float: left;
+		}
+		
+		.image_tel .tel_content {
+			line-height: 20px;
+		}
+		
+		.image_tel img {
+			display: block;
+			float: left;
+			width: 7%;
+			vertical-align: bottom;
+			border: none;
+		}
+		
+		.image_tel span {
+			display: block;
+			float: left;
+			text-indent: 0;
+			padding-left: 10px;
+		}
+		
+		.image_time .time {
+			overflow: hidden;
+		}
+		
+		.image_time .time {
+			float: left;
+		}
+	
+		.image_time li {
+			color: #fff;
+			float: left;
+		}
+		
+		.image_time img {
+			display: block;
+			float: left;
+			width: 7%;
+			vertical-align: bottom;
+			border: none;
+		}
+		
+		.image_time span {
+			display: block;
+			float: left;
+			text-indent: 0;
+			padding-left: 10px;
+		}
+		
+		
+		.image_time .time_content {
+			line-height: 20px;
+			float: left;
+		}
+		
+		.time_content .p_01 {
+			text-indent: 0.2em;
+		}
+		
+		.footer_sns_box {
+			width: 20%;
+			padding: 3% 0;
+			float: left;
+		}
+		
+		
+		.footer_sns_box img {
+			vertical-align: bottom;
+			border: none;
+		}
+		
+		.box_02 {
+			width: 100%;
+		}
