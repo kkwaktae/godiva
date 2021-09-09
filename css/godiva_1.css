@@ -50,7 +50,9 @@
 			height: 150px;
 			text-align: center;
 			position: fixed;
-			background: rgba(0,0,0,.9);
+			top: 0;
+			left: 0;
+			background: rgba(0,0,0,.8);
 			z-index :99999;
 		}
 		
@@ -85,9 +87,10 @@
 			letter-spacing: 0.2em;
 		}
 
-		.nav li {
+		.nav .home, .brand, .menu, .event, .store {
 			width: 13.6%;
 			float: left;
+			color: #fff;
 		}
 		
 		.nav a {
@@ -139,13 +142,14 @@
 		
 		.s1 {
 			font-family: 'Nanum Myeongjo', serif;
-			font-size: 4em;
+			font-size: 3em;
 			line-height: 130px;
 			color: #f7e18a;
+			font-weight: bold
 		}
 
 		.s2 {
-			font-size: 2rem;
+			font-size: 1.5rem;
 		}
 		
 		.brand_text a.brand_btn {
@@ -201,7 +205,7 @@
 			overflow: hidden;
 			margin: 0 auto;
 			text-align: center;
-			background: rgba(0,0,0,.8);
+			background: rgba(0,0,0,.7);
 			position: absolute;
 			top: 50%;
 			left: 50%;
@@ -238,7 +242,6 @@
 		}
 		
 		.metaphor_box .title span {
-			color: #f7e18a;
 			font-size: 1.3em;
 		}
 		
@@ -358,7 +361,7 @@
 		.menu_text a.menu_btn {
 			display: block;
 			text-align: center;
-			width: 25%;
+			width: 20%;
 			color: #f7e18a;
 			border: 1px solid #f7e18a;
 			padding: 2%;
@@ -448,7 +451,10 @@
 		
 		.event_banner {
 			float: right;
-			overflow: hidden;
+			overflow: hidden;	
+		}
+		
+		.event_banner a:hover {
 			
 		}
 		
@@ -475,7 +481,7 @@
 			
 		}
 		
-		.child:korean {
+		.korean:hover {
 			
 		}
 		
@@ -506,72 +512,85 @@
 			margin-bottom: 200px;
 		}
 				
-		.community_title {
-			width: 10%;
-			margin: 0 auto;
-			text-align: center;
-			color: #fff;
-			font: 1.5em 'Nanum Myeongjo', serif;
-			border: 1px solid #fff;
-			letter-spacing: 0.2em;
-			text-indent: 0.2em;
-			line-height: 50px;
-		}
-		
-		
 		.community_box {
 			width: 100%;
 			height: 680px;
+			text-align: center;
+			color: #fff;
 		}
 		
-		.community_content {
+		
+		.community_box .community_title {
+			width: 10%;	
+			margin: 0 auto;
+			letter-spacing: 0.1em;
+			text-indent: 0.1em;
+			font: bold 2em/1.5 'Nanum Myeongjo', serif;
+		}
+		
+		.community_box hr {
+			width: 10%;	
+			margin: 0 auto;
+		}
+		
+		.community_text {
+			margin: 3% auto;
+			font-size: 1rem;
+			line-height: 1.5;
+		}
+		
+		.community_text span {
+			color: #f7e18a;
+		}
+		
+		.community_banner {
 			width: 100%;
-			margin: 10% auto;
+			margin: 5% auto;
 			overflow: hidden;
 			text-align: center;
 		}		
 		
-		.community_content img {
+		.community_banner img {
 			vertical-align: bottom;
 			width: 100%;
 			border:none;
 		}
 		
-		.community_content .image_01 {
+		.community_banner .image_01 {
 			width: 15%;
 			float: left;
 			opacity: 0.5;
 			background: #fff;
 		}
 		
-		.community_content .image_02 {
+		.community_banner .image_02 {
 			width: 15%;
 			float: left;
 		}
 		
-		.community_content .image_03 {
+		.community_banner .image_03 {
 			width: 15%;
 			float: left;
 		}
 		
-		.community_content .image_04 {
+		.community_banner .image_04 {
 			width: 15%;
 			float: left;
 		}
 		
-		.community_content .image_05 {
+		.community_banner .image_05 {
 			width: 15%;
 			float: left;
 		}
 		
-		.community_content .image_06 {
+		.community_banner .image_06 {
 			width: 15%;
 			float: left;
 			opacity: 0.5;
 			background: #fff;
 		}
 		
-		.community_content .mar {
+		.community_banner .mar {
 			margin-right: 2%;
 		}
 		
@@ -596,8 +615,8 @@
 		}
 		
 		.footer_logo_box {
-			width: 30%;
-			padding: 5% 5%;	
+			width: 20%;
+			padding: 5% 0;	
 			float: left;
 			text-align: center;
 		}
@@ -609,15 +628,16 @@
 		}
 		
 		.footer_content_box {
-			width: 50%;
+			width: 60%;
 			float: left;
 			overflow: hidden;
 			text-align: left;
 			margin: 0 auto;
 			padding: 2% 0;
+			padding-left: 5%;
 			font-size: 1.2em;
-			letter-spacing: 0.2em;
-			text-indent: 0.2em;
+			letter-spacing: 0.1em;
+			text-indent: 0.1em;
 			color: #fff;
 		}
 		
@@ -630,6 +650,10 @@
 			width: 28.333%;
 			float: left;
 			margin-right: 5%;
+		}
+		
+		.site_map a {
+			font-size: 0.75rem;
 		}
 		
 		.site_map a:hover {
@@ -647,6 +671,10 @@
 			width: 28.333%;
 			float: left;
 			margin-right: 10%;
+		}
+		
+		.customer_service a {
+			font-size: 0.75rem;
 		}
 		
 		.customer_service a:hover {
@@ -674,17 +702,9 @@
 			overflow: hidden;
 		}
 		
-		.image_tel .tel {
-			float: left;
-		}
-		
 		.image_tel li {
 			color: #fff;
 			float: left;
-		}
-		
-		.image_tel .tel_content {
-			line-height: 20px;
 		}
 		
 		.image_tel img {
@@ -698,11 +718,12 @@
 		.image_tel span {
 			display: block;
 			float: left;
-			text-indent: 0;
 			padding-left: 10px;
+			text-indent: 0;
+			font-size: 0.75rem;
 		}
 		
-		.image_time .time {
+		.image_time {
 			overflow: hidden;
 		}
 		
@@ -726,8 +747,9 @@
 		.image_time span {
 			display: block;
 			float: left;
-			text-indent: 0;
 			padding-left: 10px;
+			text-indent: 0;
+			font-size: 0.75rem;
 		}
 		
 		
@@ -737,7 +759,6 @@
 		}
 		
 		.time_content .p_01 {
-			text-indent: 0.2em;
 		}
 		
 		.footer_sns_box {
@@ -754,4 +775,62 @@
 		
 		.box_02 {
 			width: 100%;
+			color: #fff;
+			font-size: 0.75rem;
+			text-align: center;
+			padding: 50px 0;
+			letter-spacing: 0.1em;
+			text-indent: 0.1em;
+		}
+		
+		
+		/* ---------------------------------------quick side-------*/
+		
+		.quick_side {
+			width: 180px;
+			height: 270px;
+			background: rgba(0,0,0,.5);
+			position: fixed;
+			bottom: 1%;
+			right: 1%;
+			z-index: 99999;
+			font-size: 1.5em;
+			letter-spacing: 0.1em;
+			text-indent: 0.1em;
+			overflow: hidden;
+			padding: 0 15px;
+		}
+		
+		.quick_side a {
+			color: #fff;
+			display: block;
+		}
+		 
+		.quick_side a:hover {
+			color: #f7e18a;
+		}
+		
+		 .quick_side .first {
+			color: #f7e18a;
+		 }
+		 
+		.quick_side img {
+			vertical-align: middle;
+			border: none;
+			width: 30px;
+			height: 30px;
+		}
+		 
+		.quick_side .image {
+			 float: right;
+		}
+		
+		.quick_side .qs {
+			height: 30px;
+			margin: 20px 0;
+		}
+		
+		.quick_side .co {
+			padding: 4.5px 0;
+			float: left;
 		}
