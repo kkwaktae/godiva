@@ -37,12 +37,15 @@
 		}
 		
 		
+		
 		.page_01 header {
 			width: 100%;
 			height: 150px;
 			text-align: center;
 			position: fixed;
-			background: rgba(0,0,0,.7);
+			top: 0;
+			left: 0;
+			background: rgba(0,0,0,.8);
 			z-index :99999;
 		}
 		
@@ -59,30 +62,33 @@
 			border: none;
 			position: absolute;
 			top: 50%;
-			margin-left: -39px;
+			left: 50%;
 			margin-bottom: -27px;
+			margin-left: -39px;
 		}
 
-		.nav {
+		ul.nav {
 			width: 40%;
 			margin: 0 auto;
 			margin-top: 40px;
-			line-height: 50px;
+			line-height: 49px;
 			height: 50px;
 			text-align:center;
-			overflow: hidden;
+			overflow: hidden; 
+			font-family:'Nanum Myeongjo', serif;	
+			font-size: 1em;
+			letter-spacing: 0.2em;
 		}
 
-		.nav li {
+		.nav .home, .brand, .menu, .event, .store {
 			width: 13.6%;
 			float: left;
+			color: #fff;
 		}
 		
 		.nav a {
-			display: block;		
+			display: block;	
 			color: #fff;	
-			font-size: 1.2em;
-			letter-spacing: 0.2em;
 		}
 		
 		.nav .mar {
@@ -91,8 +97,10 @@
 		
 		.nav a:hover {
 			border-bottom: 1px solid #f7e18a;
-			background: #111;
+			background: #222;
+			color: #f7e18a;
 		}
+
 		
 		.join_content {
 			color: #fff;
@@ -101,9 +109,10 @@
 			height: 600px;
 			margin: 0 auto;
 			text-align: center;
-			border: 1px solid orange;
+			border-bottom: 1px solid orange;
 			padding-top: 250px;
 			letter-spacing: 0.2em;
+			text-indent: 0.2em;
 			line-height: 1.5;
 			font-size: 1em;
 		}

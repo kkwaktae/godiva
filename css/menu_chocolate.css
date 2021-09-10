@@ -1,0 +1,526 @@
+		* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		}
+		
+		a {
+			text-decoration: none;
+			color: #666;
+		}
+		
+		ul li {
+			list-style: none;
+		}
+		
+		address {
+			font-style: normal;			
+		}
+		
+		body {
+			font-family: 'Nanum Gothic', sans-serif;
+			font-size:0.75em;
+			margin:0 auto;
+		}
+		
+
+		
+		
+		/*body안에 웹사이트 기본 사이즈 0.75em 서체지정*/
+	
+		/* ---------------------------------------네비게이션-------*/
+		
+		.page_01 {
+			width: 100%;
+			height: 600px;
+			margin-bottom: 200px;
+		}
+		
+		
+		
+		.page_01 header {
+			width: 100%;
+			height: 150px;
+			text-align: center;
+			position: fixed;
+			top: 0;
+			left: 0;
+			background: rgba(0,0,0,.8);
+			z-index :99999;
+		}
+		
+		.logo {
+			width: 78px;
+			height: 54px;
+			margin: 0px auto;
+			position: relative;
+		}		
+		
+		.logo img {
+			width: 100%;
+			vertical-align: bottom;
+			border: none;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin-bottom: -27px;
+			margin-left: -39px;
+		}
+
+		ul.nav {
+			width: 40%;
+			margin: 0 auto;
+			margin-top: 40px;
+			line-height: 49px;
+			height: 50px;
+			text-align:center;
+			overflow: hidden; 
+			font-family:'Nanum Myeongjo', serif;	
+			font-size: 1em;
+			letter-spacing: 0.2em;
+		}
+
+		.nav .home, .brand, .menu, .event, .store {
+			width: 13.6%;
+			float: left;
+			color: #fff;
+		}
+		
+		.nav a {
+			display: block;	
+			color: #fff;	
+		}
+		
+		.nav .mar {
+			margin-right: 8%;
+		}
+		
+		.nav a:hover {
+			border-bottom: 1px solid #f7e18a;
+			background: #222;
+			color: #f7e18a;
+		}
+
+		
+		.menu_content {
+			color: #fff;
+			background: #000;
+			width: 100%;
+			height: 600px;
+			margin: 0 auto;
+			text-align: center;
+			border-bottom: 1px solid orange;
+			padding-top: 250px;
+			letter-spacing: 0.2em;
+			text-indent: 0.2em;
+			line-height: 1.5;
+			font-size: 1em;
+		}
+		
+		.menu_content span {
+			display: block;
+			font-size: 4em;
+			padding: 25px;
+		}
+
+		/* ---------------------------------------메뉴1-------*/
+
+		
+		.menu_slide {
+			width: 100%;
+			margin-bottom: 200px;
+		}
+		
+		.menu1_container {
+			width: 100%;
+			color: #fff;
+		}
+		
+		.menu1_container .route {
+			margin: 2%;
+			color: #666;
+		}
+		
+		.menu1_container .menu_1_title {
+			margin-bottom: 200px;
+			font-size: 3em;
+			letter-spacing: 0.1em;
+			text-indent: 0.1em;
+			font-weight: bold;
+			text-align: center;
+			color: #fff;
+			padding: 5%;
+			background: #333;
+			
+		}
+		
+		.menu1_container ul {
+			width: 60%;
+			margin: 0 auto;	
+			overflow: hidden;
+			font-size: 1.2em;
+			letter-spacing: 0.1em;
+			text-indent: 0.1em;
+			text-align: center;
+		}
+		
+		.menu1_container ul a {
+			color: #fff;
+			display: block;
+			padding: 10% 2%;
+		}
+		
+		.menu1_container ul a:hover {
+			color: #f7e18a;
+			background: #222;
+		}
+		
+		.menu1_container li {
+			width: 15%;
+			float: left;
+			background: #333;
+			line-height: 1.5;
+		}
+		
+		
+		.menu1_container .mar {
+			margin-right: 2%;
+		}
+		
+		.menu1_container hr {
+			width: 50%;
+			margin: 5% auto;
+		}
+		
+		.menu1_container .slide_container {
+			width: 60%;
+			margin: 200px auto;
+			height: 600px;
+			overflow: hidden;
+			position: relative;
+			text-align: center;
+		}
+		
+		.slide_container .main_image {
+			width: 50%;
+			height: 100%;
+			float: left;
+			background: #f7e18a;
+		}
+		
+		.main_image .image {
+			width: 450px;
+			height: 450px;
+			margin: 0 auto;
+			margin-top: 75px;
+		}
+		
+		
+		.slide_container .sub_image {
+			width: 50%;
+			float: right;
+			color: #fff;
+			margin: 0 auto;
+			background: #222;
+			height: 100%;
+		}
+		
+		.sub_image .border_frame {
+			border: 1px solid #f7e18a;
+			width: 450px;
+			margin: 0 auto;
+			margin-top: 75px;
+			padding: 5%;
+		}
+		
+		
+		.sub_image h2 {
+			text-align: center;
+			margin-bottom: 30px;
+		}
+		
+		.sub_image p {
+			text-align: justify;
+			line-height: 1.5;
+		}
+		
+		
+		.sub_image .intro {
+			margin-bottom: 20px;
+		}
+				
+		.sub_image .contents {
+			font-weight: bold;
+		}
+		
+		.sub_image a.btn {
+			display: block;
+			text-align: center;
+			width: 30%;
+			color: #f7e18a;
+			border: 1px solid #f7e18a;
+			padding: 2%;
+			margin: 7% auto;	
+		}
+		
+		.sub_image a:hover {
+			background: #f7e18a;
+			color: #fff;
+			transition-duration: 2s;
+		}
+		
+		.slide_container .absol {
+			width: 450px;
+			height: 100px;
+			background: rgba(0,0,0,.5);
+			position: absolute;
+			bottom: 5%;
+			right: 15%;
+		}
+		
+		.slide_container .absol img {
+			margin: 0 10px;
+			padding: 12.5px 0;
+			vertical-align: bottom;
+			border: none;
+		}
+		
+		
+		/* ---------------------------------------메뉴2-------*/
+
+		.menu_table {
+			width: 100%;
+			margin-bottom: 200px;
+			overflow: hidden;
+		}
+		
+		.search_bar {
+			width: 20%;
+			line-height: 2em;
+			color: #fff;
+			background: #333;
+			text-align: center;
+			float: right;
+			margin: 0 5%;
+		}
+		
+		.search_bar span {
+			margin: 0 30% 0;
+		}
+		
+		.table {
+			width: 90%;
+			margin: 5% auto;
+			text-align: center;
+		}
+		
+		.table img.product {
+			vertical-align: bottom;
+			border: none;
+			background: #333;
+			margin: 1%;
+		}
+		
+		.table .plus {
+			width: 300px;
+			height: 300px;
+			margin: 1%;
+			display: inline-block;
+			background: #333;
+		}
+		
+		.plus img {
+			vertical-align: bottom;
+			border: none;
+			margin-top: 135px;
+		}
+		
+		/* ---------------------------------------footer-------*/
+						
+		.page_08 {
+			width: 100%;
+			background: #131313;
+		}
+		
+		.footer_box {
+			width: 100%;
+			height: 500px;
+		}
+		
+		.footer_box .box_01 {
+			width: 100%;
+			border-top: 1px solid #f7e18a;
+			border-bottom: 1px solid #f7e18a;
+			overflow: hidden;
+			text-align: center;
+		}
+		
+		.footer_logo_box {
+			width: 20%;
+			padding: 5% 0;	
+			float: left;
+			text-align: center;
+		}
+		
+		.footer_logo_box img {
+			width: 50%;
+			vertical-align: bottom;
+			border:none;
+		}
+		
+		.footer_content_box {
+			width: 60%;
+			float: left;
+			overflow: hidden;
+			text-align: left;
+			margin: 0 auto;
+			padding: 2% 0;
+			padding-left: 5%;
+			font-size: 1.2em;
+			letter-spacing: 0.1em;
+			text-indent: 0.1em;
+			color: #fff;
+		}
+		
+		.footer_content_box li {
+			margin: 5% 0;
+			color: #f7e18a;
+		}
+		
+		.footer_content_box .site_map {
+			width: 28.333%;
+			float: left;
+			margin-right: 5%;
+		}
+		
+		.site_map a {
+			font-size: 0.75rem;
+		}
+		
+		.site_map a:hover {
+			text-decoration: underline;
+			color: #f7e18a;
+		}
+		
+		.site_map_title {
+			padding: 5% 0;
+			font-weight: bold;
+		}	
+
+		
+		.footer_content_box .customer_service {
+			width: 28.333%;
+			float: left;
+			margin-right: 10%;
+		}
+		
+		.customer_service a {
+			font-size: 0.75rem;
+		}
+		
+		.customer_service a:hover {
+			text-decoration: underline;
+			color: #f7e18a;
+		}
+		
+		.customer_service_title {
+			padding: 5% 0;
+			font-weight: bold;
+		}	
+
+		.footer_content_box .business_time {
+			width: 28.333%;
+			float: left;
+		}
+		
+		.business_time_title {
+			padding: 5% 0 5% 10%;
+			font-weight: bold;
+		}	
+		
+		.image_tel {
+			width: 100%;
+			overflow: hidden;
+		}
+		
+		.image_tel li {
+			color: #fff;
+			float: left;
+		}
+		
+		.image_tel img {
+			display: block;
+			float: left;
+			width: 7%;
+			vertical-align: bottom;
+			border: none;
+		}
+		
+		.image_tel span {
+			display: block;
+			float: left;
+			padding-left: 10px;
+			text-indent: 0;
+			font-size: 0.75rem;
+		}
+		
+		.image_time {
+			overflow: hidden;
+		}
+		
+		.image_time .time {
+			float: left;
+		}
+	
+		.image_time li {
+			color: #fff;
+			float: left;
+		}
+		
+		.image_time img {
+			display: block;
+			float: left;
+			width: 7%;
+			vertical-align: bottom;
+			border: none;
+		}
+		
+		.image_time span {
+			display: block;
+			float: left;
+			padding-left: 10px;
+			text-indent: 0;
+			font-size: 0.75rem;
+		}
+		
+		
+		.image_time .time_content {
+			line-height: 20px;
+			float: left;
+		}
+		
+		.time_content .p_01 {
+		}
+		
+		.footer_sns_box {
+			width: 20%;
+			padding: 3% 0;
+			float: left;
+		}
+		
+		
+		.footer_sns_box img {
+			vertical-align: bottom;
+			border: none;
+		}
+		
+		.box_02 {
+			width: 100%;
+			color: #fff;
+			font-size: 0.75rem;
+			text-align: center;
+			padding: 50px 0;
+			letter-spacing: 0.1em;
+			text-indent: 0.1em;
+		}
+		
