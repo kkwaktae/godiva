@@ -39,7 +39,7 @@
 		.page_01 .slide {
 			width: 100%;
 			height: 1080px;
-			background-image: url('../img/bslide/slide_01.png');
+			background-image: url('../img/slide/slide_01.png');
 			background-repeat: no-repeat;
 			background-size: 100% auto;
 		}
@@ -200,7 +200,8 @@
 				text-align: center;
 				margin: 10px auto;
 				border: 1px solid #f7e18a;
-				
+				letter-spacing: 0.2em;
+				text-indent: 0.2em;
 			}
 			
 			.text .btn a {
@@ -236,7 +237,7 @@
 			
 			.co {
 				margin-top: 5%;
-				color: #f7e18a;
+				color: #fff;
 			}
 			
 			.co p {
@@ -245,7 +246,11 @@
 				font-weight: bold;
 			}
 			
-			.co span {
+			.co span.first {
+				color: #f7e18a;
+			}
+			
+			.co span.content {
 				font-size: 1rem;
 				line-height: 2;
 			}
@@ -291,8 +296,158 @@
 			.page_03 {
 				width: 100%;
 				height: 800px;
-				background: #222 url('../img/best_menu/frame.png') no-repeat;
+				background: #111 url('../img/best_menu/frame.png') no-repeat;
 				background-size: 100%;
 			}
 			
+			.content_container {
+				width: 50%;
+				float: right;
+				margin: 10% 5% 10% 0;
+				overflow: hidden;
+			}
+			
+			.best_banner {
+				width: 31.333%;
+				float: left;
+				color: #000;
+				text-align: center;
+				background: #f7e18a;
+			}
+						
+			.best_banner img {
+				vertical-align: bottom;
+				border: none;
+				
+			}
+			
+			.content_container .mar {
+				margin-right: 3%;
+			}
+			
+			.best_banner .best {
+				width: 100%;
+				background: #fff;
+			}
+			
+			.best_banner .sign {
+				background: #000;
+				color: #fff;
+				font-size: 1rem;
+				font-weight: bold;
+				padding: 5%;
+				letter-spacing: 0.1em;
+				text-indent: 0.1em;
+			}
+			
+			.best_banner .title {
+				font-size: 1rem;
+				font-weight: bold;
+				padding: 10% 5%;
+			}
+			
+			
+			/* ---------------------------------------메뉴-------*/
+			
+			.page_04 {
+				width: 100%;
+				height: 1200px;
+				background: #000 url('../img/menu/background.png') no-repeat;
+				background-size: cover;
+				background-attachment: fixed;
+			}
+			
+			.menu_title {
+				width: 50%;
+				color: #fff;
+				padding: 10% 0;
+				margin: 0 auto;
+				text-align: center;
+			}
+			
+			.menu_title span {
+				font-size: 3rem;
+				font-weight: bold;
+			}
+			
+			.menu_title p {
+				font-size: 4rem;
+				font-weight: bold;
+			}
+			
+			.menu_title hr {
+				margin: 2% auto;
+				width: 50%;
+			}
+			
+			.menu_con {
+				width: 80%;
+				margin: 0 auto;
+				overflow: hidden;
+			}
+			
+			.menu_chocolate, .menu_dessert, .menu_icecream, .menu_drink {
+				width: 23.5%;
+				height: 500px;
+				background: #111;
+				float: left;
+				text-align: center;
+				color: #fff;
+			}
+			
+			.menu_con .mar {
+				margin-right: 2%;
+			}
+			
+			.menu_con span {
+				font-size: 1.5rem;
+			}
+			
+			.menu_chocolate {
+				background: url('../img/menu/menu_01.jpg') no-repeat;
+				background-size: cover;
+				background-position: -90px bottom;
+			}
+			
+			.menu_chocolate_text {
+				width: 100%;
+				background: rgba(0,0,0,.8);
+				padding: 5% 0;
+			}
+			
+			.menu_dessert {
+				background: url('../img/menu/menu_02.jpg') no-repeat;
+				background-size: cover;
+				background-position: center bottom;
+			}
+			
+			.menu_dessert_text {
+				width: 100%;
+				background: rgba(0,0,0,.8);
+				padding: 5% 0;
+			}
+			
+			.menu_icecream {
+				background: url('../img/menu/menu_03.jpg') no-repeat;
+				background-size: cover;
+				background-position: center bottom;
+			}
+			
+			.menu_icecream_text {
+				width: 100%;
+				background: rgba(0,0,0,.8);
+				padding: 5% 0;
+			}
+				
+			.menu_drink {
+				background: url('../img/menu/menu_04.jpg') no-repeat;
+				background-size: cover;
+				background-position: center bottom;
+			}
+			
+			.menu_drink_text {
+				width: 100%;
+				background: rgba(0,0,0,.8);
+				padding: 5% 0;
+			}
 			
