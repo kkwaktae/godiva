@@ -120,7 +120,7 @@
 			}
 			
 			
-			.store_content {
+			.customer_service_content {
 				color: #fff;
 				background: url('../img/store/store_back_02.jpg') no-repeat;
 				background-size: cover;
@@ -136,8 +136,8 @@
 				font-size: 1rem;
 			}
 			
-			.store_content span {
-				width: 10%;
+			.customer_service_content span {
+				width: 20%;
 				margin: 0 auto;
 				margin-top: 8%;
 				display: block;
@@ -148,8 +148,9 @@
 				text-indent: 0.2rem;
 			}
 
-		/* ---------------------------------------map-------*/
 		
+		/* ---------------------------------------FAQ-------*/
+	
 		.page_02 {
 			width: 100%;
 		}
@@ -160,7 +161,55 @@
 			color: #666;
 		}
 		
-		.page_02 .store_1_title {
+		.service_cate {
+			width: 100%;
+			height: 50px;
+			overflow: hidden;
+			text-align: center;
+			margin: 0 auto;
+		}
+		
+		.service_cate .co {
+			width: 10%;
+			float: left;
+			border: 1px solid #111;
+			line-height: 50px;
+			font-size: 1rem;
+		}
+		
+		.service_cate .co a {
+			display: block;
+		}
+		
+		.service_cate .co a:hover {
+			background: #222;
+			color: #f7e18a;
+			transition-duration: 0.7s;
+		}
+				
+		.service_cate .faq {
+			background: #222;
+			margin-left: 30%;
+		}
+		
+		.service_cate .faq a {
+			color: #fff;
+		}
+		
+		.service_cate .personal {
+			background: #fff;
+		}
+		
+		.service_cate .order {
+			background: #fff;
+		}
+				
+		.service_cate .member {
+			background: #fff;
+			margin-right: 30%;
+		}
+		
+		.page_02 .service_title {
 			font-size: 2rem;
 			letter-spacing: 0.1rem;
 			text-indent: 0.1rem;
@@ -171,160 +220,139 @@
 			line-height: 150px;
 		}
 		
-		.map_cate {
+		.faq_con {
 			width: 100%;
-			height: 50px;
 			overflow: hidden;
-			text-align: center;
-			margin: 0 auto;
+			background: #fff;
+			color: #111;
 		}
 		
-		.map_cate .co {
-			width: 10%;
+		.side_bar {
+			width: 20%;
+			background: #111;
+			color: #fff;
 			float: left;
-			border: 1px solid #111;
-			line-height: 50px;
+			font-size: 1.5em;
+			font-weight: bold;
+			padding: 5% 2% 20% 5%;
 		}
 		
-		.map_cate .co a {
-			display: block;
+		.side_bar p {
+			border-bottom: 1px solid #fff;
+			margin: 5% 0;
 		}
 		
-		.map_cate .co a:hover {
-			background: #222;
+		.side_bar .p_01 {
+			font-size: 2rem;
+			margin: 10% 0;
 			color: #f7e18a;
+			border: none;
+			letter-spacing: 0.1rem;
+			text-indent: 0.1rem;
+		}
+		
+		.side_bar .p_02 a {
+			color: #fff;
+		}
+		
+		.side_bar a {
+			display: block;
+			padding: 10px;
+		}
+		
+		.side_bar a:hover {
+			background: #222;
+			color: #fff;
 			transition-duration: 0.7s;
 		}
-				
-		.map_cate .domestic {
-			margin-left: 40%;
-			background: #222;
-		}
 		
-		.map_cate .domestic a {
-			color: #fff;
-		}
-				
-		.map_cate .overseas {
-			margin-right: 40%;
-			background: #fff;
-		}
-		
-		.map_container {
-			width: 100%;
-			height: 800px;
-			margin: 100px auto;
-			position: relative;
-			text-align:center;
-		}
-		
-		.map_container .search {
-			width: 300px;
-			height: 500px;
-			position: absolute;
-			background: #111;
-			bottom: 10%;
-			left: 15%;
-			text-align: left;
-		}
-			
-		.map_container .search_tool {
-			width: 100%;
-			height: 150px;
-			padding: 20px;
-		}
-		
-
-		.map_container .title {
-			color: #fff;
-			height: 40px;
-			font-size: 1rem;
-		}
-
-		.search_tool .co {
-			width: 100%;
-			background: #fff;
-			color: #111;
-			height: 30px;
-			line-height: 30px;
-			padding-left: 10px;
-		}
-		
-		.map_container .search_name {
-			margin-bottom: 10px;
-		}
-
-
-		.map_container .result {
-			width: 100%;
-			height: 350px;
-			background: #fff;
-			padding: 20px;
-			overflow: auto;
-		}
-		
-		.result_quantity {
-			font-size: 0.5rem;
-			border-bottom: 2px solid #111;
-			padding-bottom: 10px;
-			color: #999;
-		}
-		
-		.result_quantity span {
-			color: #111;
-		}
-		
-		.result_detail_box {
-			width: 100%;
-		}
-		
-		.result_detail_box .co {
-			width: 100%;
-			height: 60px;
-			border-bottom: 2px solid #111;
-		}
-		
-		.result_detail_box a {
-			width: 100%;
-			height: 100%;
-			display: block;
-			padding: 8px 0;
-		}
-		
-		.result_detail_box a:hover {
-			background: lightgray;
-			transition-duration: 0.5s;
-			color: #000;
-		}
-		
-		
-		.brand_logo {
-			width: 25%;
+		.faq_main {
+			width: 80%;
 			float: left;
-			margin-right: 5%;
+			margin: 5% auto;
+		}
+		 
+		 .search_bar {
+			 width: 60%;
+			 height: 50px;
+			 border: 1px solid #111;
+			 margin: 2% auto;
+			 overflow: hidden;
+			 color: #111;
+		 }
+		
+		.search_bar .co {
+			float: left;		
+			font-size: 1rem;	
+			height: 50px;
+			border: 1px solid #111;
+			text-align: center;
+			line-height: 48px;
 		}
 		
-		.brand_logo img {
-			width: 90%;
-			vertical-align: middle;
+		.search_bar .filter {
+			width: 10%;
+		}
+		.search_bar .search {
+			width: 80%;
+		}
+		.search_bar .enter {
+			width: 10%;
+			background: #111;
+		}
+		
+		.faq_content_box {
+			width: 60%;
+			margin: 5% auto;
+		}
+		
+		.faq_content_box h2 {
+			font-size: 1.5rem;
+			padding: 4% 0;
+			border-bottom: 5px solid #111;
+		}
+		
+		.faq_content_box .txt {
+			font-size: 1.25rem;
+			background: #eee;
+		}
+		
+		.faq_content_box .txt a {
+			display: block;
+			padding: 3%;
+			border-bottom: 1px solid #111;
+			color: #111;
+		}
+		
+		.faq_content_box img {
+			width: 3%;
+			vertical-align: bottom;
 			border: none;
+			float: right;
 		}
 		
-		.local_box {
-			width: 70%;
-			float:right;
+		.faq_content_box #check_arrow {
+			display:none;
 		}
 		
-		.local_box .local_name {
-			font-weight: bold;
+		.faq_content_box .hide_01 {
+			width: 100%;
+			font-size: 1rem;
+			overflow: hidden;
+			margin: 3%;
+			margin-bottom: 5%;
 		}
 		
-		.local_contact {
-			font-size: 0.5rem;
-			padding-top: 5px;
+		
+		.faq_content_box a:hover {
+			background: #222;
+			color: #fff;
+			transition-duration: 0.7s;
 		}
 		
-		
+		#check_arrow:checked .hide_01 {
+			transition-duration: 1s;
+		}
 		
 		/* ---------------------------------------footer-------*/
 						
