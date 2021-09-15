@@ -21,6 +21,7 @@
 			font-family: 'Nanum Gothic', sans-serif;
 			font-size:0.75em;
 			margin:0 auto;
+			background: #000;
 		}
 		
 
@@ -32,95 +33,121 @@
 		
 		.page_01 {
 			width: 100%;
-			height: 600px;
-			margin-bottom: 200px;
 		}
 		
-		
-		
-		.page_01 header {
-			width: 100%;
-			height: 150px;
-			text-align: center;
-			position: fixed;
-			top: 0;
-			left: 0;
-			background: rgba(0,0,0,.8);
-			z-index :99999;
-		}
-		
-		.logo {
-			width: 78px;
-			height: 54px;
-			margin: 0px auto;
-			position: relative;
-		}		
-		
-		.logo img {
-			width: 100%;
-			vertical-align: bottom;
-			border: none;
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			margin-bottom: -27px;
-			margin-left: -39px;
-		}
+			
+			.page_01 header {
+				width: 100%;
+				text-align: center;
+				position: fixed;
+				top: 0;
+				left: 0;
+				background: rgba(0,0,0,.8);
+				z-index :99999;
+			}
+			
+			.logo {
+				width: 78px;
+				height: 54px;
+				margin: 0px auto;
+				position: relative;
+			}		
+			
+			.logo img {
+				width: 100%;
+				vertical-align: bottom;
+				border: none;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				margin-bottom: -27px;
+				margin-left: -39px;
+			}
 
-		ul.nav {
-			width: 40%;
-			margin: 0 auto;
-			margin-top: 40px;
-			line-height: 49px;
-			height: 50px;
-			text-align:center;
-			overflow: hidden; 
-			font-family:'Nanum Myeongjo', serif;	
-			font-size: 1em;
-			letter-spacing: 0.2em;
-		}
+			ul.nav {
+				width: 40%;
+				margin: 0 auto;
+				margin-top: 40px;
+				line-height: 49px;
+				text-align:center;
+				overflow: hidden; 
+				font-size: 1rem;
+				letter-spacing: 0.1em;
+				text-indent: 0.1em;
+			}
 
-		.nav .home, .brand, .menu, .event, .store {
-			width: 13.6%;
-			float: left;
-			color: #fff;
-		}
+			.nav .home, .brand, .menu, .news, .store {
+				width: 13.6%;
+				float: left;
+				color: #fff;
+			}
+			
+			.store_detail li:nth-child(2) {
+				font-size: 0.5rem;
+				line-height: 15px;
+				padding-top: 10px;
+			}
+			
+			.nav a {
+				display: block;	
+				color: #fff;	
+			}
+			
+			.nav .mar {
+				margin-right: 8%;
+			}
+			
+			.nav_hover {
+				border-bottom: 1px solid transparent;				
+			}
+			
+			.nav_hover:hover {
+				color: #f7e18a;
+				border-bottom: 1px solid #f7e18a;
+			}		
+			
+			li ul {
+				font-size: 0.75rem;
+				height: 0px;
+			}
+			
+			header:hover li ul {
+				height: 250px;
+				transition-duration: 0.7s;
+			}
 		
-		.nav a {
-			display: block;	
-			color: #fff;	
-		}
-		
-		.nav .mar {
-			margin-right: 8%;
-		}
-		
-		.nav a:hover {
-			border-bottom: 1px solid #f7e18a;
-			background: #222;
+			.detail_hover:hover {
 			color: #f7e18a;
-		}
-
+			}
+			
 		
 		.menu_content {
 			color: #fff;
-			background: #000;
+			background: url('../img/menu/back_banner_02.jpg') no-repeat;
+			background-size: cover;
+			background-position: left center;
 			width: 100%;
-			height: 600px;
+			height: 800px;
 			margin: 0 auto;
 			text-align: center;
 			border-bottom: 1px solid orange;
 			padding-top: 250px;
-			letter-spacing: 0.2em;
-			text-indent: 0.2em;
+			letter-spacing: 0.2rem;
+			text-indent: 0.2rem;
 			line-height: 1.5;
-			font-size: 1em;
+			font-size: 1rem;
 		}
 		
 		.menu_content span {
-			display: block;
-			font-size: 4em;
-			padding: 25px;
+				width: 10%;
+				margin: 0 auto;
+				margin-top: 8%;
+				display: block;
+				font-weight: bold;
+				font-size: 3rem;
+				padding: 1%;
+				letter-spacing: 0.2rem;
+				text-indent: 0.2rem;
 		}
 
 		/* ---------------------------------------메뉴1-------*/
@@ -142,16 +169,15 @@
 		}
 		
 		.menu1_container .menu_1_title {
-			margin-bottom: 200px;
-			font-size: 3em;
-			letter-spacing: 0.1em;
-			text-indent: 0.1em;
+			margin-bottom: 50px;
+			font-size: 2rem;
+			letter-spacing: 0.1rem;
+			text-indent: 0.1rem;
 			font-weight: bold;
 			text-align: center;
 			color: #fff;
-			padding: 5%;
-			background: #333;
-			
+			height: 150px;
+			line-height: 150px;
 		}
 		
 		.menu1_container ul {
