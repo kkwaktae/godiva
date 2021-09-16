@@ -124,6 +124,7 @@
 				color: #fff;
 				background: url('../img/store/store_back_02.jpg') no-repeat;
 				background-size: cover;
+				background-attachment: fixed;
 				width: 100%;
 				height: 800px;
 				margin: 0 auto;
@@ -156,7 +157,7 @@
 		
 		
 		.page_02 .route {
-			margin: 2%;
+			margin: 40px 2%;
 			color: #666;
 		}
 		

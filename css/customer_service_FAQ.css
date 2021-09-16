@@ -157,7 +157,7 @@
 		
 		
 		.page_02 .route {
-			margin: 2%;
+			margin: 40px 2%;
 			color: #666;
 		}
 		
@@ -238,7 +238,6 @@
 		}
 		
 		.side_bar p {
-			border-bottom: 1px solid #fff;
 			margin: 5% 0;
 		}
 		
@@ -257,13 +256,13 @@
 		
 		.side_bar a {
 			display: block;
-			padding: 10px;
+			padding: 5% 0;
 		}
 		
 		.side_bar a:hover {
 			background: #222;
 			color: #fff;
-			transition-duration: 0.7s;
+			transition-duration: 0.5s;
 		}
 		
 		.faq_main {
@@ -306,7 +305,7 @@
 			margin: 5% auto;
 		}
 		
-		.faq_content_box h2 {
+		.faq_content_box .title {
 			font-size: 1.5rem;
 			padding: 4% 0;
 			border-bottom: 5px solid #111;
@@ -314,14 +313,13 @@
 		
 		.faq_content_box .txt {
 			font-size: 1.25rem;
-			background: #eee;
 		}
 		
-		.faq_content_box .txt a {
-			display: block;
+		.faq_content_box .txt label p {
 			padding: 3%;
 			border-bottom: 1px solid #111;
 			color: #111;
+			background: #eee;
 		}
 		
 		.faq_content_box img {
@@ -331,29 +329,158 @@
 			float: right;
 		}
 		
-		.faq_content_box #check_arrow {
-			display:none;
+		
+		/*------------------------ 체크박스 ---------*/
+		.faq_content_box #toggle_01 {
+			display: none;
 		}
 		
 		.faq_content_box .hide_01 {
-			width: 100%;
+			width: 96%;
 			font-size: 1rem;
 			overflow: hidden;
-			margin: 3%;
-			margin-bottom: 5%;
-		}
-		
-		
-		.faq_content_box a:hover {
-			background: #222;
-			color: #fff;
+			height: 0px;
+			margin: 0 auto;
 			transition-duration: 0.7s;
 		}
 		
-		#check_arrow:checked .hide_01 {
-			transition-duration: 1s;
+		.hide_01 h3 {
+			padding: 30px 0;
 		}
 		
+		.hide_01 p {
+			padding: 10px 0;
+		}
+		
+		#toggle_01[type=checkbox]:checked ~.content_01 > .hide_01 {
+			height: 250px;
+			transition-duration: 0.7s;
+		}		
+				
+		.faq_content_box #toggle_02 {
+			display: none;
+		}
+		
+		.faq_content_box .hide_02 {
+			width: 96%;
+			font-size: 1rem;
+			overflow: hidden;
+			height: 0px;
+			margin: 0 auto;
+			transition-duration: 0.7s;
+		}
+		
+		.hide_02 h3 {
+			padding: 30px 0;
+		}
+		
+		.hide_02 p {
+			padding: 10px 0;
+		}
+		
+		#toggle_02[type=checkbox]:checked ~.content_02 > .hide_02 {
+			height: 400px;
+			transition-duration: 0.7s;
+		}
+		
+		#toggle_02:hover {
+			background: #333;
+			color: #fff;
+		}
+		
+		
+		.faq_content_box #toggle_03 {
+			display: none;
+		}
+		
+		.faq_content_box .hide_03 {
+			width: 96%;
+			font-size: 1rem;
+			overflow: hidden;
+			height: 0px;
+			margin: 0 auto;
+			transition-duration: 0.7s;
+		}
+		
+		.hide_03 p {
+			padding: 10px 0;
+		}
+		
+		.hide_03 .mar_top {
+			margin-top: 30px;
+		}
+		
+		#toggle_03[type=checkbox]:checked ~.content_03 > .hide_03 {
+			height: 330px;
+			transition-duration: 0.7s;
+		}
+		
+		#toggle_03:hover {
+			background: #333;
+			color: #fff;
+		}
+		
+		
+		.faq_content_box #toggle_04 {
+			display: none;
+		}
+		
+		.faq_content_box .hide_04 {
+			width: 96%;
+			font-size: 1rem;
+			overflow: hidden;
+			height: 0px;
+			margin: 0 auto;
+			transition-duration: 0.7s;
+		}
+		
+		.hide_04 p {
+			padding: 10px 0;
+		}
+		
+		.hide_04 .mar_top {
+			margin-top: 30px;
+		}
+		
+		#toggle_04[type=checkbox]:checked ~.content_04 > .hide_04 {
+			height: 300px;
+			transition-duration: 0.7s;
+		}
+		
+		#toggle_04:hover {
+			background: #333;
+			color: #fff;
+		}
+		
+		
+		.faq_content_box #toggle_05 {
+			display: none;
+		}
+		
+		.faq_content_box .hide_05 {
+			width: 96%;
+			font-size: 1rem;
+			overflow: hidden;
+			height: 0px;
+			margin: 0 auto;
+			transition-duration: 0.7s;
+		}
+		
+		.hide_05 .mar_top {
+			margin-top: 30px;
+		}
+		
+		#toggle_05[type=checkbox]:checked ~.content_05 > .hide_05 {
+			height: 150px;
+			transition-duration: 0.7s;
+		}
+		
+		#toggle_05:hover {
+			background: #333;
+			color: #fff;
+		}
+		
+	
 		/* ---------------------------------------footer-------*/
 						
 		.page_08 {

@@ -42,7 +42,7 @@
 				background-image: url('../img/slide/slide_01.png');
 				background-repeat: no-repeat;
 				background-size: 100% auto;
-				margin-bottom: 300px;
+				margin-bottom: 200px;
 			}
 			
 			
@@ -136,7 +136,7 @@
 			
 			.page_02 {
 				width: 100%;
-				margin-bottom: 300px;
+				margin-bottom: 200px;
 			}
 			
 			.fixed_image {
@@ -301,7 +301,7 @@
 				height: 800px;
 				background: #111 url('../img/best_menu/frame.png') no-repeat;
 				background-size: 100%;
-				margin-bottom: 300px;
+				margin-bottom: 200px;
 			}
 			
 			.content_container {
@@ -445,7 +445,7 @@
 			.page_05 {
 				width: 100%;
 				height: 500px;
-				margin-bottom: 300px;
+				margin-bottom: 200px;
 			}
 			
 			.event_con {
@@ -528,7 +528,7 @@
 				height: 1300px;
 				background: url('../img/magazine/back_image.png') no-repeat;
 				background-size: cover;
-				margin-bottom: 300px;
+				margin-bottom: 200px;
 			}
 			
 			.magazine_con {
@@ -582,15 +582,12 @@
 			
 			.page_07 {
 				width: 100%;
-				height: 1080px;
 				background: #111;
-				/* width: 100%; */
-				margin-bottom: 300px;
+				margin-bottom: 200px;
 			}
 			
 			.video_box {
 				width: 100%;
-				background: #111;
 				margin: 0 auto;
 			}
 			
@@ -598,7 +595,7 @@
 			
 			.page_08 {
 				width: 100%;
-				margin-bottom: 300px;
+				margin-bottom: 200px;
 			}
 			
 			.sns_container {
@@ -638,7 +635,7 @@
 			
 			.page_09 {
 				width: 100%;
-				margin-bottom: 300px;
+				margin-bottom: 200px;
 				height: 912px;
 				background: url('../img/store/store_frame.png') no-repeat;
 				background-size: cover;
