@@ -81,7 +81,6 @@
 				line-height: 49px;
 				text-align:center;
 				overflow: hidden; 
-				font-size: 1rem;
 				letter-spacing: 0.1em;
 				text-indent: 0.1em;
 			}
@@ -119,6 +118,11 @@
 			li ul {
 				font-size: 0.75rem;
 				height: 0px;
+				-ms-transition-duration: 0.7s;
+				-webkit-transition-duration: 0.7s;
+				-moz-transition-duration: 0.7s;
+				-o-transition-duration: 0.7s;
+				transition-duration: 0.7s;		
 			}
 			
 			header:hover li ul {
@@ -172,25 +176,30 @@
 				float: right;
 				background: rgba(0,0,0,.3);
 				padding: 20px;
-				margin-top: 20px;
+				margin-top: 50px;
 			}
 			
 			
 			#s1 {
-				font-size: 3rem;
+				font-size: 2rem;
 				color: #f7e18a;
 				display: inline-block;
+				font-weight: bold;
+				letter-spacing: 0.2rem;
+				text-indent: 0.2rem;
 			}
 			
 			#s2 {
-				font-size: 4rem;
+				font-size: 3rem;
 				color: #f7e18a;
 				display: inline-block;
+				font-weight: bold;
+				letter-spacing: 0.2rem;
+				text-indent: 0.2rem;
 			}
 			
 			#s3 {
-				font-size: 1rem;
-				letter-spacing: 0.1em;
+				letter-spacing: 0.1rem;
 				line-height: 1.5;
 				display: inline-block;
 				margin: 60px 0;
@@ -236,6 +245,7 @@
 				margin: 0 auto;
 				font-size: 1rem;
 				margin-bottom: 1%;
+				font-weight: bold;
 			}
 			
 			.metaphor .co {
@@ -245,16 +255,18 @@
 			
 			.metaphor .co p {
 				margin: 20% auto;
-				font-size: 1.5rem;
+				font-size: 1rem;
 				font-weight: bold;
+				letter-spacing: 0.1rem;
+				text-indent: 0.1rem;
 			}
 			
 			.metaphor .co span.first {
 				color: #f7e18a;
+				font-size: 1.5rem;
 			}
 			
 			.metaphor .co span.content {
-				font-size: 1rem;
 				line-height: 2;
 			}
 			
@@ -444,8 +456,24 @@
 			
 			.page_05 {
 				width: 100%;
-				height: 500px;
+				height: 800px;
 				margin-bottom: 200px;
+			}
+			
+			.event_title {
+				color: #fff;
+				height: 100px;
+				line-height: 100px;
+				margin-bottom: 200px;
+				font-size: 2.5rem;
+				font-weight: bold;
+				text-align: center;
+				letter-spacing: 0.2rem;
+				text-indent: 0.2rem;
+			}
+			
+			.event_title span {
+				font-size: 3rem;
 			}
 			
 			.event_con {
@@ -476,37 +504,53 @@
 			.event_01_image, .event_02_image, .event_03_image {
 				width: 100%;
 				height: 300px;
-				background: #f7e18a;
+			}
+			
+			.event_01_image {
+				background: url('../img/event/event_01_banner.png') no-repeat;
+				background-size: cover;
+				background-position: center center;				
+			}
+			
+			.event_02_image {
+				background: url('../img/event/event_02_banner.png') no-repeat;
+				background-size: cover;
+				background-position: center center;				
+			}
+			
+			.event_03_image {
+				background: url('../img/event/event_03_banner.png') no-repeat;
+				background-size: cover;
+				background-position: center center;				
 			}
 			
 			.event_01_title, .event_02_title, .event_03_title {
 				width: 100%;
-				background: #fff;
 				text-align: center;
 				padding: 2%;
 			}
 			
 			.event_con p {
-				font-size: 1.2rem;
+				font-size: 1rem;
 				height: 50px;
-				margin: 10px 0;
-				margin-bottom: 20px;
+				margin: 20px 0;
 				font-weight: bold;
 				letter-spacing: 0.1em;
 				text-indent: 0.1em;
 				line-height: 1.5;
+				color: #fff;
 			}	
 			
 			.event_con .btn {
 				width: 15%;
 				color: #fff;
 				text-align: center;
-				margin: 20px auto;
+				margin: 30px auto;
 				border: 1px solid #f7e18a;
 				letter-spacing: 0.2em;
 				text-indent: 0.2em;
 				font-size: 0.75rem;
-				background: #333;
+				background: #222;
 			}
 			
 			.event_con .btn a {
@@ -517,7 +561,7 @@
 			
 			.event_con .btn a:hover {
 				background: #f7e18a;
-				transition-duration: 1s;
+				transition-duration: 0.7s;
 				color: #000;
 			}
 			
@@ -621,10 +665,10 @@
 				border: none;
 			}
 			
-			.sns_title {
-				background: #d6cdaa;
-				color: #111;
-				font-size: 2rem;
+			.sns_title p {
+				background: #222;
+				color: #f7e18a;
+				font-size: 1.5rem;
 				font-weight: bold;
 				line-height: 250px;
 				
@@ -636,7 +680,7 @@
 			.page_09 {
 				width: 100%;
 				margin-bottom: 200px;
-				height: 912px;
+				height: 787px;
 				background: url('../img/store/store_frame.png') no-repeat;
 				background-size: cover;
 			}
@@ -647,8 +691,8 @@
 				margin-left: 50%;
 				color: #fff;
 				text-align: center;
-				margin: 20% 45% 20% 5%;
-				padding: 17% 0;
+				margin: 15% 45% 20% 5%;
+				padding: 15% 0;
 			}
 			
 			.store_con h1 {
@@ -886,16 +930,16 @@
 		
 		
 		/* ---------------------------------------quick side-------*/
-		
+		/*
 		.quick_side {
-			width: 180px;
-			height: 270px;
+			width: 150px;
+			height: 235px;
 			background: rgba(0,0,0,.5);
 			position: fixed;
 			bottom: 1%;
 			right: 1%;
 			z-index: 99999;
-			font-size: 1.5em;
+			font-size: 0.75rem;
 			letter-spacing: 0.1em;
 			text-indent: 0.1em;
 			overflow: hidden;
@@ -916,10 +960,10 @@
 		 }
 		 
 		.quick_side img {
-			vertical-align: middle;
+			vertical-align: bottom;
 			border: none;
-			width: 30px;
-			height: 30px;
+			width: 23px;
+			height: 23px;
 		}
 		 
 		.quick_side .image {
@@ -927,11 +971,66 @@
 		}
 		
 		.quick_side .qs {
-			height: 30px;
+			height: 23px;
 			margin: 20px 0;
 		}
 		
 		.quick_side .co {
 			padding: 4.5px 0;
 			float: left;
+		}
+		*/
+		
+		
+		.quick_side {
+			width: 150px;
+			height: 235px;
+			position: fixed;
+			bottom: 1%;
+			right: 1%;
+			z-index: 99999;
+			font-size: 0.75rem;
+			letter-spacing: 0.1em;
+			text-indent: 0.1em;
+			overflow: hidden;
+			padding: 0 15px;
+		}
+		
+		.quick_side a {
+			color: #fff;
+			display: block;
+		}
+		 
+		.quick_side .co:hover {
+			color: #f7e18a;
+		}
+		
+		 .quick_side .first {
+			color: #f7e18a;
+		 }
+		 
+		.quick_side img {
+			vertical-align: bottom;
+			border: none;
+			width: 23px;
+			height: 23px;
+		}
+		 
+		.quick_side .image {
+			 float: right;
+		}
+		
+		.quick_side .qs {
+			height: 23px;
+			margin: 20px 0;
+		}
+		
+		.quick_side .co {
+			padding: 4.5px 0;
+			float: left;
+		}
+		
+		.plus_icon {
+			background: rgba(0,0,0,.5);
+			
 		}

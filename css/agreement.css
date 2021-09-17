@@ -31,7 +31,8 @@
 	
 		/* ---------------------------------------네비게이션-------*/
 		
-		.page_01 header {
+				
+			.page_01 header {
 				width: 100%;
 				text-align: center;
 				position: fixed;
@@ -66,7 +67,6 @@
 				line-height: 49px;
 				text-align:center;
 				overflow: hidden; 
-				font-size: 1rem;
 				letter-spacing: 0.1em;
 				text-indent: 0.1em;
 			}
@@ -104,6 +104,11 @@
 			li ul {
 				font-size: 0.75rem;
 				height: 0px;
+				-ms-transition-duration: 0.7s;
+				-webkit-transition-duration: 0.7s;
+				-moz-transition-duration: 0.7s;
+				-o-transition-duration: 0.7s;
+				transition-duration: 0.7s;		
 			}
 			
 			header:hover li ul {
