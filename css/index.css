@@ -323,11 +323,19 @@
 				overflow: hidden;
 			}
 			
-			.best_01, .best_02, .best_03, .best_04 {
+			.best_01, .best_02, .best_03 {
 				width: 300px;
 				height: 300px;
 				float: left;
 				text-align: center;
+			}
+			
+			.best_name {
+				width: 100%;
+				color: #fff;
+				background: rgba(0,0,0,.5);
+				font-size: 1rem;
+				font-weight: bold;
 			}
 			
 			.content_container .mar {
@@ -984,16 +992,14 @@
 		
 		.quick_side {
 			width: 150px;
-			height: 235px;
 			position: fixed;
-			bottom: 1%;
-			right: 1%;
+			bottom: 20px;
+			right: 20px;
 			z-index: 99999;
 			font-size: 0.75rem;
 			letter-spacing: 0.1em;
 			text-indent: 0.1em;
 			overflow: hidden;
-			padding: 0 15px;
 		}
 		
 		.quick_side a {
@@ -1001,8 +1007,9 @@
 			display: block;
 		}
 		 
-		.quick_side .co:hover {
+		.quick_side .qs:hover {
 			color: #f7e18a;
+			transition-duration: 0.5s;
 		}
 		
 		 .quick_side .first {
@@ -1022,7 +1029,6 @@
 		
 		.quick_side .qs {
 			height: 23px;
-			margin: 20px 0;
 		}
 		
 		.quick_side .co {
@@ -1032,5 +1038,34 @@
 		
 		.plus_icon {
 			background: rgba(0,0,0,.5);
-			
+			padding: 20px;=
+		}
+		
+		.mypage {
+			margin-top: 0;
+		}
+		
+		.cart {
+			margin: 20px 0;
+		}
+		
+		.search {
+			margin-bottom: 0;
+		}
+		
+		#open_more {
+			display: none;
+		}
+		
+		#open_more[type=checkbox]:checked ~.hidden_bar > .plus_icon {
+		}
+		
+		.plus_image {
+			margin: 20px;
+			text-align: right;
+		}
+		
+		
+		.up {
+			margin: 20px;
 		}
