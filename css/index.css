@@ -336,6 +336,7 @@
 				background: rgba(0,0,0,.5);
 				font-size: 1rem;
 				font-weight: bold;
+				padding: 10px;
 			}
 			
 			.content_container .mar {
@@ -409,6 +410,7 @@
 			
 			.menu_con span {
 				font-size: 1.5rem;
+				font-weight: bold;
 			}
 			
 			.menu_chocolate {
@@ -516,19 +518,19 @@
 			
 			.event_01_image {
 				background: url('../img/event/event_01_banner.png') no-repeat;
-				background-size: cover;
+				background-size: 100% auto;
 				background-position: center center;				
 			}
 			
 			.event_02_image {
 				background: url('../img/event/event_02_banner.png') no-repeat;
-				background-size: cover;
+				background-size: 100% auto;
 				background-position: center center;				
 			}
 			
 			.event_03_image {
 				background: url('../img/event/event_03_banner.png') no-repeat;
-				background-size: cover;
+				background-size: 100% auto;
 				background-position: center center;				
 			}
 			
