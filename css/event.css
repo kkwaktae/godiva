@@ -21,7 +21,6 @@
 			font-family: 'Nanum Gothic', sans-serif;
 			font-size:0.75em;
 			margin:0 auto;
-			background: #000;
 		}
 		
 
@@ -187,7 +186,6 @@
 		}
 		
 		.news_container ul a {
-			color: #fff;
 			display: block;
 			padding: 5%;
 		}
@@ -203,10 +201,14 @@
 			line-height: 1.5;
 		}
 		
-		.news_01 {
-			border-bottom: 1px solid #f7e18a;			
+		.news_01 a {
 			color: #f7e18a;
 			background: #222;
+		}
+		
+		.news_02, .news_03, .news_04 a {
+			color: #fff;
+			background: #666;			
 		}
 		
 		.news_container .mar {
@@ -218,16 +220,14 @@
 
 		.horizon_line {
 			border-bottom: 1px solid #f7e18a;
-			margin: 100px auto;
+			margin: 0 auto;
 			width: 60%;
-			color: #fff;
 			text-align: center;
 			line-height: 100px;
 			font-size: 1.3rem;
 			font-weight: bold;
 			letter-spacing: 0.1em;
 			text-indent: 0.1em;
-			
 		}
 
 		.event_table {
@@ -236,22 +236,23 @@
 			overflow: hidden;
 		}
 		
-		.search_bar {
-			width: 60%;
-			color: #fff;
-			background: #333;
-			text-align: center;
-			margin: 0 auto;
-			font-size: 1rem;
+		.event_table a {
+			color: #000;
 		}
 		
-		.search_bar span {
-			margin: 0 30% 0;
+		.search_bar {
+			width: 40%;
+			text-align: center;
+			margin: 5% auto;
+			font-size: 1rem;
+			padding: 10px;
+			border: 1px solid #000;
 		}
+		
 		
 		.table {
 			width: 60%;
-			margin: 5% auto;
+			margin: 2% auto;
 			text-align: center;
 			overflow: hidden;
 		}
@@ -276,6 +277,13 @@
 			vertical-align: bottom;
 			border: none;
 			background: #333;
+		}
+		
+		.event p {
+			padding: 2%;
+			background: #fff;
+			font-weight: bold;
+			font-size: 1rem;
 		}
 		
 		/* ---------------------------------------footer-------*/
