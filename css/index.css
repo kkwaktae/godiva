@@ -319,7 +319,7 @@
 			.content_container {
 				width: 50%;
 				float: right;
-				margin: 12% 8% 0 0%;
+				margin: 12% 6% 0 0%;
 				overflow: hidden;
 			}
 			
@@ -1039,8 +1039,13 @@
 		}
 		
 		.plus_icon {
+			width: 150px;
 			background: rgba(0,0,0,.5);
-			padding: 20px;=
+			padding: 20px;
+			position: fixed;
+			transition-duration: 1s;
+			right: -150px;
+			bottom: 125px;
 		}
 		
 		.mypage {
@@ -1059,8 +1064,20 @@
 			display: none;
 		}
 		
-		#open_more[type=checkbox]:checked ~.hidden_bar > .plus_icon {
+		#open_more:checked + .plus_icon {
+			right:20px;
+			bottom: 125px;
+			transition-duration: 1s;
 		}
+		
+		label.plus:hover {
+			cursor: pointer;
+		}
+		
+		/*#open_more:checked ~ label img {
+			transition-duration: 1s;
+			transform: rotate(0.25turn);
+		}*/
 		
 		.plus_image {
 			margin: 20px;

@@ -177,7 +177,7 @@
 			width: 60%;
 			margin: 0 auto;	
 			overflow: hidden;
-			font-size: 1rem;
+			font-size: 1.2rem;
 			letter-spacing: 0.1em;
 			text-indent: 0.1em;
 			text-align: center;
@@ -202,11 +202,21 @@
 		}
 		
 		.news_01 a {
-			color: #f7e18a;
-			background: #222;
+			color: #fff;
+			background: #666;
 		}
 		
-		.news_02, .news_03, .news_04 a {
+		.news_02 a {
+			color: #f7e18a;
+			background: #222;			
+		}
+		
+		.news_03 a {
+			color: #fff;
+			background: #666;			
+		}
+		
+		.news_04 a {
 			color: #fff;
 			background: #666;			
 		}
@@ -216,75 +226,42 @@
 		}
 		
 
-		/* ---------------------------------------EVENT-------*/
+		/* ---------------------------------------NOTICE-------*/
 
-		.horizon_line {
-			border-bottom: 1px solid #f7e18a;
+		.notice_title {
 			margin: 0 auto;
 			width: 60%;
 			text-align: center;
 			line-height: 100px;
-			font-size: 1.3rem;
+			font-size: 2rem;
 			font-weight: bold;
 			letter-spacing: 0.1em;
 			text-indent: 0.1em;
 		}
 
-		.event_table {
+		.notice_table {
 			width: 100%;
 			margin-bottom: 200px;
 			overflow: hidden;
 		}
 		
-		.event_table a {
-			color: #000;
-		}
-		
-		.search_bar {
-			width: 40%;
+		table, tr, th, td {
+			border-collapse: collapse;
 			text-align: center;
-			margin: 5% auto;
-			font-size: 1rem;
-			padding: 10px;
-			border: 1px solid #000;
+			padding: 1%;
 		}
-		
-		
-		.table {
-			width: 60%;
-			margin: 2% auto;
-			text-align: center;
-			overflow: hidden;
-		}
-		
-		.table .event {
-			width: 32.666%;
-			vertical-align: bottom;
-			border: none;
-			float: left;
-		}
-		
-		.table .mar {
-			margin-right: 1%;	
-		}
-		
-		.table .plus {
-			width: 32.666%;
-			float: left;
-		}
-		
-		.plus img {
-			vertical-align: bottom;
-			border: none;
-			background: #333;
-		}
-		
-		.event p {
+		th {
 			padding: 2%;
-			background: #fff;
-			font-weight: bold;
-			font-size: 1rem;
+			border-top: 2px solid #000;
+			border-bottom: 2px solid #000;
 		}
+		
+		table {
+			width: 60%;
+			margin: 0 auto;
+		}
+		
+		
 		
 		/* ---------------------------------------footer-------*/
 						
