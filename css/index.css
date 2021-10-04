@@ -91,7 +91,7 @@ ul.nav {
 }
 
 .store_detail li:nth-child(2) {
-  font-size: 0.5rem;
+  font-size: 0.5em;
   line-height: 15px;
   padding-top: 10px;
 }
@@ -114,9 +114,9 @@ ul.nav {
   border-bottom: 1px solid #f7e18a;
 }
 
-li ul {
-  font-size: 0.75rem;
-  height: 0px;
+header li ul {
+  font-size: 0.75em;
+  height: 0;
   -ms-transition-duration: 0.7s;
   -webkit-transition-duration: 0.7s;
   -moz-transition-duration: 0.7s;
