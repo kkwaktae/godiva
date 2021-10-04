@@ -195,14 +195,14 @@
 			border-bottom: none;
 		}
 		
-		.step_03 p {
+		.step_04 p {
 			color: #666;
 			border-bottom: none;
 		}
 		
 		
-		.membership_title_box {
-			width: 60%;
+		.form_box {
+			width: 90%;
 			color: #fff;
 			margin: 5% auto;
 			padding: 2%;
@@ -213,49 +213,11 @@
 			border-right: none;
 		}
 		
-		.membership_title_box .title_01 {
-			width: 30%;
-			margin: 0 auto;
-			font-size: 2em;
-			font-weight: bold;
-			padding-bottom: 20px;			
-			margin-bottom: 5%;
-			border-bottom: 1px solid #fff;
+		fieldset {
+			width: 100%;
+			border: none;
 		}
 		
-		.title_01 span {
-			color: #f7e18a;
-		}
-		
-		.title_02 {
-			margin-top: 5%;
-			line-height: 1.5;
-		}
-		
-		.btn_box {
-			width: 60%;
-			margin: 0 auto;
-			font-size: 1.2em;
-		}	
-				
-		 .btn a {
-			 width: 20%;
-			 margin: 0 auto;
-			 margin-top: 50px;
-			 text-align: center;
-			 background: #666;
-			 color: #fff;
-			display: block;
-			line-height: 50px;
-		 }
-		 
-		 .btn a:hover {
-			background: #333;
-			color: #f7e18a;
-			transition-duration: 0.5s;
-		 }
-		 
-		 
 		 
 		/* ---------------------------------------footer-------*/
 						
