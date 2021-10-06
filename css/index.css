@@ -21,7 +21,7 @@ body {
   font-family: "Nanum Gothic", sans-serif;
   font-size: 0.75em;
   margin: 0 auto;
-  background: #131313;
+  background: #000;
 }
 
 /*body안에 웹사이트 기본 사이즈 0.75em 서체지정*/
@@ -48,7 +48,7 @@ body {
   top: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.8);
-  z-index: 99999;
+  z-index: 9999;
 }
 
 .logo {
