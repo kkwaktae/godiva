@@ -9,7 +9,7 @@
 			color: #666;
 		}
 		
-		li {
+		ul li {
 			list-style: none;
 		}
 		
@@ -21,7 +21,6 @@
 			font-family: 'Nanum Gothic', sans-serif;
 			font-size:0.75em;
 			margin:0 auto;
-			background: #222;
 		}
 		
 
@@ -276,20 +275,21 @@ ul.sub_box>li>span.sub_title {
 	color: #f7e18a;
 }
 
-			
-			.join_content {
-				color: #fff;
-				background: url('../img/join/497136.jpg') no-repeat center center / cover;
-				background-attachment: fixed;
-				width: 100%;
-				height: 0;
-				padding-top: calc(600 / 1920 * 100%);
-				text-align: center;
-				border-bottom: 1px solid orange;
-				position: relative;
-			}
-			
-			.join_content p {
+
+		
+		.menu_content {
+			color: #fff;
+			background: url('../img/menu/back_banner_02.jpg') no-repeat center center / cover;
+			background-attachment: fixed;
+			width: 100%;
+			height: 0;
+			padding-top: calc(600 / 1920 * 100%);
+			text-align: center;
+			border-bottom: 1px solid orange;
+			position: relative;
+		}
+		
+		.menu_content p {
 				width: 10%;
 				letter-spacing: 0.1em;
 				text-indent: 0.1em;
@@ -300,206 +300,224 @@ ul.sub_box>li>span.sub_title {
 				top: calc(50% - 25px);
 				left: calc(50% - 5%);
 			}
-			
 
-		/* ---------------------------------------약관1-------*/
-		.page_02 {
+		/* ---------------------------------------메뉴1-------*/
+
+		
+		.menu_slide {
+			width: 100%;
+			margin-bottom: 200px;
+		}
+		
+		.menu1_container {
 			width: 100%;
 		}
 		
-		.page_02 .route {
+		.menu1_container .route {
 			margin: 40px 2%;
 			color: #666;
 		}
 		
-		.process {
-			width: 60%;
-			margin: 100px auto;
-			overflow: hidden;
-		}
-		
-		.process .co {
-			float: left;
-			width: 24.25%;
+		.menu1_container .menu_1_title {
+			margin-bottom: 50px;
+			font-size: 2rem;
+			letter-spacing: 0.1rem;
+			text-indent: 0.1rem;
+			font-weight: bold;
 			text-align: center;
+			height: 150px;
+			line-height: 150px;
+		}
+		
+		.menu1_container ul {
+			width: 60%;
+			margin: 0 auto;	
+			overflow: hidden;
+			font-size: 1.2em;
+			letter-spacing: 0.1em;
+			text-indent: 0.1em;
+			text-align: center;
+		}
+		
+		.menu1_container ul a {
 			color: #fff;
+			display: block;
+			padding: 10% 2%;
 		}
 		
-		.process .step_01,.step_02,.step_03 {
-			margin-right: 1%;
+		.menu1_container ul a:hover {
+			color: #f7e18a;
+			background: #222;
 		}
 		
-		.process img {
+		.menu1_container li {
+			width: 15%;
+			float: left;
+			background: #333;
+			line-height: 1.5;
+		}
+		
+		.menu1_container li.menu_02 a {
+			color: #f7e18a;
+			background: #222;
+		}
+		
+		
+		.menu1_container .mar {
+			margin-right: 2%;
+		}
+		
+		.menu1_container hr {
 			width: 50%;
+			margin: 5% auto;
+		}
+		
+		.menu1_container .slide_container {
+			width: 60%;
+			margin: 200px auto;
+			height: 600px;
+			overflow: hidden;
+			position: relative;
+		}
+		
+		.slide_container .main_image {
+			width: 50%;
+			height: 100%;
+			float: left;
+			background: #3e2723;
+			text-align: center;
+		}
+		
+		.main_image .image {
+			width: 450px;
+			height: 450px;
+			margin: 0 auto;
+			margin-top: 75px;
+		}
+		
+		
+		.slide_container .sub_image {
+			width: 50%;
+			float: right;
+			color: #fff;
+			margin: 0 auto;
+			background: #222;
+			height: 100%;
+			text-align: center;
+		}
+		
+		.sub_image .border_frame {
+			border: 1px solid #f7e18a;
+			width: 450px;
+			margin: 0 auto;
+			margin-top: 75px;
+			padding: 5%;
+		}
+		
+		
+		.sub_image h2 {
+			text-align: center;
+			margin-bottom: 30px;
+		}
+		
+		.sub_image p {
+			text-align: justify;
+			line-height: 1.5;
+		}
+		
+		
+		.sub_image .intro {
+			margin-bottom: 20px;
+		}
+				
+		.sub_image .contents {
+			font-weight: bold;
+		}
+		
+		.sub_image a.btn {
+			display: block;
+			text-align: center;
+			width: 30%;
+			color: #f7e18a;
+			border: 1px solid #f7e18a;
+			padding: 2%;
+			margin: 7% auto;	
+		}
+		
+		.sub_image a:hover {
+			background: #f7e18a;
+			color: #111;
+			transition-duration: 1s;
+		}
+		
+		.slide_container .absol {
+			width: 450px;
+			height: 100px;
+			background: rgba(0,0,0,.5);
+			position: absolute;
+			bottom: 5%;
+			right: 15%;
+			text-align: center;
+		}
+		
+		.slide_container .absol img {
+			margin: 0 10px;
+			padding: 12.5px 0;
 			vertical-align: bottom;
 			border: none;
 		}
 		
-		.step_text {
-			width: 50%;
-			font-size: 1.2em;
-			font-weight: bold;
-			margin: 0 auto;
-			margin-bottom: 5%;
-			line-height: 46px;
-			border-bottom: 2px solid #f7e18a;
-		}
 		
-		.step_01 p {
-			color: #666;
-			border-bottom: none;
-		}
-		
-		.step_03 p {
-			color: #666;
-			border-bottom: none;
-		}
-		
-		.step_04 p {
-			color: #666;
-			border-bottom: none;
-		}
-		
-		.membership_title_box {
-			width: 60%;
-			color: #fff;
-			margin: 0 auto;
-			text-align: center;
-			margin-bottom: 25px;
-		}
-		
-		.page_02 .title_01 {
-			font-size: 2em;
-			font-weight: bold;
-		}
-		
-		.page_02 .title_02 {
-			text-align: right;
-		}
-		
-		.page_02 input {
-			vertical-align: bottom;
-		}
-		
-		.page_02 .title_03 {
-			text-align: left;
-			font-size: 1.2em;
-		}
-		
-		.membership_content_box {
-			width: 60%;
-			height: 300px;
-			background: #fff;
-			margin: 0 auto;
-			text-align: justify;
-			overflow: auto;
-		}
-		
-		.membership_content_box .content_01 {
-			line-height: 1.5;
-			font-size: 1em;
-			padding: 30px;
-		}
-		
-		.page_02 .check {
-			width: 60%;
-			color: #fff;
-			text-align: right;
-			margin: 0 auto;
-			margin-bottom: 100px;
-			margin-top: 25px;
-		}
-		
-		.page_02 .title_04 {
-			margin-right: 1%;
-		}
-		
-		/* ---------------------------------------약관2-------*/
+		/* ---------------------------------------메뉴2-------*/
 
-		.personal_title_box {
-			width: 60%;
-			color: #fff;
-			margin: 0 auto;
-			text-align: center;
-			margin-bottom: 25px;
-		}
-		
-		
-		.personal_content_box {
-			width: 60%;
-			height: 750px;
-			background: #fff;
-			margin: 0 auto;
-			text-align: justify;
-			overflow: auto;
-		}
-		
-		.personal_content_box .content_02 {
-			line-height: 1.5;
-			padding: 30px;
-			font-size: 1em;
-		}
-
-		
-		/* ---------------------------------------유의사항-------*/
-		
-		 .page_02 .bottom {
+		.menu_table {
 			width: 100%;
-			padding: 50px 20%;
-			margin: 0 auto;
-			font-size: 1.2em;
-			color: #fff;
-		 }
-		 
-		 .page_02 .alert_box {
-			 width: 60%;
-			padding-top: 100px;
-			margin: 0 auto;
-		 }
-		 
-		 .alret_title {
-			 margin-bottom: 20px;
-			 font-size: 1.5em;
-			 line-height: 1.5;
-			 font-weight: bold;
-		 }
-		 
-		 .alert_content_01 {
-			 font-size: 0.75em;
-			 margin-bottom: 20px;
-			 letter-spacing: 0.05em;
-			 text-indent: 0.05em;
-			 line-height: 1.5;
-		 }
-		 
-		 .alert_content_02 {
-			 font-size: 0.75em;
-			 margin-bottom: 20px;
-			 letter-spacing: 0.05em;
-			 text-indent: 0.05em;
-			 line-height: 1.5;
-		 }
-		 
-		 
-		 .btn a {
-			 width: 10%;
-			 margin: 50px auto;
-			 text-align: center;
-			 background: #666;
-			 color: #fff;
-			display: block;
-			line-height: 50px;
-		 }
-		 
-		 .btn a:hover {
+			margin-bottom: 200px;
+			overflow: hidden;
+		}
+		
+		.search_bar {
+			width: 20%;
+			line-height: 2em;
+			border: 1px solid #000;
+			text-align: center;
+			float: right;
+			margin: 0 5%;
+		}
+		
+		.search_bar span {
+			margin: 0 30% 0;
+		}
+		
+		.table {
+			width: 90%;
+			margin: 5% auto;
+			text-align: center;
+		}
+		
+		.table img.product {
+			vertical-align: bottom;
+			border: none;
+			background: #3e2723;
+			margin: 1%;
+		}
+		
+		.table .plus {
+			width: 300px;
+			height: 300px;
+			margin: 1%;
+			display: inline-block;
 			background: #333;
-			color: #f7e18a;
-			transition-duration: 0.5s;
-		 }
-		 
-		 		
+		}
+		
+		.plus img {
+			vertical-align: bottom;
+			border: none;
+			margin-top: 135px;
+		}
+		
 		/* ---------------------------------------footer-------*/
-						
+							
 		.page_10 {
 			width: 100%;
 			background: #131313;

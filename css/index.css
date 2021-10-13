@@ -38,10 +38,10 @@ body {
 .page_01 .slide {
   width: 100%;
   height: 0;
-  background-image: url("../img/slide/slide_01.png");
+  background-image: url("../img/slide/slide_04.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: calc(1080 / 1920 * 100%);
+  padding-top: calc(830 / 1920 * 100%);
 }
 
 header {
@@ -58,6 +58,7 @@ header {
 
 .nav_top {
 	width: 100%;
+	height: 100px;
 	overflow: hidden;
 }
 
@@ -101,16 +102,16 @@ header {
 
 .myPage #searchBar {
 	width: 30%;
-	line-height: 25px;
+	line-height: 26px;
 	padding-left: 10px;
+	outline: none;
 	transition: all 1s ease 0.1s;
 	-webkit-transition: all 1s ease 0.1s;
 	-moz-transition: all 1s ease 0.1s;
 }
 
 .myPage #searchBar:focus {
-	width: 35%;
-	background: #f7e18a;
+	width: 40%;
 }
 
 .myPage div:nth-child(1) {
@@ -120,7 +121,7 @@ header {
 }
 
 .myPage div:nth-child(1) a {
-	line-height: 29px;
+	line-height: 30px;
 	margin-left: 10px;	
 }
 
@@ -131,25 +132,25 @@ header {
 }
 
 .myPage div:nth-child(2) {
-	width: 18%;
+	width: 12%;
 	float: left;
 	margin-right: 2%;
 }
 
 .myPage div:nth-child(2) a {
 	color: #fff;
-	line-height: 29px;
+	line-height: 30px;
 }
 
 .myPage div:nth-child(2) img {
-	width: 18%;
+	width: 25%;
 	vertical-align: middle;
 	border: none;
-	margin-right: 10px;
+	margin-right: 5px;
 }
 
 .myPage div:nth-child(3) {
-	width: 18%;
+	width: 12%;
 	float: left;
 }
 
@@ -159,13 +160,14 @@ header {
 }
 
 .myPage div:nth-child(3) img {
-	width: 18%;
+	width: 25%;
 	vertical-align: middle;
 	border: none;
-	margin-right: 10px;
+	margin-right: 5px;
 }
 
 nav {
+	height: 50px;
 	letter-spacing: 0.1em;
 	text-indent: 0.1em;
 }
@@ -173,12 +175,14 @@ nav {
 
 ul.main_container {
 	width: 100%;
+	height: 100%;
 	padding-left: 50%;
 	overflow: hidden;
 }
 
 ul.main_container>li.co {
 	width: 15%;
+	height: 100%;
 	float: left;
 	transition: all 0.5s ease;
 	-webkit-transition: all 0.5s ease;
@@ -187,6 +191,7 @@ ul.main_container>li.co {
 a.main_a {
 	display: block;
 	line-height: 50px;
+	height: 100%;
 	color: #fff;
 	transition: all 0.5s ease;
 	-webkit-transition: all 0.5s ease;
@@ -210,9 +215,6 @@ li.co ul.sub_box {
 	left: 0;
 	z-index: 9999;
 	background: rgba(34,34,34,.8);
-	transition: all 0.5s ease;
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
 }
 
 li.co:hover ul.sub_box {
