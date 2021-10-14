@@ -21,6 +21,7 @@ body {
   font-family: "Nanum Gothic", sans-serif;
   font-size: 0.75em;
   margin: 0 auto;
+  background: #000;
 }
 
 /*body안에 웹사이트 기본 사이즈 0.75em 서체지정*/
@@ -289,7 +290,7 @@ ul.sub_box>li>span.sub_title {
   height: 0;
   background: url("../img/brand/back_attachment.png") no-repeat center center /
     cover;
-  padding-top: calc(2000 / 1920 * 100%);
+  padding-top: calc(1800 / 1920 * 100%);
   position: relative;
 }
 
@@ -398,42 +399,19 @@ ul.sub_box>li>span.sub_title {
 
 .metaphor {
   width: 100%;
-  height: 0;
-  background: url("../img/metaphor/frame.png") no-repeat center center / cover;
-  padding-top: calc(900 / 1920 * 100%);
   text-align: center;
+  color: #fff;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 0;
-  color: #fff;
-  opacity: 0;
-  transition: all 1s ease;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-}
-
-.metaphor:hover {
-	opacity: 1;
-}
-
-.metaphor .icon {
-  width: 10%;
-  color: #fff;
-  position: absolute;
-  font-size: 1.3em;
-  top: 15%;
-  left: 50%;
-  margin-left: -5%;
+  margin: 0 auto;
+  padding-top: 20%;
 }
 
 .metaphor_box {
   width: 70%;
   overflow: hidden;
   margin: 0 auto;
-  position: absolute;
-  top: 32%;
-  left: 50%;
-  margin-left: -35%;
 }
 
 .metaphor .co {
@@ -806,7 +784,6 @@ div.event_con>div>a:hover > div {
   background: url("../img/magazine/back_image.png") no-repeat center center / cover;
   padding-top: calc(1080 / 1920 * 100%);
   position: relative;
-  margin-bottom: 200px;
 }
 
 .magazine_con {
@@ -861,7 +838,6 @@ div.event_con>div>a:hover > div {
 
 .page_07 {
   width: 100%;
-  background: #111;
   margin-bottom: 200px;
 }
 
