@@ -301,12 +301,11 @@ ul.sub_box>li>span.sub_title {
 				left: calc(50% - 5%);
 			}
 
-		/* ---------------------------------------메뉴1-------*/
+		/* ---------------------------------------메뉴-------*/
 
 		
-		.menu_slide {
+		.product {
 			width: 100%;
-			margin-bottom: 200px;
 		}
 		
 		.wrapper {
@@ -316,7 +315,7 @@ ul.sub_box>li>span.sub_title {
 		.wrapper .route {
 			margin: 40px 2%;
 			color: #666;
-			margin-bottom: 200px;
+			margin-bottom: 100px;
 		}
 		
 		.product_container {
@@ -413,8 +412,8 @@ ul.sub_box>li>span.sub_title {
 		}
 		
 		.select_box .theNumberOf {
-			width: 40%;
-			padding-left: 10%;
+			width: 45%;
+			padding-left: 5%;
 			float: left;
 			margin-top: 40px;
 		}
@@ -445,6 +444,10 @@ ul.sub_box>li>span.sub_title {
 		
 		.theNumberOf>li:last-child>div {
 			line-height: 20px;
+			font-size: 2em;
+			color: orange;
+			letter-spacing: -0.1em;
+			text-indent: -0.1em;
 		}
 		
 		
@@ -470,28 +473,42 @@ ul.sub_box>li>span.sub_title {
 		
 		.totalPrice>li:nth-child(2)>button {
 			line-height: 60px;
-			width: 200px;
+			width: 180px;
 			color: #fff;
 			background: #333;
 			border: none;
 			font-size: 1.3em;
 			font-weight: bold;
 			margin-bottom: 20px;
+			cursor: pointer;
+			transition: all 0.5s ease;
+			-webkit-transition: all 0.5s ease;
+			-moz-transition: all 0.5s ease;
 		}
 		
-		
+		.totalPrice>li:nth-child(2)>button:hover {
+			color: #f7e18a;
+			background: #111;
+		}
 		.totalPrice>li:nth-child(3) {
 			overflow: hidden;
 		}
 		
 		.totalPrice>li:nth-child(3)>input {
-			line-height: 30px;
-			width: 60px;
-			color: #fff;
+			width: 40px;
 			background: #333;
 			outline: none;
 			border: none;
 			float: left;
+			padding: 10px;
+			border-radius: 15px;
+			transition: all 0.5s ease;
+			-webkit-transition: all 0.5s ease;
+			-moz-transition: all 0.5s ease;
+		}
+		
+		.totalPrice>li:nth-child(3)>input:hover {
+			background: #111;
 		}
 		
 		.totalPrice>li:nth-child(3)>input.mar {
@@ -499,8 +516,363 @@ ul.sub_box>li>span.sub_title {
 		}
 		
 		
+		/* ---------------------------------------상품상세설명-------*/
+		
+		.product_detail {
+			width: 100%;
+			margin-bottom: 200px;
+			border-top: 2px solid #111;
+			border-bottom: 2px solid #111;
+		}
+		
+		.content_categori {
+			width: 36%;
+			overflow: hidden;
+			margin: 0 auto;
+		}
+		
+		.content_categori li {
+			float: left;
+			width: 31.333%;
+			text-align: center;
+			background: #333;
+			color: #fff;
+			line-height: 50px;
+			font-size: 1em;
+			letter-spacing: 0.1em;
+			text-indent: 0.1em;
+			cursor: pointer;
+			transition: all 0.5s ease;
+			-webkit-transition: all 0.5s ease;
+			-moz-transition: all 0.5s ease;			
+		}
+		
+		.content_categori li:hover {
+			background: #111;	
+			color: #f7e18a;		
+		}
+		
+		.content_categori .demonstation_cate,.review_cate {
+			margin-right: 3%;
+		}
+		
+		.refer {
+			width: 80%;
+			text-align: right;
+			line-height: 40px;
+			margin-bottom: 100px;
+		}
+		
+		.detail_container {
+			width: 60%;
+			margin: 0 auto;
+			margin-bottom: 100px;
+			overflow: hidden;
+		}
+		
+		.banner1 {
+			width: 100%;
+			margin-bottom: 40px;
+		}
+		
+		.banner1 img {
+			width: 100%;
+			vertical-align: bottom:
+			border: none;
+		}
+		
+		.txt_box1 {
+			text-align: center;
+			width: 25%;
+			margin: 0 auto;
+		}
+		
+		.txt_box1 .txt1 {
+			font-size: 1.5em;
+			font-weight: bold;
+			border-bottom: 2px solid #111;
+			line-height: 38px;
+			margin-bottom: 40px;
+		}
+		
+		.txt_box1 .txt2 {
+			line-height: 1.6;
+			margin-bottom: 40px;
+		}
+		
+		.banner2 {
+			width: 100%;
+			margin-bottom: 40px;			
+		}
+		
+		.banner2 img {
+			width: 100%;
+			vertical-align: bottom;
+			border: none;
+		}
+		
+		.item_detail {
+			width: 45%;
+			margin: 0 auto;
+			margin-bottom: 40px;
+			text-align: center;
+			color: #3e2723;
+		}
+		
+		.item_detail li img {
+			width: 20%;
+			vertical-align: bottom;
+			border: none;
+			margin-bottom: 40px;
+		}
+		
+		.item_detail .txt3 {
+			font-size: 1.5em;
+			font-weight: 600;
+			border-bottom: 2px solid #111;
+			line-height: 38px;
+			margin-bottom: 40px;			
+		}
+		
+		.txt4 {
+			font-size: 1.8em;
+			font-weight: 900;
+			line-height: 38px;
+		}
+		
+		.txt5 {
+			font-size: 1.5em;
+			line-height: 40px;
+			margin-bottom: 40px;		
+			color: #e0a821;
+		}
+		
+		.item_detail div img {
+			width: 80%;
+			vertical-align: bottom;
+			border: none;
+			margin-bottom: 100px;
+		}
+		
+		.pack {
+			width: 60%;
+			margin: 0 auto;
+			margin-bottom: 40px;
+			text-align: center;
+			color: #3e2723;		
+		}
+		
+		.co {
+			width: 100%;
+			margin: 0 auto;
+			text-align: center;
+			overflow: hidden;
+			margin-bottom: 40px;
+		}
+		
+		.co>div:first-child {
+			width: 45%;
+			margin-right: 10%;
+			float: left;
+		}
+		
+		.co>div:last-child {
+			width: 45%;
+			float: right;
+		}
+		
+		.co img {
+			width: 80%;
+			vertical-align: bottom;
+			border: none;
+		}
+		
+		.co .txt4 {
+			font-size: 1.5em;
+		}
+		
+		.co .txt5 {
+			font-size: 1.3em;
+		}
+		
+		.co .txt6 {
+			line-height: 20px;
+		}
+		
+		#img1 {
+			text-align: center;
+			margin-bottom: 40px;
+		}
+		
+		#img1 img {
+			vertical-align: bottom;
+			border: none;
+		}
+		
+		#img2 {
+			text-align: center;
+			margin-bottom: 40px;
+		}
+		
+		#img2 img {
+			vertical-align: bottom;
+			border: none;
+		}
+		
+		#img3 {
+			text-align: center;
+			margin-bottom: 40px;
+		}
+		
+		#img3 img {
+			vertical-align: bottom;
+			border: none;
+		}
+		
+		
+		/* ---------------------------------------table-------*/
+		
+		.user_table {
+			width: 100%;
+		}
+		
+		.table_wrapper {
+			width: 60%;
+			margin: 0 auto;
+		}
+		
+		.table_header {
+			width: 100%;
+			overflow: hidden;
+		}
+		
+		.table_header .title {
+			width: 80%;
+			float: left;
+			margin-bottom: 20px;
+		}
+		
+		.table_header .filter {
+			width: 20%;
+			float: right;
+			margin-top: 50px;
+			text-align: right;
+		}
+		
+		.table_header .title p:first-child {
+			font-size: 1.1em;
+			font-weight: bold;
+			line-height: 40px;
+			letter-spacing: 0.1em;
+			text-indent: 0.1em;
+		}
+		
+		.table_header .title p:nth-child(2) {
+			line-height: 20px;
+		}
+		
+		.table_header .title p:nth-child(3) {
+			line-height: 20px;
+		}
+		
+		.table_header .title p:nth-child(3) span{
+			font-weight: bold;
+		}
+		
+		.table_header .filter #filtering {
+			width: 100px;
+			height: 30px;			
+		}
+		
+		.review_container table {
+			width: 100%;
+			border-collapse: collapse;
+			border-top: 3px solid #666;
+			border-bottom: 1px solid #111;
+			margin-bottom: 50px;
+		}
+		
+		tbody tr {
+			cursor: pointer;		
+		}
+		
+		tbody tr:hover {
+			background: #e6eff4;	
+		}
+		.review_container th {
+			padding: 15px 0;
+			font-size: 0.75em;	
+			border-collapse: collapse;
+			border-top: 1px solid #111;
+			border-bottom: 1px solid #111;
+		}
+		
+		.review_container td {
+			padding: 30px 0;
+			font-size: 0.75em;
+			border-collapse: collapse;
+			border-top: 1px solid #111;
+			border-bottom: 1px solid #111;
+			border-color: #bbb;
+		}
+		
+		tbody .hd {
+			display: none;
+		}
+		
+		.write_btn {
+			text-align: right;
+		}
+		
+		.write_btn a {
+			width: 10%;
+			text-align: center;
+			line-height: 40px;
+			display: inline-block;
+			background: #333;
+			color: #fff;
+			transition: all 0.5s ease;
+			-webkit-transition: all 0.5s ease;
+			-moz-transition: all 0.5s ease;
+		}
+		
+		.write_btn a:hover {
+			background: #111;
+			color: #f7e18a;
+		}
+		
+		.chart_num {
+			width: 100%;
+			text-align: center;
+			margin-bottom: 200px;
+		}
+		
+		.chart_num div {
+			display: inline-block;
+			width: 30px;
+			line-height: 30px;
+			cursor: pointer;
+			background: #fff;
+			color: #111;
+			transition: all 0.3s linear;
+			-webkit-transition: all 0.3s linear;
+			-moz-transition: all 0.3s linear;
+		}
+		
+		.chart_num .num_box:hover {
+			background: #333;
+			color: #fff;
+		}
+		
+		.chart_num img {
+			width: 50%;
+			vertical-align: middle;
+			border: none;
+		}
+		
+		
 		/* ---------------------------------------footer-------*/
-							
+		
 		.page_10 {
 			width: 100%;
 			background: #131313;
