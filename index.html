@@ -34,7 +34,8 @@
 			</div>
 			
 			<a class="nav_logo" href="#">
-				<img src="img/nav/logo.png" alt="logo">
+				<img id="logo" src="img/nav/logo.png" alt="logo">
+				<img id="re_logo" src="img/nav/responsive_logo.png" alt="logo">
 			</a>
 			
 			<div class="myPage">
@@ -43,6 +44,34 @@
 				<div><a href=""><img src="img/nav/cart.png" alt=""/>장바구니</a></div>
 			</div>
 			
+			
+				<input id="menu_icon" type="checkbox"/><!--모바일-->
+				
+				<div class="mobile_nav">
+					<div id="mobile_nav_header">
+						<div></div>
+						<div></div>
+						<div></div>
+					</div>
+					
+					<ul>
+						<li class="mobile_nav_01 bob">
+							<input type="text" id="searchBar" placeholder="Search">
+							<img src="img/nav/mypage.png" alt=""/>
+							<img src="img/nav/cart.png" alt=""/>
+						</li>
+						<li class="mobile_nav_02 bob"><a href="#">HOME</a></li>
+						<li class="mobile_nav_03 bob"><a href="#">BRAND</a></li>
+						<li class="mobile_nav_04 bob"><a href="#">MENU</a></li>
+						<li class="mobile_nav_05 bob"><a href="#">NEWS</a></li>
+						<li class="mobile_nav_06"><a href="#">STORY</a></li>
+					</ul>
+				</div>
+				
+				<div class="check_image">
+					<label for="menu_icon" class="burger" onclick=""><img src="img/nav/burger.png" alt="icon"/></label>
+				</div>
+				<!--모바일-->
 		</div>
 		
 		<nav>
@@ -238,13 +267,13 @@
 			
 				<div class="best_01 mar"><a href="#">
 					<img src="img/best_menu/truffles.png" alt="best_01"/>
-					<div class="best_name">큐브 트뤼프 컬렉션</div></a>
+					<div class="best_name">큐브 트뤼프<br/>컬렉션</div></a>
 				</div>
 				
 				<div class="best_02 mar"><a href="#">
 					<img src="img/best_menu/carre.png" alt="best_02"/>
 					<div class="best_name">
-						까레 어쏘트먼트 밀크&다크
+						까레 어쏘트먼트<br/>밀크&다크
 					</div></a>
 				</div>
 				
@@ -264,7 +293,7 @@
 		<section class="page_04">
 		
 			<div class="menu_title">
-				<p><span>GODIVA's</span>&nbsp;MENU</p>
+				<p><span>GODIVA's&nbsp;</span>MENU</p>
 				<hr/>
 			</div>
 		
@@ -378,29 +407,99 @@
 			<div class="sns_container">
 			
 				<div class="sns_box_01">
-					<div class="sns_01 co">
-						<div>
-							<a href="#">
-							#고디바#컵아이스크림
-							</a>
+				
+					<a href="#">
+						<div class="sns_01 co">
+							<img src="img/community/sns_01.jpg" alt="sns_01"/>
+							<div class="text">
+							♥ 210823 <br/><br/>
+							#고디바 #아이스크림 #고디바컵아이스크림 #고디바초콜릿
+							</div>
 						</div>
-					</div>
-					<div class="sns_02 co"><a href="#"><img src="img/community/sns_02.jpg" alt="sns_02"/></a></div>
-					<div class="sns_03 co"><a href="#"><img src="img/community/sns_03.jpg" alt="sns_03"/></a></div>
+					</a>
+					
+					<a href="#">
+						<div class="sns_02 co">
+							<img src="img/community/sns_02.jpg" alt="sns_02"/>
+							<div class="text">
+							♥ 210823 <br/><br/>
+							#고디바 #아이스크림 #고디바컵아이스크림 #고디바초콜릿
+							</div>
+						</div>
+					</a>
+					
+					<a href="#">
+						<div class="sns_03 co">
+							<img src="img/community/sns_03.jpg" alt="sns_03"/>
+							<div class="text">
+							♥ 210823 <br/><br/>
+							#고디바 #아이스크림 #고디바컵아이스크림 #고디바초콜릿
+							</div>
+						</div>
+					</a>
+					
 				</div>
 				
 				<div class="sns_box_02">
-					<div class="sns_04 co"><a href="#"><img src="img/community/sns_04.jpg" alt="sns_04"/></a></div>
+				
+					<a href="#">
+						<div class="sns_04 co">
+							<img src="img/community/sns_04.jpg" alt="sns_04"/>
+							<div class="text">
+							♥ 210823 <br/><br/>
+							#고디바 #아이스크림 #고디바컵아이스크림 #고디바초콜릿
+							</div>
+						</div>
+					</a>
+					
 					<div class="sns_title co">
 						<p>#GODIVA SNS</p>
 					</div>
-					<div class="sns_05 co"><a href="#"><img src="img/community/sns_05.jpg" alt="sns_05"/></a></div>
+					
+					<a href="#">
+						<div class="sns_05 co">
+							<img src="img/community/sns_05.jpg" alt="sns_05"/>
+							<div class="text">
+							♥ 210823 <br/><br/>
+							#고디바 #아이스크림 #고디바컵아이스크림 #고디바초콜릿
+							</div>
+						</div>
+					</a>
+					
 				</div>
 				
 				<div class="sns_box_03">
-					<div class="sns_06 co"><a href="#"><img src="img/community/sns_06.jpg" alt="sns_06"/></a></div>
-					<div class="sns_07 co"><a href="#"><img src="img/community/sns_07.jpg" alt="sns_07"/></a></div>
-					<div class="sns_08 co"><a href="#"><img src="img/community/sns_08.jpg" alt="sns_08"/></a></div>
+				
+					<a href="#">
+						<div class="sns_06 co">
+							<img src="img/community/sns_06.jpg" alt="sns_06"/>
+							<div class="text">
+							♥ 210823 <br/><br/>
+							#고디바 #아이스크림 #고디바컵아이스크림 #고디바초콜릿
+							</div>
+						</div>
+					</a>
+					
+					<a href="#">
+						<div class="sns_07 co">
+							<img src="img/community/sns_07.jpg" alt="sns_07"/>
+							<div class="text">
+							♥ 210823 <br/><br/>
+							#고디바 #아이스크림 #고디바컵아이스크림 #고디바초콜릿
+							</div>
+						</div>
+					</a>
+					
+					<a href="#">
+						<div class="sns_08 co">
+							<img src="img/community/sns_08.jpg" alt="sns_08"/>
+							<div class="text">
+							♥ 210823 <br/><br/>
+							#고디바 #아이스크림 #고디바컵아이스크림 #고디바초콜릿
+							</div>
+						</div>
+					</a>
+					
 				</div>
 				
 			</div>
@@ -506,29 +605,46 @@
 					
 					<div class="plus_icon">
 					
-						<a class="mypage qs" href="#">
-							<span class="p_01 co"><span class="first">M</span>Y PAGE</span>
-							<span class="image"><img src="img/quick_side/mypage.png" alt="icon1"/></span>
+						<a class="a1 qs" href="#">
+							<span class="p_01 co"><span class="first">내</span>정보</span>
+							<span class="image"><img src="img/quick_side/arrow_right.png" alt="icon1"/></span>
 						</a>
 				
-						<a class="cart qs" href="#">
-							<span class="p_02 co"><span class="first">C</span>ART</span>
-							<span class="image"><img src="img/quick_side/cart.png" alt="icon2"/></span>
+						<a class="a2 qs" href="#">
+							<span class="p_02 co"><span class="first">장</span>바구니</span>
+							<span class="image"><img src="img/quick_side/arrow_right.png" alt="icon2"/></span>
 						</a>
 				
-						<a class="search qs" href="#">
-							<span class="p_03 co"><span class="first">S</span>EARCH</span>
-							<span class="image"><img src="img/quick_side/search.png" alt="icon3"/></span>					
+						<a class="a2 qs" href="#">
+							<span class="p_02 co"><span class="first">이</span>벤트</span>
+							<span class="image"><img src="img/quick_side/arrow_right.png" alt="icon2"/></span>
 						</a>
+				
+						<a class="a2 qs" href="#">
+							<span class="p_02 co"><span class="first">공</span>지사항</span>
+							<span class="image"><img src="img/quick_side/arrow_right.png" alt="icon2"/></span>
+						</a>
+				
+						<a class="a2 qs" href="#">
+							<span class="p_02 co"><span class="first">문</span>의하기</span>
+							<span class="image"><img src="img/quick_side/arrow_right.png" alt="icon2"/></span>
+						</a>
+				
+						<a class="a3 qs" href="#">
+							<span class="p_03 co"><span class="first">매</span>장찾기</span>
+							<span class="image"><img src="img/quick_side/arrow_right.png" alt="icon3"/></span>					
+						</a>
+				
+						
 				
 					</div>
 					
 					<div class="plus_image">
-						<label class="plus" for="open_more" onclick=""><img id="activeBtn" src="img/quick_side/plus.png" alt="icon4"/></label>
+						<label class="plus" for="open_more" onclick=""><img id="activeBtn" src="img/quick_side/plus02.png" alt="icon4"/></label>
 					</div>
 				
 					<a class="up qs" href="#">
-						<span class="image" href="#"><img src="img/quick_side/up.png" alt="icon5"/></span>
+						<span class="image" href="#"><img src="img/quick_side/up02.png" alt="icon5"/></span>
 					</a>
 					
 				</div>
