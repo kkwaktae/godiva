@@ -29,21 +29,11 @@
 		/*body안에 웹사이트 기본 사이즈 0.75em 서체지정*/
 	
 		/* ---------------------------------------네비게이션-------*/
-
+		
 .page_01 {
   width: 100%;
   padding-top: 150px;
   background: #000;
-}
-
-
-.page_01 .slide {
-  width: 100%;
-  height: 0;
-  background-image: url("../img/slide/slide_01.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: calc(1080 / 1920 * 100%);
 }
 
 header {
@@ -78,12 +68,11 @@ header {
 	padding: 5px;
 }
 
-.nav_logo img {
-	width: 78px;
-	height: auto;
+.nav_logo #logo {
 	vertical-align: bottom;
 	border: none;
 }
+
 
 .nav_logo {
 	width: 10%;
@@ -106,7 +95,7 @@ header {
 
 .myPage #searchBar {
 	width: 30%;
-	line-height: 25px;
+	line-height: 26px;
 	padding-left: 10px;
 	outline: none;
 	transition: all 1s ease 0.1s;
@@ -115,7 +104,7 @@ header {
 }
 
 .myPage #searchBar:focus {
-	width: 35%;
+	width: 40%;
 }
 
 .myPage div:nth-child(1) {
@@ -125,7 +114,7 @@ header {
 }
 
 .myPage div:nth-child(1) a {
-	line-height: 29px;
+	line-height: 30px;
 	margin-left: 10px;	
 }
 
@@ -136,25 +125,25 @@ header {
 }
 
 .myPage div:nth-child(2) {
-	width: 18%;
+	width: 12%;
 	float: left;
 	margin-right: 2%;
 }
 
 .myPage div:nth-child(2) a {
 	color: #fff;
-	line-height: 29px;
+	line-height: 30px;
 }
 
 .myPage div:nth-child(2) img {
-	width: 18%;
+	width: 25%;
 	vertical-align: middle;
 	border: none;
-	margin-right: 10px;
+	margin-right: 5px;
 }
 
 .myPage div:nth-child(3) {
-	width: 18%;
+	width: 12%;
 	float: left;
 }
 
@@ -164,13 +153,14 @@ header {
 }
 
 .myPage div:nth-child(3) img {
-	width: 18%;
+	width: 25%;
 	vertical-align: middle;
 	border: none;
-	margin-right: 10px;
+	margin-right: 5px;
 }
 
 nav {
+	height: 50px;
 	letter-spacing: 0.1em;
 	text-indent: 0.1em;
 }
@@ -178,12 +168,14 @@ nav {
 
 ul.main_container {
 	width: 100%;
+	height: 100%;
 	padding-left: 50%;
 	overflow: hidden;
 }
 
 ul.main_container>li.co {
 	width: 15%;
+	height: 100%;
 	float: left;
 	transition: all 0.5s ease;
 	-webkit-transition: all 0.5s ease;
@@ -192,6 +184,7 @@ ul.main_container>li.co {
 a.main_a {
 	display: block;
 	line-height: 50px;
+	height: 100%;
 	color: #fff;
 	transition: all 0.5s ease;
 	-webkit-transition: all 0.5s ease;
@@ -204,6 +197,7 @@ li.co:hover {
 
 li.co:hover .main_a {
 	color: #f7e18a;
+	cursor: pointer;
 }
 
 li.co ul.sub_box {
@@ -214,7 +208,7 @@ li.co ul.sub_box {
 	top: 150px;
 	left: 0;
 	z-index: 9999;
-	background: rgba(34,34,34,.8);
+	background: rgba(19,19,19,.9);
 }
 
 li.co:hover ul.sub_box {
@@ -274,8 +268,7 @@ ul.sub_box>li>span.sub_title {
 	font-size: 1em;
 	color: #f7e18a;
 }
-
-
+	
 		
 		.menu_content {
 			color: #fff;

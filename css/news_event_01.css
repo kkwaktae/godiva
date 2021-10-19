@@ -29,100 +29,246 @@
 		/*body안에 웹사이트 기본 사이즈 0.75em 서체지정*/
 	
 		/* ---------------------------------------네비게이션-------*/
-		
-		.page_01 {
-			width: 100%;
-		}
-		
-						
-			.page_01 header {
-				width: 100%;
-				text-align: center;
-				position: fixed;
-				top: 0;
-				left: 0;
-				background: rgba(0,0,0,.8);
-				z-index :99999;
-			}
-			
-			.logo {
-				width: 78px;
-				height: 54px;
-				margin: 0px auto;
-				position: relative;
-			}		
-			
-			.logo img {
-				width: 100%;
-				vertical-align: bottom;
-				border: none;
-				position: absolute;
-				top: 50%;
-				left: 50%;
-				margin-bottom: -27px;
-				margin-left: -39px;
-			}
+	
+.page_01 {
+  width: 100%;
+  padding-top: 150px;
+  background: #000;
+}
 
-			ul.nav {
-				width: 40%;
-				margin: 0 auto;
-				margin-top: 40px;
-				line-height: 49px;
-				text-align:center;
-				overflow: hidden; 
-				letter-spacing: 0.1em;
-				text-indent: 0.1em;
-			}
+header {
+	width: 100%;
+	text-align: center;
+	height: 150px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,.8);
+	color: #fff;
+	z-index: 9999;
+}
 
-			.nav .home, .brand, .menu, .news, .store {
-				width: 13.6%;
-				float: left;
-				color: #fff;
-			}
-			
-			.store_detail li:nth-child(2) {
-				font-size: 0.5rem;
-				line-height: 15px;
-				padding-top: 10px;
-			}
-			
-			.nav a {
-				display: block;	
-				color: #fff;	
-			}
-			
-			.nav .mar {
-				margin-right: 8%;
-			}
-			
-			.nav_hover {
-				border-bottom: 1px solid transparent;				
-			}
-			
-			.nav_hover:hover {
-				color: #f7e18a;
-				border-bottom: 1px solid #f7e18a;
-			}		
-			
-			li ul {
-				font-size: 0.75rem;
-				height: 0px;
-				-ms-transition-duration: 0.7s;
-				-webkit-transition-duration: 0.7s;
-				-moz-transition-duration: 0.7s;
-				-o-transition-duration: 0.7s;
-				transition-duration: 0.7s;		
-			}
-			
-			header:hover li ul {
-				height: 250px;
-				transition-duration: 0.7s;
-			}
-		
-			.detail_hover:hover {
-			color: #f7e18a;
-			}
-		
+.nav_top {
+	width: 100%;
+	height: 100px;
+	overflow: hidden;
+}
+
+.rollingText {
+	width: 15%;
+	margin-left: 5%;
+	float: left;
+	margin-right: 25%;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	background: #fff;
+	color: #111;
+	overflow: hidden;
+	margin-top: 74px;
+	padding: 5px;
+}
+
+.nav_logo #logo {
+	vertical-align: bottom;
+	border: none;
+}
+
+
+.nav_logo {
+	width: 10%;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	padding: 21.5px 0;
+	float: left;
+}
+
+.myPage {
+	width: 40%;
+	margin-right: 5%;
+	float: right;	
+	text-align: right;
+	margin-top: 43px;
+	overflow: hidden;
+}
+
+
+.myPage #searchBar {
+	width: 30%;
+	line-height: 26px;
+	padding-left: 10px;
+	outline: none;
+	transition: all 1s ease 0.1s;
+	-webkit-transition: all 1s ease 0.1s;
+	-moz-transition: all 1s ease 0.1s;
+}
+
+.myPage #searchBar:focus {
+	width: 40%;
+}
+
+.myPage div:nth-child(1) {
+	width: 60%;
+	float: left;
+	margin-right: 2%;
+}
+
+.myPage div:nth-child(1) a {
+	line-height: 30px;
+	margin-left: 10px;	
+}
+
+.myPage div:nth-child(1) img {
+	width: 4%;
+	vertical-align: middle;
+	border: none;
+}
+
+.myPage div:nth-child(2) {
+	width: 12%;
+	float: left;
+	margin-right: 2%;
+}
+
+.myPage div:nth-child(2) a {
+	color: #fff;
+	line-height: 30px;
+}
+
+.myPage div:nth-child(2) img {
+	width: 25%;
+	vertical-align: middle;
+	border: none;
+	margin-right: 5px;
+}
+
+.myPage div:nth-child(3) {
+	width: 12%;
+	float: left;
+}
+
+.myPage div:nth-child(3) a {
+	color: #fff;
+	line-height: 29px;
+}
+
+.myPage div:nth-child(3) img {
+	width: 25%;
+	vertical-align: middle;
+	border: none;
+	margin-right: 5px;
+}
+
+nav {
+	height: 50px;
+	letter-spacing: 0.1em;
+	text-indent: 0.1em;
+}
+
+
+ul.main_container {
+	width: 100%;
+	height: 100%;
+	padding-left: 50%;
+	overflow: hidden;
+}
+
+ul.main_container>li.co {
+	width: 15%;
+	height: 100%;
+	float: left;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+}
+a.main_a {
+	display: block;
+	line-height: 50px;
+	height: 100%;
+	color: #fff;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+}
+
+li.co:hover {
+	background: rgba(34,34,34,.8);
+}
+
+li.co:hover .main_a {
+	color: #f7e18a;
+	cursor: pointer;
+}
+
+li.co ul.sub_box {
+	width: 100%;
+	height: 0;
+	overflow: hidden;
+	position: absolute;
+	top: 150px;
+	left: 0;
+	z-index: 9999;
+	background: rgba(19,19,19,.9);
+}
+
+li.co:hover ul.sub_box {
+	height: 350px;
+	padding: 20px;
+}
+
+li.co>ul.sub_box>li:first-child {
+	width: 35%;
+	margin:0 5%; 
+}
+
+li.co>ul.sub_box>li:last-child {
+	margin-right: 5%;
+}
+
+li.co>ul.sub_box>li {
+	width: 10%;
+	float: left;
+}
+
+li.co>ul.sub_box>li>img {
+	width: 100%;
+	vertical-align: bottom;
+	border: none;
+	margin-top: 10%;
+}
+
+li.co>ul.sub_box>li>span {
+	border-bottom: 1px solid #f7e18a;
+}
+
+li.co>ul.sub_box>li:first-child {
+	margin-top: 25px;
+}
+
+
+ul.sub_box>li>ul {
+	margin-top: 10px;	
+}
+
+
+ul.sub_box>li>ul>li>a {
+	line-height: 40px;
+	color: #fff;
+}
+
+ul.sub_box>li>ul>li>a:hover {
+	color: #f7e18a;	
+}
+
+ul.sub_box>li>span.sub_title {
+	display: block;
+	line-height: 50px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1em;
+	color: #f7e18a;
+}
+	
 		.menu_content {
 			color: #fff;
 			background: url('../img/menu/back_banner_02.jpg') no-repeat;
