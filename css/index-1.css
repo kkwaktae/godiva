@@ -40,7 +40,7 @@ body {
 .page_01 .slide {
   width: 100%;
   height: 0;
-  background-image: url("../img/slide/slide_06.png");
+  background-image: url("../img/slide/slide_01.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: calc(830 / 1920 * 100%);
@@ -67,14 +67,16 @@ header {
 }
 
 .rollingText {
-	width: 15%;
+	width: 20%;
 	margin-left: 5%;
 	float: left;
-	margin-right: 25%;
+	margin-right: 20%;
 	text-overflow: ellipsis;
 	white-space: nowrap;
-	background: #fff;
-	color: #111;
+	background: #666;
+	color: #ddd;
+	background: #131313;
+	outline: none;
 	overflow: hidden;
 	margin-top: 74px;
 	padding: 5px;
@@ -110,6 +112,9 @@ header {
 	line-height: 26px;
 	padding-left: 10px;
 	outline: none;
+	color: #ddd;
+	background: #131313;
+	border: none;
 	transition: all 1s ease 0.1s;
 	-webkit-transition: all 1s ease 0.1s;
 	-moz-transition: all 1s ease 0.1s;
@@ -117,6 +122,7 @@ header {
 
 .myPage #searchBar:focus {
 	width: 40%;
+	color: #fff;
 }
 
 .myPage div:nth-child(1) {
@@ -230,7 +236,7 @@ li.co:hover ul.sub_box {
 
 li.co>ul.sub_box>li:first-child {
 	width: 35%;
-	margin:0 5%; 
+	margin:5%; 
 }
 
 li.co>ul.sub_box>li:last-child {
@@ -242,11 +248,104 @@ li.co>ul.sub_box>li {
 	float: left;
 }
 
-li.co>ul.sub_box>li>img {
-	width: 100%;
+
+li.main02>ul.sub_box>li>img:nth-child(1) {
+	width: 20%;
 	vertical-align: bottom;
 	border: none;
-	margin-top: 10%;
+	border-radius: 10px;
+	position: absolute;
+	top: 30%;
+	left: 5%;
+}
+
+li.main02>ul.sub_box>li>img:nth-child(2) {
+	width: 10%;
+	vertical-align: bottom;
+	border: none;
+	border-radius: 10px;
+	position: absolute;
+	top: 30%;
+	left: 29%;
+}
+
+li.main03>ul.sub_box>li>img:nth-child(1) {
+	width: 10%;
+	vertical-align: bottom;
+	border: none;
+	border-radius: 10px;
+	position: absolute;
+	top: 30%;
+	left: 5%;
+}
+
+li.main03>ul.sub_box>li>img:nth-child(2) {
+	width: 10%;
+	vertical-align: bottom;
+	border: none;
+	border-radius: 10px;
+	position: absolute;
+	top: 30%;
+	left: 17%;
+}
+li.main03>ul.sub_box>li>img:nth-child(3) {
+	width: 10%;
+	vertical-align: bottom;
+	border: none;
+	border-radius: 10px;
+	position: absolute;
+	top: 30%;
+	left: 29%;
+}
+
+li.main04>ul.sub_box>li>img:nth-child(1) {
+	width: 10%;
+	vertical-align: bottom;
+	border: none;
+	border-radius: 10px;
+	position: absolute;
+	top: 30%;
+	left: 17%;
+}
+
+li.main04>ul.sub_box>li>img:nth-child(2) {
+	width: 10%;
+	vertical-align: bottom;
+	border: none;
+	border-radius: 10px;
+	position: absolute;
+	top: 30%;
+	left: 29%;
+}
+
+li.main05>ul.sub_box>li>img:nth-child(1) {
+	width: 10%;
+	vertical-align: bottom;
+	border: none;
+	border-radius: 10px;
+	position: absolute;
+	top: 30%;
+	left: 5%;
+}
+
+li.main05>ul.sub_box>li>img:nth-child(2) {
+	width: 10%;
+	vertical-align: bottom;
+	border: none;
+	border-radius: 10px;
+	position: absolute;
+	top: 30%;
+	left: 17%;
+}
+
+li.main05>ul.sub_box>li>img:nth-child(3) {
+	width: 10%;
+	vertical-align: bottom;
+	border: none;
+	border-radius: 10px;
+	position: absolute;
+	top: 30%;
+	left: 29%;
 }
 
 li.co>ul.sub_box>li>span {
@@ -276,7 +375,6 @@ ul.sub_box>li>span.sub_title {
 	display: block;
 	line-height: 50px;
 	text-decoration: none;
-	font-weight: bold;
 	font-size: 1em;
 	color: #f7e18a;
 }
@@ -291,7 +389,7 @@ ul.sub_box>li>span.sub_title {
 
 .fixed_image {
   width: 100%;
-  background: url("../img/brand/back_attachment.png") no-repeat center center /
+  background: url("../img/brand/back_attachment.png") no-repeat center 80% /
     cover;
 }
 
@@ -304,7 +402,7 @@ ul.sub_box>li>span.sub_title {
 }
 
 .intro .image {
-  width: 50%;
+  width: 55%;
   margin-left: 5%;
   float: left;
   position: relative;
@@ -324,7 +422,7 @@ ul.sub_box>li>span.sub_title {
 	}
 	
 	50% {
-		top: -40px;
+		top: -50px;
 	}
 	
 	100% {
@@ -341,9 +439,9 @@ ul.sub_box>li>span.sub_title {
 
 .intro .text {
   width: 30%;
-  margin-right: 15%;
+  margin-right: 10%;
   float: right;
-  margin-top: 3%;
+  margin-top: 5%;
   opacity: 0;
   transition: all 2s ease 0.1s;
   -webkit-transition: all 2s ease 0.1s;
@@ -400,7 +498,7 @@ ul.sub_box>li>span.sub_title {
   text-align: center;
   color: #fff;
   margin: 0 auto;
-  padding: 20% 0;
+  padding: 10% 0;
 }
 
 .metaphor_box {
@@ -414,17 +512,15 @@ ul.sub_box>li>span.sub_title {
 }
 
 .metaphor .co p {
-  margin: 10% auto;
-  margin-bottom: 15%;
-  font-size: 1rem;
-  font-weight: bold;
-  letter-spacing: 0.1rem;
-  text-indent: 0.1rem;
+  margin: 5% auto;
+  font-size: 1.4em;
+  letter-spacing: 0.1em;
+  text-indent: 0.1em;
 }
 
 .metaphor .co span.first {
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1.5em;
 }
 
 .metaphor .co span.content {
@@ -446,7 +542,7 @@ ul.sub_box>li>span.sub_title {
 }
 
 .royalty img {
-  width: 40%;
+  width: 50%;
   vertical-align: bottom;
   border: none;
 }
@@ -462,7 +558,7 @@ ul.sub_box>li>span.sub_title {
 }
 
 .quality img {
-  width: 40%;
+  width: 50%;
   vertical-align: bottom;
   border: none;
 }
@@ -478,7 +574,7 @@ ul.sub_box>li>span.sub_title {
 }
 
 .global img {
-  width: 40%;
+  width: 50%;
   vertical-align: bottom;
   border: none;
 }
