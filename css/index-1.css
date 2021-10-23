@@ -1256,9 +1256,18 @@ div.event_con > div > a:hover > div {
 }
 
 .footer_sns_box img {
+	width: 10%;
+	margin-left: 10px;
   vertical-align: bottom;
   border: none;
+  padding: 10px 0;
+  border: 1px solid transparent;
 }
+
+.footer_sns_box img:hover {
+	border-bottom: 1px solid #f7e18a;
+}
+
 
 .box_02 {
   width: 100%;
@@ -1318,6 +1327,14 @@ div.event_con > div > a:hover > div {
 .quick_side .a1 {
   line-height: 40px;
   padding-left: 10px;
+}
+
+.quick_side .a1 img {
+	width: 15%;
+	vertical-align: middle;
+	border: none;
+  line-height: 40px;
+  margin-right: 20px;
 }
 
 .plus_icon .a1:hover {
