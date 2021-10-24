@@ -1066,30 +1066,43 @@ div.event_con > div > a:hover > div {
   width: 100%;
   vertical-align: bottom;
   border: none;
+  border-radius: 10px;
 }
 
-.store_img:first-child {
+.store_img:nth-child(1) {
   width: 15%;
   position: absolute;
   top: 30%;
-  right: 42%;
-  z-index: 2;
+  right: 45%;
+  z-index: 1;
   opacity: 0;
   transition: all 1s ease 0.5s;
   -webkit-transition: all 1s ease 0.5s;
   -moz-transition: all 1s ease 0.5s;
 }
 
-.store_img:last-child {
+.store_img:nth-child(2) {
   width: 16%;
   position: absolute;
   top: 10%;
-  right: 30%;
-  z-index: 1;
+  right: 32%;
+  z-index: 2;
   opacity: 0;
   transition: all 1s ease 1s;
   -webkit-transition: all 1s ease 1s;
   -moz-transition: all 1s ease 1s;
+}
+
+.store_img:nth-child(3) {
+  width: 30%;
+  position: absolute;
+  top: 20%;
+  right: 5%;
+  z-index: 3;
+  opacity: 0;
+  transition: all 1s ease 1.5s;
+  -webkit-transition: all 1s ease 1.5s;
+  -moz-transition: all 1s ease 1.5s;
 }
 
 /* ---------------------------------------footer-------*/
@@ -1210,6 +1223,7 @@ div.event_con > div > a:hover > div {
   padding-left: 10px;
   text-indent: 0;
   font-size: 0.75em;
+  color: #666;
 }
 
 .image_time li {
@@ -1232,6 +1246,7 @@ div.event_con > div > a:hover > div {
   text-indent: 0;
   font-size: 0.75em;
   line-height: 1.5;
+  color: #666;
 }
 
 .footer_sns_box {
@@ -1241,14 +1256,24 @@ div.event_con > div > a:hover > div {
 }
 
 .footer_sns_box img {
+	width: 10%;
+	margin-left: 10px;
   vertical-align: bottom;
   border: none;
+  padding: 10px 0;
+  border: 1px solid transparent;
 }
+
+.footer_sns_box img:hover {
+	border-bottom: 1px solid #f7e18a;
+}
+
 
 .box_02 {
   width: 100%;
   color: #fff;
-  font-size: 0.75em;
+  font-size: 0.4em;
+  color: #666;
   line-height: 1.5;
   text-align: center;
   padding: 50px 0;
@@ -1302,6 +1327,14 @@ div.event_con > div > a:hover > div {
 .quick_side .a1 {
   line-height: 40px;
   padding-left: 10px;
+}
+
+.quick_side .a1 img {
+	width: 15%;
+	vertical-align: middle;
+	border: none;
+  line-height: 40px;
+  margin-right: 20px;
 }
 
 .plus_icon .a1:hover {
