@@ -468,11 +468,13 @@ ul.sub_box > li > span.sub_title {
 			color: #fff;
 			margin: 0 auto;
 			background: #222;
+			text-align: center;
+			margin-top: 5%;
 		}
 		
 		.sub_image .border_frame {
 			border: 1px solid #f7e18a;
-			margin: 5%;
+			margin: 2%;
 			padding: 5%;
 		}
 		
@@ -490,20 +492,19 @@ ul.sub_box > li > span.sub_title {
 		.sub_image .intro {
 			margin-bottom: 20px;
 		}
-		
+				
 		.sub_image .contents {
 			font-weight: bold;
 		}
 		
 		.sub_image a.btn {
-			width: 25%;
 			display: block;
 			text-align: center;
+			width: 30%;
 			color: #f7e18a;
 			border: 1px solid #f7e18a;
-			padding: 3%;
-			margin: 5% auto;
-			margin-bottom: 8%;
+			padding: 2%;
+			margin: 5% auto;	
 		}
 		
 		.sub_image a:hover {
@@ -516,9 +517,9 @@ ul.sub_box > li > span.sub_title {
 		
 		.slide_container .absol {
 			width: 450px;
+			height: 100px;
 			background: rgba(0,0,0,.5);
 			margin: 0 auto;
-			text-align: center;
 		}
 		
 		.slide_container .absol img {
@@ -591,14 +592,6 @@ ul.sub_box > li > span.sub_title {
 			background: #3e2723;
 		}
 		
-		.table .transp {
-			display: inline-block;
-			width: 250px;
-			height: 250px;
-			margin: 1%;
-			background: transparent;			
-		}
-		
 		.table img.product {
 			width: 100%;
 			vertical-align: bottom;
@@ -606,7 +599,16 @@ ul.sub_box > li > span.sub_title {
 			padding: 20%;
 		}
 		
+		.table #plus {
+			background: #333;
+		}
 		
+		#plus img {
+			width: 100%;
+			vertical-align: bottom;
+			border: none;
+		}
+
 /* ---------------------------------------footer-------*/
 
 .page_10 {

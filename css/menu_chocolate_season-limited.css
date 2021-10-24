@@ -374,7 +374,7 @@ ul.sub_box > li > span.sub_title {
 		}
 		
 		.menu_content p {
-				width: 10%;
+				width: 30%;
 				letter-spacing: 0.1em;
 				text-indent: 0.1em;
 				line-height: 50px;
@@ -382,7 +382,7 @@ ul.sub_box > li > span.sub_title {
 				font-weight: bold;
 				position: absolute;
 				top: calc(50% - 25px);
-				left: calc(50% - 5%);
+				left: calc(50% - 15%);
 			}
 
 		/* ---------------------------------------메뉴1-------*/
@@ -430,7 +430,7 @@ ul.sub_box > li > span.sub_title {
 			line-height: 1.5;
 		}
 		
-		.menu1_container li.menu_02 a {
+		.menu1_container li.menu_01 a {
 			color: #f7e18a;
 			background: #222;
 		}
