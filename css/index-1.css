@@ -573,32 +573,55 @@ ul.sub_box > li > span.sub_title {
   width: 100%;
 }
 
-.content_container {
-  width: 90%;
-  overflow: hidden;
-  padding: 5%;
-  background: #131313;
+#content_container {
+  width: 80%;
+  padding: 5% 5% 5% 0;
   margin: 5% 0;
 }
 
-.page_03 .textbox {
-  width: 30%;
-  float: left;
-  font-size: 3em;
-  text-align: center;
+.page_03 ul.textbox {
+  width: 100%;
+  background: #131313;
+  overflow: hidden;
+  padding: 5%;
 }
 
-.page_03 .textbox p {
+.page_03 .textbox li {
   color: #fff;
-  padding-top: 10%;
+  font-size: 1.2em;
+  letter-spacing: 0.1em;
+  text-indent: 0.1em;
+  float: left;
+  text-align: center;
+	cursor: pointer;
+	padding: 1% 2%;
+	border: 1px solid #333;
+	border-bottom: none;
 }
 
-.page_03 .contentbox {
+.page_03 .textbox li:nth-child(1) {
+	border-right: none;
+	background: #333;
+}
+
+.page_03 .textbox li:nth-child(2) {
+	border-right: none;
+}
+
+.page_03 .textbox #content_box {
+	width: 100%;
+	border: 1px solid #333;
+	clear:both;
+	height: 500px;
+  clear: both;
+  padding: 5%;
+}
+
+.page_03 .textbox #tab1 {
   width: 70%;
   overflow: hidden;
-  float: right;
 }
-
+.page_03 .textbox 
 .best_01,
 .best_02,
 .best_03,
@@ -615,15 +638,27 @@ ul.sub_box > li > span.sub_title {
   padding: 10px;
 }
 
-.content_container .mar {
+#content_container .mar {
   margin-right: 3%;
 }
 
-.content_container a {
+#content_container a {
   display: block;
 }
 
-.contentbox img {
+.textbox #tab1 img {
+  width: 100%;
+  vertical-align: bottom;
+  border: none;
+}
+
+.textbox #tab2 img {
+  width: 100%;
+  vertical-align: bottom;
+  border: none;
+}
+
+.textbox #tab3 img {
   width: 100%;
   vertical-align: bottom;
   border: none;

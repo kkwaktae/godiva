@@ -363,8 +363,9 @@ ul.sub_box > li > span.sub_title {
 
 		.menu_content {
 			color: #fff;
-			background: url('../img/menu/back_banner_02.jpg') no-repeat center center / cover;
-			background-attachment: fixed;
+			/*background: url('../img/menu/back_banner_02.jpg') no-repeat center center / cover;
+			background-attachment: fixed;*/
+			background: #222;
 			width: 100%;
 			height: 0;
 			padding-top: calc(340 / 1920 * 100%);
@@ -374,7 +375,7 @@ ul.sub_box > li > span.sub_title {
 		}
 		
 		.menu_content p {
-				width: 10%;
+				width: 30%;
 				letter-spacing: 0.1em;
 				text-indent: 0.1em;
 				line-height: 50px;
@@ -382,7 +383,7 @@ ul.sub_box > li > span.sub_title {
 				font-weight: bold;
 				position: absolute;
 				top: calc(50% - 25px);
-				left: calc(50% - 5%);
+				left: calc(50% - 15%);
 			}
 
 		/* ---------------------------------------메뉴1-------*/
@@ -390,11 +391,12 @@ ul.sub_box > li > span.sub_title {
 		
 		.menu_slide {
 			width: 100%;
-			margin-bottom: 100px;
+			margin-bottom: 200px;
 		}
 		
 		.menu1_container {
 			width: 100%;
+			margin-bottom: 100px;
 		}
 		
 		.menu1_container .route {
@@ -533,12 +535,6 @@ ul.sub_box > li > span.sub_title {
 		
 		/* ---------------------------------------메뉴2-------*/
 
-		.menu_table {
-			width: 100%;
-			margin-bottom: 200px;
-			overflow: hidden;
-		}
-		 
 		 .search_bar {
 			 width: 20%;
 			 height: 30px;
