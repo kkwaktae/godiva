@@ -631,6 +631,34 @@ ul.sub_box > li > span.sub_title {
   text-align: center;
 }
 
+.page_03 .textbox #tab2 {
+  width: 70%;
+  overflow: hidden;
+}
+.page_03 .textbox 
+.best_01,
+.best_02,
+.best_03,
+.best_04 {
+  width: 22.75%;
+  float: left;
+  text-align: center;
+}
+
+.page_03 .textbox #tab3 {
+  width: 70%;
+  overflow: hidden;
+}
+.page_03 .textbox 
+.best_01,
+.best_02,
+.best_03,
+.best_04 {
+  width: 22.75%;
+  float: left;
+  text-align: center;
+}
+
 .best_name {
   width: 100%;
   color: #fff;
