@@ -570,93 +570,120 @@ ul.sub_box > li > span.sub_title {
 /* ---------------------------------------베스트메뉴-------*/
 
 .page_03 {
-  width: 100%;
+	width: 100%;
 }
 
 #content_container {
-  width: 80%;
-  padding: 5% 5% 5% 0;
-  margin: 5% 0;
+	width: 80%;
+	padding: 5% 0;
+	margin: 5% 20% 5% 0;
+	background: #131313;
 }
 
-.page_03 ul.textbox {
-  width: 100%;
-  background: #131313;
-  overflow: hidden;
-  padding: 5%;
+.page_03 ul.tab_box {
+	width: 80%;
+	overflow: hidden;
+	padding: 0 5%;
+	position: relative;
+	left: 40%;
 }
 
-.page_03 .textbox li {
-  color: #fff;
-  font-size: 1.2em;
-  letter-spacing: 0.1em;
-  text-indent: 0.1em;
-  float: left;
-  text-align: center;
+.page_03 .tab_box li {
+	color: #fff;
+	font-size: 1em;
+	letter-spacing: 0.1em;
+	text-indent: 0.1em;
+	text-align: center;
+	float: left;
+	text-align: center;
 	cursor: pointer;
-	padding: 1% 2%;
-	border: 1px solid #333;
-	border-bottom: none;
+	padding: 2%;
+	border: 1px solid #222;
 }
 
-.page_03 .textbox li:nth-child(1) {
+.page_03 .tab_box li:hover {
+	color: #f7e18a;
+	background: #222;
+}
+
+.page_03 .tab_box .active {
+	color: #f7e18a;
+	background: #222;
+}
+
+.page_03 .tab_box li:nth-child(1) {
 	border-right: none;
-	background: #333;
 }
 
-.page_03 .textbox li:nth-child(2) {
+.page_03 .tab_box li:nth-child(2) {
 	border-right: none;
 }
 
-.page_03 .textbox #content_box {
+.page_03 .tab_box #content_box {
 	width: 100%;
-	border: 1px solid #333;
-	clear:both;
+	clear: both;
 	height: 500px;
-  clear: both;
-  padding: 5%;
+	font-size: 0.75em;
+	position: relative;
 }
 
-.page_03 .textbox #tab1 {
-  width: 70%;
-  overflow: hidden;
-}
-.page_03 .textbox 
-.best_01,
-.best_02,
-.best_03,
-.best_04 {
-  width: 22.75%;
-  float: left;
-  text-align: center;
+.page_03 .tab_box #tab1 {
+	width: 100%;
+	padding: 5%;
+	overflow: hidden;
 }
 
-.page_03 .textbox #tab2 {
-  width: 70%;
-  overflow: hidden;
-}
-.page_03 .textbox 
-.best_01,
-.best_02,
-.best_03,
-.best_04 {
-  width: 22.75%;
+.page_03 .tab_box #tab1
+.best_01 {
+  width: 31%;
   float: left;
   text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
-.page_03 .textbox #tab3 {
-  width: 70%;
-  overflow: hidden;
-}
-.page_03 .textbox 
-.best_01,
-.best_02,
-.best_03,
-.best_04 {
-  width: 22.75%;
+.page_03 .tab_box #tab1
+.best_02 {
+  width: 15%;
   float: left;
   text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 35%;
+}
+
+.page_03 .tab_box #tab1
+.best_03 {
+  width: 15%;
+  float: left;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 54%;
+}
+
+.page_03 .tab_box #tab1
+.best_04 {
+  width: 15%;
+  float: left;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 73%;
+}
+
+
+.page_03 .tab_box #tab2 {
+  width: 100%;
+	padding: 5%;
+  overflow: hidden;
+}
+
+.page_03 .tab_box #tab3 {
+  width: 100%;
+	padding: 5%;
+  overflow: hidden;
 }
 
 .best_name {
@@ -674,19 +701,19 @@ ul.sub_box > li > span.sub_title {
   display: block;
 }
 
-.textbox #tab1 img {
+.tab_box #tab1 img {
   width: 100%;
   vertical-align: bottom;
   border: none;
 }
 
-.textbox #tab2 img {
+.tab_box #tab2 img {
   width: 100%;
   vertical-align: bottom;
   border: none;
 }
 
-.textbox #tab3 img {
+.tab_box #tab3 img {
   width: 100%;
   vertical-align: bottom;
   border: none;
