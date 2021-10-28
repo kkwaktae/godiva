@@ -10,6 +10,5 @@ $(function(){
 		var activeTab = $(this).attr("rel");
 		
 		$("#"+activeTab).show();
-		
 	});
 });

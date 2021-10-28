@@ -13,8 +13,18 @@
 		<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
 
 		<link rel="stylesheet" type="text/css" href="css/index-1.css">
+		
 		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
-		<script type="text/javascript" src="js/index-1.js"></script>
+		
+		
+		<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+		<script type="text/javascript" src="js/slide.js"></script>
+		
+		
+		<script type="text/javascript" src="js/rolling.js"></script>
+		<script type="text/javascript" src="js/min.js"></script>
+		
+		<script type="text/javascript" src="js/tab.js"></script>
 
 
 	</head>
@@ -29,8 +39,63 @@
 		
 		<div class="nav_top">
 		
-			<div class="rollingText">
-				첫 구매 응원: 첫 구매 완료시 쿠폰 증정 / 회원가입 혜택: 1,000 포인트 적립
+			<div id="notice5" class="rollingText">		
+				<div class="open-event fl">
+				
+					<ul class="notice-list">
+					
+						<li>
+							<a href="#">첫 구매 응원 : 첫구매 완료시 쿠폰증정</a>
+						</li>
+						
+						<li>
+							<a href="#">회원가입 혜택 : 1000포인트 적립</a>
+						</li>
+						
+						<li>
+							<a href="#">[NEW] 고디바X쿠로미 '할로윈 컬렉션' 출시</a>
+							<p>2021.10.07</p>
+						</li>
+						
+						<li>
+							<a href="#">[NEW] 고디바 '하비스트 어텀 컬렉션' 출시</a>
+							<p>2021.09.02</p>
+						</li>
+						
+						<li>
+							<a href="#">[NEW] 고디바 신메뉴 '더블 초콜릿 파르페' 출시</a>
+							<p>2021.08.05</p>
+						</li>
+						
+						<li>
+							<a href="#">고디바 신메뉴 '프루츠 아이스 블렌디드 3종' 출시</a>
+							<p>2021.08.05</p>
+						</li>
+						
+						<li>
+							<a href="#">[NEW] 고디바 시즌한정 '95주년 초콜렉사' 출시</a>
+							<p>2021.06.21</p>
+						</li>
+					
+						<li>
+							<a href="#">[NEW] 고디바 '초콜릿 마카롱' 출시</a>
+							<p>2021.03.09</p>
+						</li>
+					
+					</ul>
+				
+					<div id="bt5" href="#">
+						<a class="next" href="#"><img src="img/nav/up_btn.png" alt=""/></a>
+						<a class="prev" href="#"><img src="img/nav/dw_btn.png" alt=""/></a>
+					</div>
+						
+				</div>
+			
+				<div class="control fl">
+					<a class="play" title="재생" href="#">▷</a>
+					<a class="stop" title="정지" href="#">▣</a>
+				</div>
+		
 			</div>
 			
 			<a class="nav_logo" href="index.html">
@@ -263,33 +328,59 @@
 				
 						<div id="tab1" class="tab_content">
 						
-							<div class="best_01 mar"><a href="#">
-								<img src="img/best_menu/truffles.png" alt="best_01"/>
-								<div class="best_name">큐브 트뤼프 컬렉션</div></a>
-							</div>
-							
-							<div class="best_02 mar"><a href="#">
-								<img src="img/best_menu/carre.png" alt="best_02"/>
-								<div class="best_name">
-									까레 어쏘트먼트 밀크&다크
-								</div></a>
-							</div>
-							
-							<div class="best_03 mar"><a href="#">
-								<img src="img/best_menu/gold.png" alt="best_03"/>
-								<div class="best_name">
-									골드 컬렉션
-								</div></a>
-							</div>
-							
-							<div class="best_04"><a href="#">
-								<img src="img/best_menu/icecup.png" alt="best_04"/>
-								<div class="best_name">
-									컵 아이스크림
-								</div></a>
-							</div>
+							<ul id="slide_box">
+								
+								<li class="best_01 mar">
+									<a href="#">
+										<img src="img/best_menu/truffles.png" alt="best_01"/>
+										<div class="best_name">큐브 트뤼프 컬렉션</div>
+									</a>
+								</li>
+								
+								<li class="best_02 mar">
+									<a href="#">
+										<img src="img/best_menu/carre.png" alt="best_02"/>
+										<div class="best_name">까레 어쏘트먼트 밀크&다크</div>
+									</a>
+								</li>
+								
+								<li class="best_03 mar">
+									<a href="#">
+										<img src="img/best_menu/gold.png" alt="best_03"/>
+										<div class="best_name">골드 컬렉션</div>
+									</a>
+								</li>
+								
+								<li class="best_04 mar">
+									<a href="#">
+										<img src="img/best_menu/icecup.png" alt="best_04"/>
+										<div class="best_name">컵 아이스크림</div>
+									</a>
+								</li>
+								
+								<li class="best_05">
+									<a href="#">
+										<img src="img/best_menu/biscuit.png" alt="best_05"/>
+										<div class="best_name">컵 아이스크림</div>
+									</a>
+								</li>
+								
+							</ul>
 							
 						</div>
+						
+						<p class="prev_btn">
+							<a href="#">
+								<img src="img/slide/arrow_left.png" alt=""/>
+							</a>
+						</p>
+						
+						<p class="next_btn">
+							<a href="#">
+								<img src="img/slide/arrow_right.png" alt=""/>
+							</a>
+						</p>
+						
 					
 						<div id="tab2" class="tab_content">
 							
