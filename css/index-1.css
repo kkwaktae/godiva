@@ -315,111 +315,8 @@ li.co > ul.sub_box > li {
   float: left;
 }
 
-li.main02 > ul.sub_box > li > img:nth-child(1) {
-  width: 20%;
-  vertical-align: bottom;
-  border: none;
-  border-radius: 10px;
-  position: absolute;
-  top: 30%;
-  left: 5%;
-}
-
-li.main02 > ul.sub_box > li > img:nth-child(2) {
-  width: 10%;
-  vertical-align: bottom;
-  border: none;
-  border-radius: 10px;
-  position: absolute;
-  top: 30%;
-  left: 29%;
-}
-
-li.main03 > ul.sub_box > li > img:nth-child(1) {
-  width: 10%;
-  vertical-align: bottom;
-  border: none;
-  border-radius: 10px;
-  position: absolute;
-  top: 30%;
-  left: 5%;
-}
-
-li.main03 > ul.sub_box > li > img:nth-child(2) {
-  width: 10%;
-  vertical-align: bottom;
-  border: none;
-  border-radius: 10px;
-  position: absolute;
-  top: 30%;
-  left: 17%;
-}
-li.main03 > ul.sub_box > li > img:nth-child(3) {
-  width: 10%;
-  vertical-align: bottom;
-  border: none;
-  border-radius: 10px;
-  position: absolute;
-  top: 30%;
-  left: 29%;
-}
-
-li.main04 > ul.sub_box > li > img:nth-child(1) {
-  width: 10%;
-  vertical-align: bottom;
-  border: none;
-  border-radius: 10px;
-  position: absolute;
-  top: 30%;
-  left: 17%;
-}
-
-li.main04 > ul.sub_box > li > img:nth-child(2) {
-  width: 10%;
-  vertical-align: bottom;
-  border: none;
-  border-radius: 10px;
-  position: absolute;
-  top: 30%;
-  left: 29%;
-}
-
-li.main05 > ul.sub_box > li > img:nth-child(1) {
-  width: 10%;
-  vertical-align: bottom;
-  border: none;
-  border-radius: 10px;
-  position: absolute;
-  top: 30%;
-  left: 5%;
-}
-
-li.main05 > ul.sub_box > li > img:nth-child(2) {
-  width: 10%;
-  vertical-align: bottom;
-  border: none;
-  border-radius: 10px;
-  position: absolute;
-  top: 30%;
-  left: 17%;
-}
-
-li.main05 > ul.sub_box > li > img:nth-child(3) {
-  width: 10%;
-  vertical-align: bottom;
-  border: none;
-  border-radius: 10px;
-  position: absolute;
-  top: 30%;
-  left: 29%;
-}
-
 li.co > ul.sub_box > li > span {
   border-bottom: 1px solid #f7e18a;
-}
-
-li.co > ul.sub_box > li:first-child {
-  margin-top: 25px;
 }
 
 ul.sub_box > li > ul {
@@ -847,45 +744,44 @@ ul.sub_box > li > span.sub_title {
   width: 100%;
   background: #131313;
   margin-bottom: 100px;
+  padding: 5% 0;
 }
 
 .event_title {
   color: #fff;
-  font-size: 3em;
+  font-size: 2.5em;
+  font-weight: bold;
   text-align: center;
   letter-spacing: 0.1em;
   text-indent: 0.1em;
-  padding: 5% 0;
+  padding-bottom: 2%;
 }
 
-.event_con {
+#event_wrap {
   width: 100%;
   overflow: hidden;
+  position: relative;
 }
 
 .event_01,
 .event_02,
 .event_03 {
-  width: 30%;
+  width: 33.333%;
   float: left;
-  margin: 0 2.5%;
-}
-
-.event_02 {
-  margin: 0;
 }
 
 .event_01_image,
 .event_02_image,
 .event_03_image {
   width: auto;
-  height: 200px;
+  height: 350px;
   transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
+  border: 20px solid transparent;
 }
 
-div.event_con > div > a:hover > div {
+#event_con > div > a:hover > div {
   transform: scale(1.1);
 }
 
@@ -909,42 +805,62 @@ div.event_con > div > a:hover > div {
 .event_03_title {
   width: 100%;
   text-align: center;
-  padding: 2%;
 }
 
-.event_con > div p {
-  font-size: 1em;
-  height: 50px;
-  margin: 20px 0;
+#event_wrap div p {
   letter-spacing: 0.1em;
   text-indent: 0.1em;
   line-height: 1.5;
   color: #fff;
+  margin-bottom: 5%;
 }
 
-.event_con .btn {
+#event_wrap .btn {
   width: 18%;
   color: #fff;
+  margin: 0 auto;
   text-align: center;
-  margin: 30px auto;
   border: 1px solid #f7e18a;
   letter-spacing: 0.2em;
   text-indent: 0.2em;
-  background: #222;
 }
 
-.event_con .btn a {
+#event_wrap .btn a {
   display: block;
   padding: 15%;
   color: #f7e18a;
 }
 
-.event_con .btn a:hover {
-  background: #f7e18a;
+#event_wrap .btn a:hover {
   transition-duration: 0.7s;
   -webkit-transition-duration: 0.7s;
   -moz-transition-duration: 0.7s;
-  color: #000;
+  background: #f7e18a;
+  color: #111;
+}
+
+#event_wrap .prev_btn {
+	position: absolute;
+	top: calc(40% - 16.5px);
+	left: 2%;
+}
+
+#event_wrap .prev_btn img {
+	width: 100%;
+	vertical-align: bottom;
+	border: none;
+}
+
+#event_wrap .next_btn {
+	position: absolute;
+	top: calc(40% - 16.5px);
+	right: 2%;
+}
+
+#event_wrap .next_btn img {
+	width: 100%;
+	vertical-align: bottom;
+	border: none;
 }
 
 /* ---------------------------------------매거진-------*/
@@ -1072,7 +988,7 @@ div.event_con > div > a:hover > div {
 }
 
 .sns_container {
-  width: 750px;
+  width: 600px;
   margin: 0 auto;
 }
 
@@ -1085,16 +1001,16 @@ div.event_con > div > a:hover > div {
 }
 
 .sns_container .co {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   float: left;
   overflow: hidden;
   position: relative;
 }
 
 .sns_container .co .text {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   background: rgba(0, 0, 0, 0.7);
   position: absolute;
   top: 0;
@@ -1102,12 +1018,12 @@ div.event_con > div > a:hover > div {
   display: none;
   text-align: center;
   color: #fff;
-  padding: 40% 20%;
+  padding: 35% 20%;
 }
 
 .sns_container img {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   vertical-align: bottom;
   border: none;
   transition: all 1s ease;
@@ -1131,14 +1047,14 @@ div.event_con > div > a:hover > div {
   background: #131313;
   color: #f7e18a;
   font-size: 1.5em;
-  line-height: 250px;
+  line-height: 200px;
 }
 
 /* ---------------------------------------매장-------*/
 
 .page_09 {
   width: 100%;
-  padding: 200px 0;
+  padding: 150px 0;
   padding-bottom: 400px;
   position: relative;
 }
