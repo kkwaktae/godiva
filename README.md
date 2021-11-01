@@ -7,3 +7,5 @@
 - css
 - illustrator
 - photoshop
+- Javascript
+- JQuery
