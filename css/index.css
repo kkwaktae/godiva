@@ -71,10 +71,10 @@ header {
   margin-right: 15%;
   background: #666;
   color: #ddd;
-  background: #131313;
+  background: none;
   outline: none;
   overflow: hidden;
-  margin-top: 58px;
+  margin-top: 38px;
   padding: 5px 10px;
 }
 
@@ -266,6 +266,8 @@ ul.main_container > li.co {
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
 }
+
+
 a.main_a {
   display: block;
   line-height: 50px;
@@ -297,13 +299,8 @@ li.co ul.sub_box {
 }
 
 li.co:hover ul.sub_box {
-  height: 350px;
+  height: 280px;
   padding: 20px;
-}
-
-li.co > ul.sub_box > li:first-child {
-  width: 35%;
-  margin: 5%;
 }
 
 li.co > ul.sub_box > li:last-child {
@@ -315,8 +312,23 @@ li.co > ul.sub_box > li {
   float: left;
 }
 
-li.co > ul.sub_box > li > span {
-  border-bottom: 1px solid #f7e18a;
+li.co > ul.sub_box > li:first-child {
+  width: 35%;
+  margin: 5%;
+  margin-top: 3%;
+  padding-left: 20%;
+}
+
+nav #img_slide {
+	width: 100%;
+	overflow: hidden;
+}
+
+nav #img_slide img {
+	width: 80%;
+	border: none;
+	vertical-align: bottom;
+	border-radius: 10px;
 }
 
 ul.sub_box > li > ul {
@@ -324,7 +336,7 @@ ul.sub_box > li > ul {
 }
 
 ul.sub_box > li > ul > li > a {
-  line-height: 40px;
+  line-height: 30px;
   color: #fff;
 }
 
@@ -334,10 +346,11 @@ ul.sub_box > li > ul > li > a:hover {
 
 ul.sub_box > li > span.sub_title {
   display: block;
-  line-height: 50px;
+  line-height: 49px;
   text-decoration: none;
   font-size: 1em;
   color: #f7e18a;
+  border-bottom: 1px solid #f7e18a;
 }
 
 /* ---------------------------------------브랜드&메타포-------*/
@@ -569,7 +582,7 @@ ul.sub_box > li > span.sub_title {
 }
 
 .page_03 .tab_box>li:first-child {
-	margin-left: 10%;
+	margin-left: 5%;
 }
 
 .page_03 .tab_box>li:hover {
@@ -586,7 +599,6 @@ ul.sub_box > li > span.sub_title {
 	height: 520px;
 	clear: both;
 	position: relative;
-	padding-top: 2%;
 	overflow: hidden;
 }
 
@@ -599,14 +611,37 @@ ul.sub_box > li > span.sub_title {
 
 .page_03 #photo_title {
 	width: 40%;
-	margin-right: 10%;
-	height: 420px;
+	margin-left: 5%;
+	margin-right: 5%;
+	height: 450px;
 	float: left;
 }
 
+.page_03 #photo_title p:nth-child(1) {
+	font-size: 6em;
+	letter-spacing: 0.1em;
+	text-indent: 0.1em;
+	font-family: "Nanum Myeongjo", serif;
+	font-style: italic;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	color: #f7e18a;
+	text-align: center;
+}
+	
+.page_03 #photo_title p:nth-child(2) {
+	font-size: 1.2em;
+	line-height: 1.5;
+	letter-spacing: 0.1em;
+	text-indent: 0.1em;
+	color: #999;
+	text-align: center;
+}
+	
+	
 .page_03 #photo_wrap {
 	width: 50%;
-	height: 420px;
+	height: 450px;
 	float: right;
 }
 
@@ -616,55 +651,134 @@ ul.sub_box > li > span.sub_title {
 	overflow: hidden;
 }
 
-.page_03 #photo_image {
+.page_03 #photo_image1 {
 	width: 40%;
 	float: left;
-	margin-right: 10%;
+	margin-right: 15%;
 	text-align: left;
 }
 
-.page_03 #photo_text {
-	width: 50%;
+.page_03 #photo_image2 {
+	width: 40%;
+	float: left;
+	margin-right: 15%;
+	text-align: left;
+}
+
+.page_03 #photo_image3 {
+	width: 40%;
+	float: left;
+	margin-right: 15%;
+	text-align: left;
+}
+
+.page_03 #photo_text_box1 {
+	width: 45%;
 	color: #fff;
 	float: left;
 	text-align: left;
 }
 
-.page_03 #photo_text div {
+.page_03 #photo_text_box1 div {
 	display: none;
 }
 
-.page_03 #photo_text div:first-child {
+.page_03 #photo_text_box1 div:first-child {
 	display: block;
 }
 
-.page_03 #photo_text p:nth-child(1) {
+.page_03 #photo_text_box1 p:nth-child(1) {
 	font-size: 1.5em;
 	font-weight: bold;
+	padding-top: 30px;
 }
 
-.page_03 #photo_text p:nth-child(2) {
+.page_03 #photo_text_box1 p:nth-child(2) {
 	font-size: 1em;
 	margin-bottom: 30px;
 	color: #f7e18a;
 }
 
-.page_03 #photo_text p:nth-child(3) {
+.page_03 #photo_text_box1 p:nth-child(3) {
 	font-size: 1em;
 	line-height: 1.5;
 }
 
-.page_03 #photo_text .best_btn {
+.page_03 #photo_text_box2 {
+	width: 45%;
+	color: #fff;
+	float: left;
+	text-align: left;
+}
+
+.page_03 #photo_text_box2 div {
+	display: none;
+}
+
+.page_03 #photo_text_box2 div:first-child {
+	display: block;
+}
+
+.page_03 #photo_text_box2 p:nth-child(1) {
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-top: 30px;
+}
+
+.page_03 #photo_text_box2 p:nth-child(2) {
+	font-size: 1em;
+	margin-bottom: 30px;
+	color: #f7e18a;
+}
+
+.page_03 #photo_text_box2 p:nth-child(3) {
+	font-size: 1em;
+	line-height: 1.5;
+}
+
+.page_03 #photo_text_box3 {
+	width: 45%;
+	color: #fff;
+	float: left;
+	text-align: left;
+}
+
+.page_03 #photo_text_box3 div {
+	display: none;
+}
+
+.page_03 #photo_text_box3 div:first-child {
+	display: block;
+}
+
+.page_03 #photo_text_box3 p:nth-child(1) {
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-top: 30px;
+}
+
+.page_03 #photo_text_box3 p:nth-child(2) {
+	font-size: 1em;
+	margin-bottom: 30px;
+	color: #f7e18a;
+}
+
+.page_03 #photo_text_box3 p:nth-child(3) {
+	font-size: 1em;
+	line-height: 1.5;
+}
+
+.page_03 #photo .best_btn {
 	border: 1px solid #f7e18a;
 	color: #f7e18a;
 	display: inline-block;
 	padding: 3% 5%;
 	letter-spacing: 0.2em;
 	text-indent: 0.2em;
-	margin-top: 50px;
+	margin-top: 30px;
 }
 
-.page_03 #photo_text .best_btn:hover {
+.page_03 #photo .best_btn:hover {
 	background: #f7e18a;
 	color: #111;
   transition-duration: 0.7s;
@@ -682,28 +796,70 @@ ul.sub_box > li > span.sub_title {
 	width: 100%;
 }
 
- .page_03 #photo_list {
+ .page_03 #photo_list1 {
 	 width: 100%;
 	overflow: hidden;
 }
 
-.page_03 #photo_list div {
-	width: 50px;
+.page_03 #photo_list1 div {
+	width: 80px;
 	float: left;
-	margin-right: 10px;
+	margin-right: 20px;
 }
 
-.page_03 #photo_list div:last-child {
+.page_03 #photo_list1 div:last-child {
 	border-right: none;
 	margin-right: none;
 }
 
-.page_03 #photo_list img {
+.page_03 #photo_list1 img {
 	width: 100%;
 	vertical-align: bottom;
 	border: none;
 }
 
+ .page_03 #photo_list2 {
+	 width: 100%;
+	overflow: hidden;
+}
+
+.page_03 #photo_list2 div {
+	width: 80px;
+	float: left;
+	margin-right: 20px;
+}
+
+.page_03 #photo_list2 div:last-child {
+	border-right: none;
+	margin-right: none;
+}
+
+.page_03 #photo_list2 img {
+	width: 100%;
+	vertical-align: bottom;
+	border: none;
+}
+ .page_03 #photo_list3 {
+	 width: 100%;
+	overflow: hidden;
+}
+
+.page_03 #photo_list3 div {
+	width: 80px;
+	float: left;
+	margin-right: 20px;
+}
+
+.page_03 #photo_list3 div:last-child {
+	border-right: none;
+	margin-right: none;
+}
+
+.page_03 #photo_list3 img {
+	width: 100%;
+	vertical-align: bottom;
+	border: none;
+}
 
 
 /* ---------------------------------------메뉴-------*/
