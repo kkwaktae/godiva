@@ -266,6 +266,8 @@ ul.main_container > li.co {
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
 }
+
+
 a.main_a {
   display: block;
   line-height: 50px;
@@ -297,13 +299,8 @@ li.co ul.sub_box {
 }
 
 li.co:hover ul.sub_box {
-  height: 300px;
+  height: 280px;
   padding: 20px;
-}
-
-li.co > ul.sub_box > li:first-child {
-  width: 35%;
-  margin: 5%;
 }
 
 li.co > ul.sub_box > li:last-child {
@@ -315,8 +312,23 @@ li.co > ul.sub_box > li {
   float: left;
 }
 
-li.co > ul.sub_box > li > span {
-  border-bottom: 1px solid #f7e18a;
+li.co > ul.sub_box > li:first-child {
+  width: 35%;
+  margin: 5%;
+  margin-top: 3%;
+  padding-left: 20%;
+}
+
+nav #img_slide {
+	width: 100%;
+	overflow: hidden;
+}
+
+nav #img_slide img {
+	width: 80%;
+	border: none;
+	vertical-align: bottom;
+	border-radius: 10px;
 }
 
 ul.sub_box > li > ul {
@@ -334,10 +346,11 @@ ul.sub_box > li > ul > li > a:hover {
 
 ul.sub_box > li > span.sub_title {
   display: block;
-  line-height: 50px;
+  line-height: 49px;
   text-decoration: none;
   font-size: 1em;
   color: #f7e18a;
+  border-bottom: 1px solid #f7e18a;
 }
 
 /* ---------------------------------------브랜드&메타포-------*/
@@ -600,12 +613,12 @@ ul.sub_box > li > span.sub_title {
 	width: 40%;
 	margin-left: 5%;
 	margin-right: 5%;
-	height: 420px;
+	height: 450px;
 	float: left;
 }
 
 .page_03 #photo_title p:nth-child(1) {
-	font-size: 8em;
+	font-size: 6em;
 	letter-spacing: 0.1em;
 	text-indent: 0.1em;
 	font-family: "Nanum Myeongjo", serif;
@@ -628,7 +641,7 @@ ul.sub_box > li > span.sub_title {
 	
 .page_03 #photo_wrap {
 	width: 50%;
-	height: 420px;
+	height: 450px;
 	float: right;
 }
 
@@ -711,9 +724,9 @@ ul.sub_box > li > span.sub_title {
 }
 
 .page_03 #photo_list div {
-	width: 50px;
+	width: 80px;
 	float: left;
-	margin-right: 10px;
+	margin-right: 20px;
 }
 
 .page_03 #photo_list div:last-child {
