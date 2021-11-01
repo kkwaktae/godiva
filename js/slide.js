@@ -11,8 +11,10 @@ $(function () {
     auto: true, // 자동슬라이드 여부 (false 시 자동 x)
     autoHover: true, // 마우스 오버시 자동 정지
     controls: false, // 이전 다음 버튼을 숨긴다
+	onSlideAfter: function() {
+		
+	}
   });
-
 
   $(".prev_btn").click(function () {
     mySlider.goToPrevSlide();
@@ -23,5 +25,6 @@ $(function () {
     mySlider.goToNextSlide();
     return false;
   });
+  
   
 });

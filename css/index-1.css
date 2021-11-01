@@ -297,7 +297,7 @@ li.co ul.sub_box {
 }
 
 li.co:hover ul.sub_box {
-  height: 350px;
+  height: 300px;
   padding: 20px;
 }
 
@@ -324,7 +324,7 @@ ul.sub_box > li > ul {
 }
 
 ul.sub_box > li > ul > li > a {
-  line-height: 40px;
+  line-height: 30px;
   color: #fff;
 }
 
@@ -545,40 +545,35 @@ ul.sub_box > li > span.sub_title {
 
 #content_container {
 	width: 80%;
-	margin: 5% 20% 5% 0;
+	margin: 5% 0;
 	background: #131313;
-	padding-bottom: 5%;
-}
-
-.page_03 div.title_box {
-	width: 20%;
 }
 
 .page_03 ul.tab_box {
-	width: 80%;
+	width: 100%;
 	overflow: hidden;
 	position: relative;
-	left: 40%;
 }
 
 .page_03 .tab_box>li {
 	color: #fff;
-	font-size: 1em;
 	letter-spacing: 0.1em;
 	text-indent: 0.1em;
 	text-align: center;
 	float: left;
 	text-align: center;
 	cursor: pointer;
-	padding: 2%;
-	border: 1px solid #222;
-	margin-right: 1%;
+	padding: 1%;
 	margin-bottom: 5%;
+	border-bottom: 1px solid #222;
+}
+
+.page_03 .tab_box>li:first-child {
+	margin-left: 5%;
 }
 
 .page_03 .tab_box>li:hover {
 	color: #f7e18a;
-	background: #222;
 }
 
 .page_03 .tab_box .active {
@@ -586,91 +581,153 @@ ul.sub_box > li > span.sub_title {
 	background: #222;
 }
 
-.page_03 .tab_box li:nth-child(1) {
-	border-right: none;
-	margin-left: 11%;
-}
-
-.page_03 .tab_box li:nth-child(2) {
-	border-right: none;
-}
-
 .page_03 .tab_box #content_box {
 	width: 100%;
-	height: 300px;
+	height: 520px;
 	clear: both;
 	position: relative;
-	padding-top: 5%;
-}
-
-.page_03 .tab_content {
-	width: 100%;
-}
-
- .page_03 #slide_box {
-	width: 80%;
-	margin: 0 auto;
 	overflow: hidden;
 }
 
-.page_03 .tab_box #tab1 {
-  text-align: center;
+.page_03 #tab1 {
+	width: 100%;
+	text-align: center;
+	float: left;
+	overflow: hidden;
 }
 
-
-.best_name {
-  width: 100%;
-  color: #fff;
-  background: transparent;
-  padding: 10px;
+.page_03 #photo_title {
+	width: 40%;
+	margin-left: 5%;
+	margin-right: 5%;
+	height: 420px;
+	float: left;
 }
 
-
-#content_container a {
-  display: block;
+.page_03 #photo_title p:nth-child(1) {
+	font-size: 8em;
+	letter-spacing: 0.1em;
+	text-indent: 0.1em;
+	font-family: "Nanum Myeongjo", serif;
+	font-style: italic;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	color: #f7e18a;
+	text-align: center;
 }
-
-.tab_box #tab1 img {
-  width: 80%;
-  vertical-align: bottom;
-  border: none;
+	
+.page_03 #photo_title p:nth-child(2) {
+	font-size: 1.2em;
+	line-height: 1.5;
+	letter-spacing: 0.1em;
+	text-indent: 0.1em;
+	color: #999;
+	text-align: center;
 }
-
-.tab_box #tab2 img {
-  width: 100%;
-  vertical-align: bottom;
-  border: none;
-}
-
-.tab_box #tab3 img {
-  width: 100%;
-  vertical-align: bottom;
-  border: none;
-}
-
-.prev_btn {
-	position: absolute;
-	top: calc(50% - (19.5px - 9.65px));
-	left: 2%;
-}
-
-.prev_btn img {
+	
+	
+.page_03 #photo_wrap {
 	width: 50%;
+	height: 420px;
+	float: right;
+}
+
+.page_03 #photo {
+	width: 100%;
+	margin-bottom: 70px;
+	overflow: hidden;
+}
+
+.page_03 #photo_image {
+	width: 40%;
+	float: left;
+	margin-right: 15%;
+	text-align: left;
+}
+
+.page_03 #photo_text {
+	width: 45%;
+	color: #fff;
+	float: left;
+	text-align: left;
+}
+
+.page_03 #photo_text div {
+	display: none;
+}
+
+.page_03 #photo_text div:first-child {
+	display: block;
+}
+
+.page_03 #photo_text p:nth-child(1) {
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-top: 30px;
+}
+
+.page_03 #photo_text p:nth-child(2) {
+	font-size: 1em;
+	margin-bottom: 30px;
+	color: #f7e18a;
+}
+
+.page_03 #photo_text p:nth-child(3) {
+	font-size: 1em;
+	line-height: 1.5;
+}
+
+.page_03 #photo_text .best_btn {
+	border: 1px solid #f7e18a;
+	color: #f7e18a;
+	display: inline-block;
+	padding: 3% 5%;
+	letter-spacing: 0.2em;
+	text-indent: 0.2em;
+	margin-top: 30px;
+}
+
+.page_03 #photo_text .best_btn:hover {
+	background: #f7e18a;
+	color: #111;
+  transition-duration: 0.7s;
+  -webkit-transition-duration: 0.7s;
+  -moz-transition-duration: 0.7s;
+}
+
+.page_03 #photo img {
+	width: 300px;
 	vertical-align: bottom;
 	border: none;
 }
 
-.next_btn {
-	position: absolute;
-	top: calc(50% - (19.5px - 9.65px));
-	right: 2%;
+ .page_03 #photo_box {
+	width: 100%;
 }
 
-.next_btn img {
-	width: 50%;
+ .page_03 #photo_list {
+	 width: 100%;
+	overflow: hidden;
+}
+
+.page_03 #photo_list div {
+	width: 50px;
+	float: left;
+	margin-right: 10px;
+}
+
+.page_03 #photo_list div:last-child {
+	border-right: none;
+	margin-right: none;
+}
+
+.page_03 #photo_list img {
+	width: 100%;
 	vertical-align: bottom;
 	border: none;
 }
+
+
 
 /* ---------------------------------------메뉴-------*/
 
@@ -683,21 +740,15 @@ ul.sub_box > li > span.sub_title {
   margin-bottom: 100px;
 }
 
+
 .menu_title {
+  font-size: 2.5em;
   width: 50%;
   color: #fff;
   padding: 5% 0;
   margin: 0 auto;
   text-align: center;
-}
-
-.menu_title span {
-  font-size: 1.5em;
-  margin-right: 1%;
-}
-
-.menu_title p {
-  font-size: 3em;
+  font-weight: bold;
 }
 
 .menu_con {
@@ -807,12 +858,17 @@ ul.sub_box > li > span.sub_title {
   text-align: center;
 }
 
-#event_wrap div p {
+#event_con p {
+	font-size: 1.2em;
   letter-spacing: 0.1em;
   text-indent: 0.1em;
-  line-height: 1.5;
+  line-height: 30px;
   color: #fff;
   margin-bottom: 5%;
+}
+
+#event_con p span{
+	font-size: 0.75em;
 }
 
 #event_wrap .btn {
@@ -841,7 +897,7 @@ ul.sub_box > li > span.sub_title {
 
 #event_wrap .prev_btn {
 	position: absolute;
-	top: calc(40% - 16.5px);
+	top: calc(50% - 16.5px);
 	left: 2%;
 }
 
@@ -853,7 +909,7 @@ ul.sub_box > li > span.sub_title {
 
 #event_wrap .next_btn {
 	position: absolute;
-	top: calc(40% - 16.5px);
+	top: calc(50% - 16.5px);
 	right: 2%;
 }
 
