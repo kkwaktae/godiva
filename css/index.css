@@ -31,7 +31,7 @@ body {
 
 .page_01 {
   width: 100%;
-  padding-top: 150px;
+  padding-top: 130px;
   background: #000;
   position: relative;
 }
@@ -48,7 +48,7 @@ body {
 header {
   width: 100%;
   text-align: center;
-  height: 150px;
+  height: 130px;
   position: fixed;
   top: 0;
   left: 0;
@@ -59,7 +59,7 @@ header {
 
 .nav_top {
   width: 100%;
-  height: 100px;
+  height: 80px;
   overflow: hidden;
 }
 
@@ -74,7 +74,7 @@ header {
   background: none;
   outline: none;
   overflow: hidden;
-  margin-top: 38px;
+  margin-top: 33px;
   padding: 5px 10px;
 }
 
@@ -88,7 +88,8 @@ header {
 	width: 15%;
 	float: left;
 	text-align: right;
-	line-height: 30px;
+	height: 24px;
+	line-height: 24px;
 }
 
 .control .play {
@@ -102,8 +103,8 @@ header {
 
 .rollingText .notice-list {
 	width: 90%;
-	height: 30px;
-	line-height: 30px;
+	height: 24px;
+	line-height: 24px;
 	float: left;
 	overflow: hidden;
 }
@@ -115,19 +116,23 @@ header {
 }
 
 .rollingText #bt5 a {
+	height: 12px;
 	display: block;
 	text-align: center;
 }
 
-.rollingText .open-event #bt5 img {
+.rollingText .open-event #bt5 .next img {
 	width: 30%;
-	vertical-align: middle;
+	vertical-align: top;
 	border: none;
 }
 
-.rollingText .open-event #bt5 .next {
-	margin-bottom: 2px;
+.rollingText .open-event #bt5 .prev img {
+	width: 30%;
+	vertical-align: bottom;
+	border: none;
 }
+
 
 .rollingText .notice-list li {
 	overflow: hidden;
@@ -153,6 +158,7 @@ header {
 }
 
 .nav_logo #logo {
+	
   vertical-align: bottom;
   border: none;
 }
@@ -162,7 +168,7 @@ header {
   display: block;
   text-align: center;
   margin: 0 auto;
-  padding: 21.5px 0;
+  padding-top: 13px;
   float: left;
 }
 
@@ -171,7 +177,7 @@ header {
   margin-right: 5%;
   float: right;
   text-align: right;
-  margin-top: 43px;
+  margin-top: 41px;
   overflow: hidden;
 }
 
@@ -254,12 +260,16 @@ nav {
 ul.main_container {
   width: 100%;
   height: 100%;
-  padding-left: 50%;
   overflow: hidden;
 }
 
+ul.main_container:nth-child(1) {
+	margin-left: 30%;
+}
+
+
 ul.main_container > li.co {
-  width: 15%;
+  width: 8%;
   height: 100%;
   float: left;
   transition: all 0.5s ease;
@@ -292,7 +302,7 @@ li.co ul.sub_box {
   height: 0;
   overflow: hidden;
   position: absolute;
-  top: 150px;
+  top: 130px;
   left: 0;
   z-index: 9999;
   background: rgba(19, 19, 19, 0.9);
@@ -303,32 +313,17 @@ li.co:hover ul.sub_box {
   padding: 20px;
 }
 
+li.co > ul.sub_box > li:first-child {
+  margin-left: 20%;
+}
+
 li.co > ul.sub_box > li:last-child {
-  margin-right: 5%;
+  margin-right: 20%;
 }
 
 li.co > ul.sub_box > li {
-  width: 10%;
+  width: 12%;
   float: left;
-}
-
-li.co > ul.sub_box > li:first-child {
-  width: 35%;
-  margin: 5%;
-  margin-top: 3%;
-  padding-left: 20%;
-}
-
-nav #img_slide {
-	width: 100%;
-	overflow: hidden;
-}
-
-nav #img_slide img {
-	width: 80%;
-	border: none;
-	vertical-align: bottom;
-	border-radius: 10px;
 }
 
 ul.sub_box > li > ul {
@@ -623,7 +618,7 @@ ul.sub_box > li > span.sub_title {
 	text-indent: 0.1em;
 	font-family: "Nanum Myeongjo", serif;
 	font-style: italic;
-	margin-top: 50px;
+	margin-top: 100px;
 	margin-bottom: 10px;
 	color: #f7e18a;
 	text-align: center;
@@ -632,8 +627,6 @@ ul.sub_box > li > span.sub_title {
 .page_03 #photo_title p:nth-child(2) {
 	font-size: 1.2em;
 	line-height: 1.5;
-	letter-spacing: 0.1em;
-	text-indent: 0.1em;
 	color: #999;
 	text-align: center;
 }
@@ -690,7 +683,8 @@ ul.sub_box > li > span.sub_title {
 .page_03 #photo_text_box1 p:nth-child(1) {
 	font-size: 1.5em;
 	font-weight: bold;
-	padding-top: 30px;
+	margin-top: 30px;
+	margin-bottom: 10px;
 }
 
 .page_03 #photo_text_box1 p:nth-child(2) {
@@ -722,7 +716,8 @@ ul.sub_box > li > span.sub_title {
 .page_03 #photo_text_box2 p:nth-child(1) {
 	font-size: 1.5em;
 	font-weight: bold;
-	padding-top: 30px;
+	margin-top: 30px;
+	margin-bottom: 10px;
 }
 
 .page_03 #photo_text_box2 p:nth-child(2) {
@@ -754,7 +749,8 @@ ul.sub_box > li > span.sub_title {
 .page_03 #photo_text_box3 p:nth-child(1) {
 	font-size: 1.5em;
 	font-weight: bold;
-	padding-top: 30px;
+	margin-top: 30px;
+	margin-bottom: 10px;
 }
 
 .page_03 #photo_text_box3 p:nth-child(2) {
