@@ -36,80 +36,6 @@ body {
   position: relative;
 }
 
-.page_01 main.slider_container {
-	width: 100%;
-	position: relative;
-	overflow: hidden;
-}
-
-.slider_container .slider {
-	width: 100%;
-	height: auto;
-}
-
-.slider_container .slider li {
-	width: 100%;
-	float: left;
-}
-
-ul.slider li img {
-	display: block;
-	width: 100%;
-	vertical-align: bottom;
-	border: none;
-}
-
-main.slider_container .prev {
-	width: 18px;
-	height: 32px;
-	position: absolute;
-	background: transparent;
-	top: calc(50% - 16px);
-	left: 2%;
-	cursor: pointer;
-	background: url(../img/slide/arrow_left.png) no-repeat center center;
-}
-
-main.slider_container .next {
-	width: 18px;
-	height: 32px;
-	position: absolute;
-	background: transparent;
-	top: calc(50% - 16px);
-	right: 2%;
-	cursor: pointer;
-	background: url(../img/slide/arrow_right.png) no-repeat center center;
-}
-
-.pagination-container {
-	position: absolute;
-	width: 100%;
-	bottom: 20px;
-	text-align: center;
-}
-
-.dot {
-	width: 8px;
-	height: 8px;
-	border-radius: 50%;
-	display: inline-block;
-	cursor: pointer;
-	background: #ddd;
-}
-
-.dot:hover {
-	background: #efcd47;
-}
-
-.dot:not(last-op-type) {
-	margin-right: 10px;
-}
-
-.dot.active {
-	background: #f7e18a;
-	cursor: initial;
-}
-
 header {
   width: 100%;
   text-align: center;
@@ -411,6 +337,80 @@ ul.sub_box > li > span.sub_title {
   font-size: 1em;
   color: #f7e18a;
   border-bottom: 1px solid #f7e18a;
+}
+
+.page_01 main.slider_container {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.slider_container .slider {
+	width: 100%;
+	height: auto;
+}
+
+.slider_container .slider li {
+	width: 100%;
+	float: left;
+}
+
+ul.slider li img {
+	display: block;
+	width: 100%;
+	vertical-align: bottom;
+	border: none;
+}
+
+main.slider_container .prev {
+	width: 18px;
+	height: 32px;
+	position: absolute;
+	background: transparent;
+	top: calc(50% - 16px);
+	left: 2%;
+	cursor: pointer;
+	background: url(../img/slide/arrow_left.png) no-repeat center center;
+}
+
+main.slider_container .next {
+	width: 18px;
+	height: 32px;
+	position: absolute;
+	background: transparent;
+	top: calc(50% - 16px);
+	right: 2%;
+	cursor: pointer;
+	background: url(../img/slide/arrow_right.png) no-repeat center center;
+}
+
+.pagination-container {
+	position: absolute;
+	width: 100%;
+	bottom: 40px;
+	text-align: center;
+}
+
+.dot {
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	display: inline-block;
+	cursor: pointer;
+	background: #ddd;
+}
+
+.dot:hover {
+	background: #efcd47;
+}
+
+.dot:not(last-of-type) {
+	margin-right: 10px;
+}
+
+.dot.active {
+	background: #f7e18a;
+	cursor: initial;
 }
 
 /* ---------------------------------------브랜드&메타포-------*/
@@ -1605,10 +1605,6 @@ ul.sub_box > li > span.sub_title {
   border: none;
   padding: 10px 0;
   border: 1px solid transparent;
-}
-
-.footer_sns_box img:hover {
-	border-bottom: 1px solid #f7e18a;
 }
 
 
