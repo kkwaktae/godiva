@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>모달</title>
+	<style type="text/css">
+			body {
+			background: url(img/slide/slide_03.png);
+			height: 2000px;
+			
+			}
+			
+			a {
+			text-decoration: none;
+			color: #666;
+			}
+			
+			ul li {
+			list-style: none;
+			}
+	
+			.modal_container {
+			background: transparent;
+			z-index: 100;
+			}
+	
+			.modal {
+			position: fixed;
+			top:0;
+			left:0;
+			width: 0;
+			height: 0;
+			z-index: 100;
+			overflow: hidden;
+			}
+	
+			.modal:target {
+			position: fixed;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+			background: rgba(0, 0, 0, 0.8);
+			}
+			
+			.modal:target .content {
+			width: 400px;
+			height: 250px;
+			margin: 0 auto;
+			background: #fff;
+			position: absolute;
+			top: calc(50% - 175px);
+			left: calc(50% - 250px);
+			padding: 50px;
+			border-radius: 10px;
+			}
+			
+			.modal:target .close {
+			position: absolute;
+			top: -20px;
+			right: -20px;
+			}
+			
+			.modal:target .close a {
+			display: block;
+			width: 40px;
+			height: 40px;
+			border: 2px solid red;
+			border-radius: 50%;
+			text-indent: -9999em;
+			background: #131313;
+			}
+			
+			.modal:target .close:after {
+			content: "X";
+			width: 40px;
+			height: 40px;
+			color: #fff;
+			position: absolute;
+			top: 0;
+			left: calc(50% - 20px);
+			text-align: center;
+			line-height: 40px;
+			pointer-events: none;
+			}
+	
+	
+	</style>
+</head>
+
+<body>
+
+	<a href="#info">여기를 누르세요</a>
+	
+	<div class="modal_container">
+	
+		<div class="modal" id="info">
+			
+			<div class="content">
+			
+				<div class="title"><img src=""></div>
+				<div class="order">LOG-IN</div>
+				
+				<div>
+					<fieldset>
+						<legend>개인 정보</legend>
+						
+						<ul>
+							
+							<li>
+							<label>아이디</label>
+							<input type="text" placeholder="여백없이 입력" required/>
+							</li>
+							
+							<li>
+							<label>비밀번호</label>
+							<input type="password" placeholder="8자리 이상" required/>
+							</li>
+							
+						</ul>
+					
+					</fieldset>
+				</div>
+				
+				<div class="close"><a href="">close</a></div>
+				
+			</div>
+			
+			
+		</div>
+	
+	</div>	
+
+</body>
+
+</html>
