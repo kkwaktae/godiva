@@ -950,7 +950,7 @@ main.slider_container .next {
   background: #000 url("../img/menu/background.png") no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  padding-bottom: 100px;
+  padding: 200px 0;
   margin-bottom: 100px;
 }
 
@@ -958,7 +958,7 @@ main.slider_container .next {
 .menu_title {
   width: 50%;
   color: #fff;
-  padding: 5% 0;
+  padding-bottom: 5%;
   margin: 0 auto;
   text-align: center;
   font-size: 2.5em;
@@ -977,11 +977,19 @@ main.slider_container .next {
 .menu_dessert,
 .menu_icecream,
 .menu_drink {
-  width: 23.5%;
+  width: 20%;
   float: left;
   text-align: center;
   color: #fff;
   overflow: hidden;
+}
+
+.menu_chocolate {
+	margin-left: 7%;
+}
+
+.menu_drink {
+	margin-right: 7%;
 }
 
 .menu_con .mar {
@@ -998,12 +1006,24 @@ main.slider_container .next {
   border: none;
 }
 
+.menu_con .aa {
+  filter : grayscale(70%);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+}
+
+.menu_con .aa:hover {
+  filter : grayscale(0%);
+}
+
 .menu_con p {
   width: 100%;
   background: rgba(0, 0, 0, 0.8);
   padding: 5% 0;
   font-size: 1.2em;
 }
+
 
 /* ---------------------------------------이벤트-------*/
 
@@ -1335,7 +1355,7 @@ main.slider_container .next {
 
 .page_09 {
   width: 100%;
-  padding: 150px 0;
+  padding: 250px 0;
   padding-bottom: 400px;
   position: relative;
 }
@@ -1419,9 +1439,9 @@ main.slider_container .next {
   right: 45%;
   z-index: 1;
   opacity: 0;
-  transition: all 1s ease 0.5s;
-  -webkit-transition: all 1s ease 0.5s;
-  -moz-transition: all 1s ease 0.5s;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
 }
 
 .store_img:nth-child(2) {
@@ -1431,9 +1451,9 @@ main.slider_container .next {
   right: 32%;
   z-index: 2;
   opacity: 0;
-  transition: all 1s ease 1s;
-  -webkit-transition: all 1s ease 1s;
-  -moz-transition: all 1s ease 1s;
+  transition: all 1s ease 0.5s;
+  -webkit-transition: all 1s ease 0.5s;
+  -moz-transition: all 1s ease 0.5s;
 }
 
 .store_img:nth-child(3) {
@@ -1443,9 +1463,9 @@ main.slider_container .next {
   right: 5%;
   z-index: 3;
   opacity: 0;
-  transition: all 1s ease 1.5s;
-  -webkit-transition: all 1s ease 1.5s;
-  -moz-transition: all 1s ease 1.5s;
+  transition: all 1s ease 1s;
+  -webkit-transition: all 1s ease 1s;
+  -moz-transition: all 1s ease 1s;
 }
 
 /* ---------------------------------------footer-------*/
@@ -1654,7 +1674,6 @@ main.slider_container .next {
   width: 200px;
   background: rgba(19, 19, 19, 0.9);
   padding: 20px;
-  padding-bottom: 5%;
   position: fixed;
   transition: all 1.5s ease;
   -webkit-transition: all 1.5s ease;

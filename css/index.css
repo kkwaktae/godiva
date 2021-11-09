@@ -36,15 +36,6 @@ body {
   position: relative;
 }
 
-.page_01 .slide {
-  width: 100%;
-  height: 0;
-  background-image: url("../img/slide/slide_01.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: calc(830 / 1920 * 100%);
-}
-
 header {
   width: 100%;
   text-align: center;
@@ -348,6 +339,80 @@ ul.sub_box > li > span.sub_title {
   border-bottom: 1px solid #f7e18a;
 }
 
+.page_01 main.slider_container {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.slider_container .slider {
+	width: 100%;
+	height: auto;
+}
+
+.slider_container .slider li {
+	width: 100%;
+	float: left;
+}
+
+ul.slider li img {
+	display: block;
+	width: 100%;
+	vertical-align: bottom;
+	border: none;
+}
+
+main.slider_container .prev {
+	width: 18px;
+	height: 32px;
+	position: absolute;
+	background: transparent;
+	top: calc(50% - 16px);
+	left: 2%;
+	cursor: pointer;
+	background: url(../img/slide/arrow_left.png) no-repeat center center;
+}
+
+main.slider_container .next {
+	width: 18px;
+	height: 32px;
+	position: absolute;
+	background: transparent;
+	top: calc(50% - 16px);
+	right: 2%;
+	cursor: pointer;
+	background: url(../img/slide/arrow_right.png) no-repeat center center;
+}
+
+.pagination-container {
+	position: absolute;
+	width: 100%;
+	bottom: 40px;
+	text-align: center;
+}
+
+.dot {
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	display: inline-block;
+	cursor: pointer;
+	background: #ddd;
+}
+
+.dot:hover {
+	background: #efcd47;
+}
+
+.dot:not(last-of-type) {
+	margin-right: 10px;
+}
+
+.dot.active {
+	background: #f7e18a;
+	cursor: initial;
+}
+
 /* ---------------------------------------브랜드&메타포-------*/
 
 .page_02 {
@@ -420,12 +485,13 @@ ul.sub_box > li > span.sub_title {
 
 #s1 {
   width: 100%;
-  font-size: 3em;
   color: #f7e18a;
   display: inline-block;
   text-align: center;
+  font-size: 2.5em;
   letter-spacing: 0.1em;
   text-indent: 0.1em;
+  font-family: "Nanum Myeongjo", serif;
 }
 
 #s3 {
@@ -479,14 +545,15 @@ ul.sub_box > li > span.sub_title {
 
 .metaphor .co p {
   margin: 5% auto;
-  font-size: 1.4em;
+  font-size: 1.5em;
   letter-spacing: 0.1em;
   text-indent: 0.1em;
+  font-family: "Nanum Myeongjo", serif;
 }
 
 .metaphor .co span.first {
   color: #fff;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 .metaphor .co span.content {
@@ -682,6 +749,8 @@ ul.sub_box > li > span.sub_title {
 
 .page_03 #photo_text_box1 p:nth-child(1) {
 	font-size: 1.5em;
+	letter-spacing: 0.1em;
+	text-indent: 0.1em;
 	font-weight: bold;
 	margin-top: 30px;
 	margin-bottom: 10px;
@@ -689,12 +758,16 @@ ul.sub_box > li > span.sub_title {
 
 .page_03 #photo_text_box1 p:nth-child(2) {
 	font-size: 1em;
+	letter-spacing: 0.1em;
+	text-indent: 0.1em;
 	margin-bottom: 30px;
 	color: #f7e18a;
 }
 
 .page_03 #photo_text_box1 p:nth-child(3) {
 	font-size: 1em;
+	letter-spacing: 0.1em;
+	text-indent: 0.1em;
 	line-height: 1.5;
 }
 
@@ -715,6 +788,8 @@ ul.sub_box > li > span.sub_title {
 
 .page_03 #photo_text_box2 p:nth-child(1) {
 	font-size: 1.5em;
+	letter-spacing: 0.1em;
+	text-indent: 0.1em;
 	font-weight: bold;
 	margin-top: 30px;
 	margin-bottom: 10px;
@@ -722,12 +797,16 @@ ul.sub_box > li > span.sub_title {
 
 .page_03 #photo_text_box2 p:nth-child(2) {
 	font-size: 1em;
+	letter-spacing: 0.1em;
+	text-indent: 0.1em;
 	margin-bottom: 30px;
 	color: #f7e18a;
 }
 
 .page_03 #photo_text_box2 p:nth-child(3) {
 	font-size: 1em;
+	letter-spacing: 0.1em;
+	text-indent: 0.1em;
 	line-height: 1.5;
 }
 
@@ -748,6 +827,8 @@ ul.sub_box > li > span.sub_title {
 
 .page_03 #photo_text_box3 p:nth-child(1) {
 	font-size: 1.5em;
+	letter-spacing: 0.1em;
+	text-indent: 0.1em;
 	font-weight: bold;
 	margin-top: 30px;
 	margin-bottom: 10px;
@@ -755,12 +836,16 @@ ul.sub_box > li > span.sub_title {
 
 .page_03 #photo_text_box3 p:nth-child(2) {
 	font-size: 1em;
+	letter-spacing: 0.1em;
+	text-indent: 0.1em;
 	margin-bottom: 30px;
 	color: #f7e18a;
 }
 
 .page_03 #photo_text_box3 p:nth-child(3) {
 	font-size: 1em;
+	letter-spacing: 0.1em;
+	text-indent: 0.1em;
 	line-height: 1.5;
 }
 
@@ -871,13 +956,15 @@ ul.sub_box > li > span.sub_title {
 
 
 .menu_title {
-  font-size: 2.5em;
   width: 50%;
   color: #fff;
   padding: 5% 0;
   margin: 0 auto;
   text-align: center;
-  font-weight: bold;
+  font-size: 2.5em;
+  letter-spacing: 0.1em;
+  text-indent: 0.1em;
+  font-family: "Nanum Myeongjo", serif;
 }
 
 .menu_con {
@@ -929,11 +1016,11 @@ ul.sub_box > li > span.sub_title {
 
 .event_title {
   color: #fff;
-  font-size: 2.5em;
-  font-weight: bold;
   text-align: center;
+  font-size: 2.5em;
   letter-spacing: 0.1em;
   text-indent: 0.1em;
+  font-family: "Nanum Myeongjo", serif;
   padding-bottom: 2%;
 }
 
@@ -1025,8 +1112,10 @@ ul.sub_box > li > span.sub_title {
 }
 
 #event_wrap .prev_btn {
+	width: 14px;
+	height: 24px;
 	position: absolute;
-	top: calc(50% - 16.5px);
+	top: calc(50% - 12px);
 	left: 2%;
 }
 
@@ -1037,8 +1126,10 @@ ul.sub_box > li > span.sub_title {
 }
 
 #event_wrap .next_btn {
+	width: 14px;
+	height: 24px;
 	position: absolute;
-	top: calc(50% - 16.5px);
+	top: calc(50% - 12px);
 	right: 2%;
 }
 
@@ -1120,6 +1211,7 @@ ul.sub_box > li > span.sub_title {
   font-size: 2.5em;
   letter-spacing: 0.1em;
   text-indent: 0.1em;
+  font-family: "Nanum Myeongjo", serif;
 }
 
 .magazine_text p {
@@ -1164,6 +1256,7 @@ ul.sub_box > li > span.sub_title {
   width: 100%;
   margin: 0 auto;
 }
+
 
 /* ---------------------------------------SNS-------*/
 
@@ -1232,6 +1325,9 @@ ul.sub_box > li > span.sub_title {
   background: #131313;
   color: #f7e18a;
   font-size: 1.5em;
+  letter-spacing: 0.1em;
+  text-indent: 0.1em;
+  font-family: "Nanum Myeongjo", serif;
   line-height: 200px;
 }
 
@@ -1511,10 +1607,6 @@ ul.sub_box > li > span.sub_title {
   border: 1px solid transparent;
 }
 
-.footer_sns_box img:hover {
-	border-bottom: 1px solid #f7e18a;
-}
-
 
 .box_02 {
   width: 100%;
@@ -1562,7 +1654,6 @@ ul.sub_box > li > span.sub_title {
   width: 200px;
   background: rgba(19, 19, 19, 0.9);
   padding: 20px;
-  padding-bottom: 5%;
   position: fixed;
   transition: all 1.5s ease;
   -webkit-transition: all 1.5s ease;
