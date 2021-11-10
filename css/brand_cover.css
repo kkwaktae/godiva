@@ -360,13 +360,13 @@ video#bgvid {
 }
 
 div#video_box {
-	width: 25%;
+	width: 15%;
 	text-align: center;
 	color: #fff;
 	z-index: 2;
 	position: absolute;
 	top: 30%;
-	left: calc(50% - 12.5%);
+	left: calc(50% - 7.5%);
 	background: rgba(0, 0, 0, .5);	
 	border-radius: 20px;
 }
@@ -381,16 +381,13 @@ div#video_box h1 {
 	color: transparent;
 }
 
-div#video_box p {
-	margin-bottom: 40px;
-	line-height: 1.5;
-}
-
 .video_container button.movebtn {
+	display: block;
+	width: 40%;
+	margin: 5px auto;
 	text-align: center;
-	margin: 5px;
-	border: 1px solid #f7e18a;
 	background: transparent;
+	border: none;
 	transition: all 0.5s ease;
 	-webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
@@ -399,11 +396,18 @@ div#video_box p {
 .video_container .movebtn a {
 	display: block;
 	padding: 5px;
-	color: #fff;
+	color: #ddd;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
 }
 
 .video_container button.movebtn:hover {
 	background: rgba(0, 0, 0, .8);	
+}
+
+.video_container button.movebtn:hover a {
+	color: #f7e18a;
 }
 
 .video_container button#control {
@@ -411,8 +415,7 @@ div#video_box p {
 	height: 30px;
 	text-align: center;
 	border: none;
-	margin: 20px;
-	margin-left: 90%;
+	margin: 10%;
 	background: transparent;
 	cursor: pointer;
 }

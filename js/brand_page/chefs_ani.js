@@ -17,7 +17,7 @@ $(function(){
 		
 		if ( scrT >= pos2 + start && scrT < pos3 + start ) {
 			$('.c2').animate({opacity: 1}, 1000)
-			$('.i2').delay(300).animate({left: '2%', opacity: '1'}, 1000)
+			$('.i2').delay(300).animate({right: '2%', opacity: '1'}, 1000)
 		}
 		
 		if ( scrT >= pos3 + start && scrT < pos3 + 800 ) {
