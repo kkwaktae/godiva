@@ -12,7 +12,7 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
 
-		<link rel="stylesheet" type="text/css" href="css/brand_cover.css">
+		<link rel="stylesheet" type="text/css" href="css/brand_page.css">
 		
 		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
 		
@@ -238,28 +238,42 @@
 	
 <!-------------------------브랜드 인트로------------------------->
 
-
-		<main class="video_container">
+	<div class="wrap">
+	
+			
+		<section id="section1">
 	
 			<video id="bgvid" src="video/Chocolatier Godiva “Nous sommes Godiva” _ Advertising.mp4" autoplay muted preload="auto" type="video/mp4">
 			</video>
-			
+				
 			<div id="video_box">
 				<h1>GODIVA</h1>
 				
-				<button class="movebtn b1"><a id="introduce" href="">INTRODUCE</a></button>
-				<button class="movebtn b2"><a id="origin" href="">ORIGIN</a></button>
-				<button class="movebtn b3"><a id="chocolate" href="">CHOCOLATE</a></button>
-				<button class="movebtn b4"><a id="chefs" href="brand_chefs.html">CHEFS</a></button>
-				<button class="movebtn b4"><a id="effort" href="">EFFORT</a></button>
-				
+					
 				<button id="control"><img src="img/brand_page/pause1.png" alt=""/></button>
 				
 			</div>
 			
-		</main>
+		</section>
+		
+		<section id="section2">
+			
+		</section>
+	
+		<section id="section3">
+			
+		</section>
+	
+		<section id="section4">
+			
+		</section>
+	
+		<section id="section5">
+			
+		</section>
 	
 
+	</div>
 
 <!-------------------------footer------------------------->
 
@@ -375,7 +389,7 @@
 // 브랜드소개
 
 			var vid = document.getElementById('bgvid');
-			var pauseButton = document.querySelector('.video_container button#control');
+			var pauseButton = document.querySelector('#section1 button#control');
 			
 			pauseButton.addEventListener('click', function(){
 				vid.classList.toggle('stopfade');
