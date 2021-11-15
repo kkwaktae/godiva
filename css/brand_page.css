@@ -313,7 +313,7 @@ li.co > ul.sub_box > li:last-child {
 }
 
 li.co > ul.sub_box > li {
-  width: 12%;
+  width: 15%;
   float: left;
 }
 
@@ -426,7 +426,7 @@ div#video_box p {
 #origin h1 {
 	position: absolute;
 	top: 520px;
-	left: 2%;
+	left: 25%;
 	font-size: 2em;
 }
 
@@ -475,7 +475,7 @@ div#video_box p {
 
 #choco01 p:first-child {
 	position: absolute;
-	top: 45%;
+	top: 42%;
 	left: 42%;
 	font-size: 2em;
 	text-align: center;
@@ -486,7 +486,7 @@ div#video_box p {
 
 #choco01 p:last-child {
 	position: absolute;
-	top: 45%;
+	top: 42%;
 	left: 42%;
 	font-size: 2em;
 	text-align: center;
@@ -499,6 +499,7 @@ div#video_box p {
 	font-family: 'Nanum myeongjo', serif;
 	font-style: italic;
 	font-size: 0.75em;
+	font-weight: normal;
 }
 
 #choco02 {
