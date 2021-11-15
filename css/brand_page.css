@@ -343,10 +343,14 @@ ul.sub_box > li > span.sub_title {
 
 
 
-#section1 {
-	width: 100%;
+section {
+	background-size: cover;
 	position: relative;
+	overflow: hidden;
+	color: #fff;
 }
+
+/* ---------------------------------------section1-------*/
 
 video#bgvid {
 	display: block;
@@ -364,15 +368,14 @@ video#bgvid {
 }
 
 div#video_box {
-	width: 15%;
+	width: 30%;
+	height: 280px;
 	text-align: center;
-	color: #fff;
 	z-index: 2;
 	position: absolute;
-	top: 35%;
-	left: calc(50% - 7.5%);
+	top: calc(50% - 122.5px);
+	left: calc(50% - 15%);
 	background: rgba(0, 0, 0, .5);	
-	border-radius: 20px;
 }
 
 div#video_box h1 {
@@ -380,9 +383,12 @@ div#video_box h1 {
 	letter-spacing: 0.1em;
 	text-indent: 0.1em;
 	font-family: 'Nanum Myeongjo', serif;
-	background: linear-gradient(to right, #fff 30%, #f7e18a 50%, #fff 70%);
-	-webkit-background-clip: text;
-	color: transparent;
+	font-size: 2.5em;
+	font-weight: bold;
+}
+
+div#video_box p {
+	margin-bottom: 20px;
 }
 
 #section1 button#control {
@@ -391,6 +397,7 @@ div#video_box h1 {
 	text-align: center;
 	border: none;
 	margin: 10%;
+	margin-top: 5%;
 	background: transparent;
 	cursor: pointer;
 }
@@ -401,14 +408,192 @@ div#video_box h1 {
 	border: none;
 }
 
+/* ---------------------------------------section2-------*/
 
 #section2 {
-	width: 100%;
+	background-size: cover;
 	position: relative;
-	height: 1080px;
-	background: 
+	overflow: hidden;	
+	height: 900px;
 }
 
+#origin {
+	width: 100%;
+	height: 100%;
+	background: url(../img/brand_page/p2-1.png) no-repeat center center / cover;
+}
+
+#origin h1 {
+	position: absolute;
+	top: 520px;
+	left: 2%;
+	font-size: 2em;
+}
+
+#origin .sub_text {
+	position: absolute;
+	top: 600px;
+	left: 25%;
+}
+
+#origin #text_kor {
+	font-size: 1.2em;
+	margin-bottom: 20px;
+	line-height: 1.5;
+}
+
+#origin #text_en {
+	font-size: 1.2em;
+	line-height: 1.5;
+	font-family: 'Nanum Myeongjo', serif;
+	font-style: italic;
+}
+
+/* ---------------------------------------section3-------*/
+
+#section3 {
+	background-size: cover;
+	position: relative;
+	overflow: hidden;	
+	height: 900px;
+}
+
+#section3 .pannel01 {
+	width: 200%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+}
+
+#choco01 {
+	width: 50%;
+	height: 100%;
+	position: relative;
+	background: url(../img/brand_page/p3-1.png) no-repeat center center / cover;
+	float: left;
+}
+
+#choco01 p:first-child {
+	position: absolute;
+	top: 45%;
+	left: 42%;
+	font-size: 2em;
+	text-align: center;
+	opacity: 1;
+	line-height: 40px;
+	font-weight: bold;
+}
+
+#choco01 p:last-child {
+	position: absolute;
+	top: 45%;
+	left: 42%;
+	font-size: 2em;
+	text-align: center;
+	opacity: 0;
+	line-height: 40px;
+	font-weight: bold;
+}
+
+#choco01 p span {
+	font-family: 'Nanum myeongjo', serif;
+	font-style: italic;
+	font-size: 0.75em;
+}
+
+#choco02 {
+	width: 50%;
+	height: 100%;
+	position: relative;
+	background: url(../img/brand_page/p3-2.png) no-repeat center center / cover;	
+	float: left;
+	text-align: center;
+}
+
+#choco02 p {
+}
+
+#section3 .choco_navi {
+	overflow: hidden;
+	position: absolute;
+	top: 5%;
+	left: 5%;
+}
+
+#section3 .choco_navi li {
+	margin-right: 5px;
+	float: left;
+}
+
+#section3 .choco_navi li:last-child {
+	margin-right: 0;
+}
+
+#section3 .choco_navi a {
+	width: 20px;
+	height: 5px;
+	background: #ccc;
+	display: block;
+	border-radius: 2px;
+}
+
+#section3 .choco_navi .on {
+	width: 30px;
+	background: #f7e18a;
+}
+	
+
+/* ---------------------------------------section4-------*/
+
+#section4 {
+	background-size: cover;
+	position: relative;
+	overflow: hidden;	
+	height: 900px;
+}
+
+#chefs {
+	width: 100%;
+	height: 100%;
+	background: url(../img/brand_page/p4.png) no-repeat center center / cover;	
+}
+
+/* ---------------------------------------section5-------*/
+
+#section5 {
+	background-size: cover;
+	position: relative;
+	overflow: hidden;	
+	height: 900px;
+}	
+
+#section5 .pannel02 {
+	width: 300%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+}
+
+#effort01 {
+	width: 33.333%;
+	height: 100%;
+	background: url(../img/brand_page/p5-1.png) no-repeat center center / cover;	
+	float: left:
+}
+
+#effort02 {
+	width: 33.333%;
+	height: 100%;
+	background: url(../img/brand_page/p5-2.png) no-repeat center center / cover;	
+	float: left:
+}
+
+#effort03 {
+	width: 33.333%;
+	height: 100%;
+	background: url(../img/brand_page/p5-3.png) no-repeat center center / cover;	
+	float: left:
+}
 
 
 /* ---------------------------------------footer-------*/
