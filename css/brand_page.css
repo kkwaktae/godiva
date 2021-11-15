@@ -512,12 +512,20 @@ div#video_box p {
 }
 
 #choco02 p {
+	position: absolute;
+	top: 42%;
+	left: 42%;
+	font-size: 2em;
+	text-align: center;
+	opacity: 1;
+	line-height: 40px;
+	font-weight: bold;
 }
 
 #section3 .choco_navi {
 	overflow: hidden;
 	position: absolute;
-	top: 5%;
+	top: 10%;
 	left: 5%;
 }
 
