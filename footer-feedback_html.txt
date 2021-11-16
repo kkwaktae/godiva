@@ -1,0 +1,109 @@
+
+<!-------------------------footer------------------------->
+
+		<section class="page_10">
+
+			<div class="footer_box">
+				
+				<address class="box_01">
+						<div class="footer_logo_box"><img src="img/footer/logo_1.png" alt="logo"/></div>
+						
+						<div class="footer_content_box">
+							
+							<ul class="site_map">
+								<li class="site_map_title">SITE MAP</li>
+								<li><a class="sitemap aa" href="#">사이트맵</a></li>
+								<li><a class="personal aa" href="#">개인정보 취급방침</a></li>
+								<li><a class="agreement aa" href="#">약관 개정 안내</a></li>
+								<li><a class="business aa" href="#">사업자 정보</a></li>
+								<li><a class="maketing aa" href="#">마케팅 제휴/매장 오픈</a></li>
+								<li><a class="recruit aa" href="#">채용 정보</a></li>
+							</ul>
+							
+							<ul class="customer_service">
+								<li class="customer_service_title">CUSTOMER SERVICE</li>
+								<li><a class="customer aa" href="#">고객센터</a></li>
+								<li><a class="faq aa" href="#">FAQ</a></li>
+								<li><a class="inquire aa" href="#">1:1 문의</a></li>
+								<li><a class="order aa" href="#">주문 / 배송 / 대량구매</a></li>
+							</ul>
+							
+							<ul class="business_time">
+								
+								<li class="business_time_title">BUSINESS TIME</li>
+								
+								<ul class="image_tel">
+									<li class="tel"><img src="img/footer/tel.png" alt="tel"/>   
+									<span>TEL. 080-759-7700</span>
+									</li>
+								</ul>
+								
+								<ul class="image_time">
+									<li class="time"><img src="img/footer/time.png" alt="time"/>
+										<span>평일 AM 10:00 - PM 5:00<br/>
+										점심시간 PM 12:00 - 2:00<br/>
+										토, 일, 공휴일 휴무</span>
+									<li>
+								</ul>
+								
+							</div>
+						
+						<div class="footer_sns_box"><a class="insta" href="#"><img src="img/footer/insta.png" alt="instagram"/></a> <a class="insta" href="#"><img src="img/footer/youtube.png" alt="youtube"/></a> <a class="insta" href="#"><img src="img/footer/kakao.png" alt="kakao"/></a> <a class="insta" href="#"><img src="img/footer/facebook.png" alt="facebook"/></a></div>
+				</address>
+				
+				<address class="box_02">
+					(주)비에스케이코퍼레이션 ㅣ 대표이사 : 박종호 ㅣ서울시 강남구 학동로 401 13층 | 개인정보관리책임자 : 이동은<br/>
+					전화번호 080-827-7700 (수신자 부담) ㅣ 팩스번호 02-759-0788 ㅣ E-MAIL info@godiva.kr ㅣ 문의시간 오전 10시-오전12시, 오후2시- 오후5시<br/>
+					공정거래위원회 고시 제 2000-1호에 따른 사업자등록번호 116-81-62784<br/>
+					통신판매업신고번호 제 2010-서울강남-02017호 3 ㅣ 사업자정보확인
+				</address>
+					
+			</div>
+			
+		</section>
+		
+		
+<!-------------------------quick_side------------------------->
+
+		<section class="fixed_content">
+		
+			<div class="quick_side">
+				
+				<div class="hidden_bar">
+				
+					<input id="open_more" type="checkbox"/>
+					
+					<div class="plus_icon">
+						<a class="a1" href="login.html" target="_self"><img src="img/quick_side/mypage.png" alt=""/>내정보</a>
+						<a class="a1" href="#"><img src="img/quick_side/cart.png" alt=""/>장바구니</a>
+						<a class="a1" href="news_event.html" target="_self"><img src="img/quick_side/event.png" alt=""/>이벤트</a>
+						<a class="a1" href="news_notice.html"><img src="img/quick_side/notice.png" alt=""/>공지사항</a>
+						<a class="a1" href="#"><img src="img/quick_side/inquire.png" alt=""/>문의하기</a>
+						<a class="a1" href="store_map.html"><img src="img/quick_side/map.png" alt=""/>매장찾기</a>
+					</div>
+					
+					<div class="plus_image">
+						<label class="plus" for="open_more" onclick=""><img id="activeBtn" src="img/quick_side/plus02.png" alt="icon4"/></label>
+					</div>
+				
+					<a class="up" href="#">
+						<span class="image" href="#"><img src="img/quick_side/up02.png" alt="icon5"/></span>
+					</a>
+					
+				</div>
+				
+			</div>
+			
+		</section>
+	
+<!-------------------------feedback------------------------->
+
+	<section class="feedback">
+	
+		<div class="btn_box">
+			<a href="#">
+				
+			</a>
+		</div>
+	
+	</section>

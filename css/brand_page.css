@@ -587,23 +587,52 @@ div#video_box p {
 	width: 33.333%;
 	height: 100%;
 	background: url(../img/brand_page/p5-1.png) no-repeat center center / cover;	
-	float: left:
+	float: left;
 }
 
 #effort02 {
 	width: 33.333%;
 	height: 100%;
 	background: url(../img/brand_page/p5-2.png) no-repeat center center / cover;	
-	float: left:
+	float: left;
 }
 
 #effort03 {
 	width: 33.333%;
 	height: 100%;
 	background: url(../img/brand_page/p5-3.png) no-repeat center center / cover;	
-	float: left:
+	float: left;
 }
 
+#section5 .effort_navi {
+	overflow: hidden;
+	position: absolute;
+	top: 10%;
+	left: 5%;
+}
+
+#section5 .effort_navi li {
+	margin-right: 5px;
+	float: left;
+}
+
+#section5 .effort_navi li:last-child {
+	margin-right: 0;
+}
+
+#section5 .effort_navi a {
+	width: 20px;
+	height: 5px;
+	background: #ccc;
+	display: block;
+	border-radius: 2px;
+}
+
+#section5 .effort_navi .on {
+	width: 30px;
+	background: #f7e18a;
+}
+	
 
 /* ---------------------------------------footer-------*/
 
