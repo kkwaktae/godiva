@@ -425,14 +425,14 @@ div#video_box p {
 
 #origin h1 {
 	position: absolute;
-	top: 520px;
+	top: 570px;
 	left: 25%;
 	font-size: 2em;
 }
 
 #origin .sub_text {
 	position: absolute;
-	top: 600px;
+	top: 650px;
 	left: 25%;
 }
 
@@ -525,7 +525,7 @@ div#video_box p {
 #section3 .choco_navi {
 	overflow: hidden;
 	position: absolute;
-	top: 10%;
+	top: 15%;
 	left: 5%;
 }
 
@@ -541,7 +541,7 @@ div#video_box p {
 #section3 .choco_navi a {
 	width: 20px;
 	height: 5px;
-	background: #ccc;
+	background: #757575;
 	display: block;
 	border-radius: 2px;
 }
@@ -607,7 +607,7 @@ div#video_box p {
 #section5 .effort_navi {
 	overflow: hidden;
 	position: absolute;
-	top: 10%;
+	top: 15%;
 	left: 5%;
 }
 
@@ -623,7 +623,7 @@ div#video_box p {
 #section5 .effort_navi a {
 	width: 20px;
 	height: 5px;
-	background: #ccc;
+	background: #757575;
 	display: block;
 	border-radius: 2px;
 }
@@ -633,6 +633,41 @@ div#video_box p {
 	background: #f7e18a;
 }
 	
+
+/* ---------------------------------------세로 페이저-------*/
+
+.section_navi {
+	width: 20px;
+	height: 90px;
+	position: fixed;
+	top: calc(50% - 30px);
+	right: 2%;
+	z-index: 99;
+}
+
+.section_navi li {
+	margin-bottom: 10px;
+}
+
+.section_navi li:last-child {
+	margin-bottom: 0;
+}
+
+.section_navi a {
+	display: block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #757575;
+	margin: 0 auto;
+}
+
+.section_navi .on {
+	width: 14px;
+	height: 14px;
+	background: transparent;
+	border: 2px solid #f7e18a;
+}
 
 /* ---------------------------------------footer-------*/
 
