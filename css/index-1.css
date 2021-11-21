@@ -304,17 +304,17 @@ li.co:hover ul.sub_box {
   padding: 20px;
 }
 
+li.co > ul.sub_box > li {
+  width: 15%;
+  float: left;
+}
+
 li.co > ul.sub_box > li:first-child {
   margin-left: 20%;
 }
 
 li.co > ul.sub_box > li:last-child {
   margin-right: 20%;
-}
-
-li.co > ul.sub_box > li {
-  width: 12%;
-  float: left;
 }
 
 ul.sub_box > li > ul {
@@ -387,7 +387,7 @@ main.slider_container .next {
 .pagination-container {
 	position: absolute;
 	width: 100%;
-	bottom: 40px;
+	bottom: 10%;
 	text-align: center;
 }
 
@@ -1764,11 +1764,27 @@ label.plus:hover {
 /* ---------------------------------------반응형-------*/
 
 @media all and (min-width: 1025px) {
+	
 }
 
 @media all and (min-width: 769px) and (max-width: 1024px) {
+	
 }
 
 @media all and (max-width: 768px) {
-  /* --------------------------------------대슬라이드-------*/
+	
+.page_01 header {
+	display: none;
 }
+	
+ul.slider li img {
+	display: block;
+	width: auto;
+	height: 100%;
+	min-height: 100%;
+	vertical-align: bottom;
+	border: none;
+}
+
+}
+
