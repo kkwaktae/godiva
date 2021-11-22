@@ -102,7 +102,7 @@
 
     // add slider pagination
     if (_.options.pagination === true) {
-      for (var i = 1; i < _.markup.$slides.length; i++) {
+      for (var i = 1; i < 6 ; i++) {
         _.markup.$dots.push("<li class='dot' data-number='" + i + "'></li>")
       }
       var pagination = ''

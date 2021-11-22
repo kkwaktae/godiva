@@ -55,11 +55,9 @@ header {
 }
 
 .rollingText {
-  width: 25%;
-  min-width: 450px;
+  width: 30%;
   margin-left: 5%;
   float: left;
-  margin-right: 15%;
   background: #666;
   color: #ddd;
   background: none;
@@ -70,13 +68,13 @@ header {
 }
 
 .rollingText .open-event {
-	width: 85%;
+	width: 70%;
 	float: left;
 	overflow: hidden;
 }
 
 .rollingText .control {
-	width: 15%;
+	width: 10%;
 	float: left;
 	text-align: right;
 	height: 24px;
@@ -148,23 +146,23 @@ header {
 	color: #f7e18a;
 }
 
-.nav_logo #logo {
-	
-  vertical-align: bottom;
-  border: none;
-}
-
 .nav_logo {
   width: 10%;
+  margin: 0 10%;
   display: block;
+  float: left;
   text-align: center;
-  margin: 0 auto;
   padding-top: 13px;
   float: left;
 }
 
+.nav_logo #logo {
+  vertical-align: bottom;
+  border: none;
+}
+
 .myPage {
-  width: 40%;
+  width: 30%;
   margin-right: 5%;
   float: right;
   text-align: right;
@@ -172,8 +170,31 @@ header {
   overflow: hidden;
 }
 
-.myPage #searchBar {
+.myPage>div {
+	display: inline-block;
+	text-align: right;
+}
+
+.myPage div:nth-child(1) {
   width: 30%;
+  margin-right: 2%;
+}
+
+.myPage div:nth-child(1) a {
+  width: 10%;
+  line-height: 30px;
+  margin-left: 5%;
+  display: inline-block;
+}
+
+.myPage div:nth-child(1) img {
+	width: 100%;
+  vertical-align: middle;
+  border: none;
+}
+
+.myPage #searchBar {
+  width: 60%;
   line-height: 26px;
   padding-left: 10px;
   outline: none;
@@ -186,30 +207,13 @@ header {
 }
 
 .myPage #searchBar:focus {
-  width: 40%;
+  width: 85%;
   color: #fff;
 }
 
-.myPage div:nth-child(1) {
-  width: 60%;
-  float: left;
-  margin-right: 2%;
-}
-
-.myPage div:nth-child(1) a {
-  line-height: 30px;
-  margin-left: 10px;
-}
-
-.myPage div:nth-child(1) img {
-  width: 4%;
-  vertical-align: middle;
-  border: none;
-}
-
 .myPage div:nth-child(2) {
-  width: 12%;
-  float: left;
+  width: 15%;
+  min-width: 75px;
   margin-right: 2%;
 }
 
@@ -226,8 +230,8 @@ header {
 }
 
 .myPage div:nth-child(3) {
-  width: 12%;
-  float: left;
+  width: 15%;
+  min-width: 75px;
 }
 
 .myPage div:nth-child(3) a {
@@ -258,7 +262,6 @@ ul.main_container:nth-child(1) {
 	margin-left: 30%;
 }
 
-
 ul.main_container > li.co {
   width: 8%;
   height: 100%;
@@ -267,7 +270,6 @@ ul.main_container > li.co {
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
 }
-
 
 a.main_a {
   display: block;
@@ -347,7 +349,7 @@ ul.sub_box > li > span.sub_title {
 
 .slider_container .slider {
 	width: 100%;
-	height: auto;
+	overflow: hidden;
 }
 
 .slider_container .slider li {
@@ -412,6 +414,8 @@ main.slider_container .next {
 	background: #f7e18a;
 	cursor: initial;
 }
+
+/*-------------------모바일---------------*/
 
 /* ---------------------------------------브랜드&메타포-------*/
 
@@ -1769,22 +1773,18 @@ label.plus:hover {
 
 @media all and (min-width: 769px) and (max-width: 1024px) {
 	
+.page_01 header {
+	opacity: 0;
+}
+
 }
 
 @media all and (max-width: 768px) {
 	
 .page_01 header {
-	display: none;
+	opacity: 0;
 }
-	
-ul.slider li img {
-	display: block;
-	width: auto;
-	height: 100%;
-	min-height: 100%;
-	vertical-align: bottom;
-	border: none;
-}
+
 
 }
 
