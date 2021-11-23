@@ -415,7 +415,6 @@ main.slider_container .next {
 	cursor: initial;
 }
 
-/*-------------------모바일---------------*/
 
 /* ---------------------------------------브랜드&메타포-------*/
 
@@ -1762,29 +1761,4 @@ label.plus:hover {
 }
 
 /* ---------------------------------------feedback-------*/
-
-
-
-/* ---------------------------------------반응형-------*/
-
-@media all and (min-width: 1025px) {
-	
-}
-
-@media all and (min-width: 769px) and (max-width: 1024px) {
-	
-.page_01 header {
-	opacity: 0;
-}
-
-}
-
-@media all and (max-width: 768px) {
-	
-.page_01 header {
-	opacity: 0;
-}
-
-
-}
 

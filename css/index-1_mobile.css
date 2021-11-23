@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+ul li {
+  list-style: none;
+}
+
+address {
+  font-style: normal;
+}
+
+body {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 0.75em;
+  margin: 0 auto;
+  background: #000;
+}
+
+
+/* 브라운:#3e2723, 레몬:#f7e18a */
+
+/* --------------------헤더------------------- */
+
+.page_01 header#header_mobile {
+	display: none;
+}
+
+
+@media all and (max-width: 768px) {
+	
+.page_01 {
+  padding-top: 5rem;
+}
+	
+.page_01 header {
+	display: none;
+}
+
+.page_01 header#header_mobile {
+	display: block;
+	width: 100%;
+	height: 5rem;
+	
+}
+
+#header_mobile .content_box {
+	width: 100%;
+}
+
+#header_mobile .content_box a {
+	display: block;
+}
+
+#header_mobile .content_box #logo_mobile {
+	float: left;
+	margin-left: 10px;
+}
+
+#header_mobile .content_box #logo_mobile img {
+	padding: 20px;
+	height: 4.999rem;
+	line-height: 4.999rem;
+	width: auto;
+	vertical-align: middle;
+	border: none;
+}
+#header_mobile .content_box #burger_mobile {
+	float: right;
+	margin-right: 10px;
+}
+
+#header_mobile .content_box #burger_mobile img {
+	padding: 10px;
+	height: 4.999rem;
+	line-height: 4.999rem;
+	width: auto;
+	vertical-align: middle;
+	border: none;
+}
+
+}
+
