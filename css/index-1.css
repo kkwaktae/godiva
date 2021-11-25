@@ -1638,7 +1638,7 @@ main.slider_container .next {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  z-index: 9999;
+  z-index: 998;
   letter-spacing: 0.1em;
   text-indent: 0.1em;
   overflow: hidden;

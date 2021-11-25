@@ -92,13 +92,110 @@ body {
 
 }
 
+/* --------------------사이드 메뉴바------------------- */
+
+.page_01 #side_bar_mobile {
+	display: none;
+}
+
+@media all and (max-width: 1023px) {
+	
+.page_01 #side_bar_mobile {
+	display: block;
+	width: 40%;
+	height: 100%;
+	position: fixed;
+	top: 5rem;
+	right: 0;
+	z-index: 999;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.page_01 #personal_content {
+	width: 80%;
+	overflow: hidden;
+	margin: 10% auto;
+}
+
+.page_01 #personal_content div {
+	width: 70%;
+	float: left;
+	margin-right: 4%;
+	overflow: hidden;
+}
+
+.page_01 #personal_content div input {
+	width: 78%;
+	margin-right: 2%;
+	line-height: 2.5rem;
+	border: none;
+	outline: none;
+	padding-left: 1rem;
+	display: block;
+	float: left;
+}
+
+.page_01 #personal_content div img {
+	width: auto;
+	height: 40px;
+	padding: 0.5rem;
+	vertical-align: bottom;
+	border: none;
+}
+
+.page_01 #personal_content div a {
+	width: 20%;
+	display: block;
+	float: right;
+}
+
+.page_01 #personal_content a.personal_icon {
+	width: 12%;
+	float: left;
+	display: block;
+}
+
+.page_01 #personal_content a.icon1 {
+	margin-right: 2%;
+}
+
+.page_01 #personal_content a.personal_icon img {
+	width: auto;
+	height: 40px;
+	padding: 0.5rem;
+	vertical-align: bottom;
+	border: none;
+}
+
+#side_bar_mobile #categori_content {
+	width: 80%;
+	margin: 20% auto;
+}
+
+#side_bar_mobile #categori_content > li {
+	margin: 10% 0;
+	font-size: 1.5rem;
+}
+
+#side_bar_mobile #categori_content a {
+	color: #f7e18a;
+	display: block;
+	padding: 0.25rem;
+}
+
+#side_bar_mobile #categori_content .sub_list {
+	width: 90%;
+	margin: 2% auto;
+	font-size: 1rem;
+}
+
+}
 
 /* --------------------대슬라이드------------------- */
 
-
-	.slider_container .slider_mobile {
-		display: none;
-	}
+.slider_container .slider_mobile {
+	display: none;
+}
 
 
 @media all and (max-width: 1023px) {
@@ -204,13 +301,13 @@ body {
 	}
 
 	.metaphor_box {
-	  width: 90%;
+	  width: 60%;
 	  overflow: hidden;
 	  margin: 0 auto;
 	}
 
 	.metaphor .co img {
-	  width: 70%;
+	  width: 50%;
 	  vertical-align: bottom;
 	  border: none;
 	}
@@ -230,7 +327,7 @@ body {
 
 	.metaphor .co span.content {
 	  line-height: 1.2;
-	  font-size: 0.5em;
+	  font-size: 0.75em;
 	}
 
 }

@@ -96,37 +96,141 @@ body {
 /* --------------------대슬라이드------------------- */
 
 
-.slider_container .slider_mobile {
-	display: none;
-}
+	.slider_container .slider_mobile {
+		display: none;
+	}
 
 
 @media all and (max-width: 1023px) {
+		
+	.slider_container .slider {
+		display: none;
+	}
+
+	.slider_container .slider_mobile {
+		display: block;
+		width: 100%;
+		overflow: hidden;
+	}
+
+	.slider_container .slider_mobile li {
+		width: 100%;
+		float: left;
+	}
+
+	ul.slider_mobile li img {
+		display: block;
+		max-width: 100%;
+		vertical-align: bottom;
+		border: none;
+	}
+
+}
+
+
+/* --------------------브랜드&메타포------------------- */
+
+	#s3_mobile {
+		display: none;
+	}
+
+@media all and (max-width: 1023px) {
 	
-.slider_container .slider {
-	display: none;
+	.page_02 .image {
+		display: none;
+	}
+		
+	.intro .text {
+	  width: 50%;
+	  min-width: 150px;
+	  float: none;
+	  margin: 0 auto;
+	  margin-top: 5%;
+	  opacity: 0;
+	  transition: all 2s ease 0.1s;
+	  -webkit-transition: all 2s ease 0.1s;
+	  -moz-transition: all 2s ease 0.1s;
+	}
+
+	.page_02:hover .intro > .text {
+	  opacity: 1;
+	}
+
+	#s1 {
+	  width: 100%;
+	  color: #f7e18a;
+	  display: inline-block;
+	  text-align: center;
+	  font-size: 2.5em;
+	  letter-spacing: 0.1em;
+	  text-indent: 0.1em;
+	  font-family: "Nanum Myeongjo", serif;
+	}
+
+	#s3 {
+		display: none;
+	}
+
+	#s3_mobile {
+	  letter-spacing: 0.1em;
+	  line-height: 1.5;
+	  display: block;
+	  margin: 60px 0;
+	}
+
+	.text .btn {
+	  width: 6.25rem;
+	  color: #fff;
+	  text-align: center;
+	  margin: 1% auto;
+	  border: 1px solid #f7e18a;
+	  letter-spacing: 0.2em;
+	  text-indent: 0.2em;
+	  font-size: 0.75em;
+	}
+
+	.text .btn a {
+	  display: block;
+	  padding: 10%;
+	  color: #f7e18a;
+	}
+
+	.text .btn a:hover {
+	  background: #f7e18a;
+	  transition-duration: 1s;
+	  -webkit-transition-duration: 1s;
+	  -moz-transition-duration: 1s;
+	  color: #000;
+	}
+
+	.metaphor_box {
+	  width: 90%;
+	  overflow: hidden;
+	  margin: 0 auto;
+	}
+
+	.metaphor .co img {
+	  width: 70%;
+	  vertical-align: bottom;
+	  border: none;
+	}
+
+	.metaphor .co p {
+	  margin: 5% auto;
+	  letter-spacing: 0.1em;
+	  text-indent: 0.1em;
+	  font-size: 1em;
+	  font-family: "Nanum Myeongjo", serif;
+	}
+
+	.metaphor .co span.first {
+	  color: #fff;
+	  font-size: 1.2em;
+	}
+
+	.metaphor .co span.content {
+	  line-height: 1.2;
+	  font-size: 0.5em;
+	}
+
 }
-
-.slider_container .slider_mobile {
-	display: block;
-	width: 100%;
-	overflow: hidden;
-}
-
-.slider_container .slider_mobile li {
-	width: 100%;
-	float: left;
-}
-
-ul.slider_mobile li img {
-	display: block;
-	max-width: 100%;
-	vertical-align: bottom;
-	border: none;
-}
-
-}
-
-
-/* --------------------브랜드------------------- */
-

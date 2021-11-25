@@ -567,6 +567,12 @@ main.slider_container .next {
   opacity: 1;
 }
 
+.metaphor .co img {
+  width: 50%;
+  vertical-align: bottom;
+  border: none;
+}
+
 .royalty {
   width: 33.333%;
   text-align: center;
@@ -575,12 +581,6 @@ main.slider_container .next {
   transition: all 2s ease;
   -webkit-transition: all 2s ease;
   -moz-transition: all 2s ease;
-}
-
-.royalty img {
-  width: 50%;
-  vertical-align: bottom;
-  border: none;
 }
 
 .quality {
@@ -593,12 +593,6 @@ main.slider_container .next {
   -moz-transition: all 2s ease 0.5s;
 }
 
-.quality img {
-  width: 50%;
-  vertical-align: bottom;
-  border: none;
-}
-
 .global {
   width: 33.333%;
   text-align: center;
@@ -607,12 +601,6 @@ main.slider_container .next {
   transition: all 2s ease 1s;
   -webkit-transition: all 2s ease 1s;
   -moz-transition: all 2s ease 1;
-}
-
-.global img {
-  width: 50%;
-  vertical-align: bottom;
-  border: none;
 }
 
 /* ---------------------------------------베스트메뉴-------*/
