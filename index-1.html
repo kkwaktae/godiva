@@ -17,9 +17,6 @@
 		
 		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
 		
-		<script type="text/javascript" src="js/sliderk.js"></script>
-		<script type="text/javascript" src="js/myslider.js"></script>
-		
 		<script type="text/javascript" src="js/rolling.js"></script>
 		<script type="text/javascript" src="js/min.js"></script>
 		
@@ -30,7 +27,6 @@
 
 		<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
 		<script type="text/javascript" src="js/slide.js"></script>
-		
 		
 	</head>
 	
@@ -223,17 +219,17 @@
 		
 			<ul class="content_box">
 				<li id="logo_mobile"><a href=""><img src="img/nav/responsive_logo.png" alt=""/></a></li>
-				<li id="burger_mobile"><a href=""><img src="img/nav/burger.png" alt=""/></a></li>
+				<li id="burger_mobile"><a href=""><img id="burger_icon" src="img/nav/burger.png" alt=""/></a></li>
 			</ul>
 			
 		</header>
 		
 		<!-- 사이드 메뉴바 -->
 		
-		<aside id="side_bar_mobile">
+		<aside id="sidebar_mobile" class="open">
 			
 			<div id="personal_content">
-				<div><input type="text" placeholder="SEARCH"/><a href=""><img src="img/nav/search.png" alt=""/></a></div>
+				<div><input type="text" placeholder="Search"/><a href=""><img src="img/nav/search.png" alt=""/></a></div>
 				<a class="personal_icon icon1" href=""><img src="img/nav/mypage.png" alt=""/></a>
 				<a class="personal_icon icon2" href=""><img src="img/nav/cart.png" alt=""/></a>
 			</div>
@@ -245,7 +241,7 @@
 				</li>
 				
 				<li id="side_menu">
-					<a href="">MENU</a>
+					<a class="main" href="">MENU</a>
 					<ul class="sub_list">
 						<li><a href="">CHOCOLATE</a></li>
 						<li><a href="">DESSERT</a></li>
@@ -255,7 +251,7 @@
 				</li>
 				
 				<li id="side_news">
-					<a href="">NEWS</a>
+					<a class="main" href="">NEWS</a>
 					<ul class="sub_list">
 						<li><a href="">EVENT</a></li>
 						<li><a href="">NOTICE</a></li>
@@ -264,7 +260,7 @@
 				</li>
 				
 				<li id="side_store">
-					<a href="">STORE</a>
+					<a class="main" href="">STORE</a>
 					<ul class="sub_list">
 						<li><a href="">MAP</a></li>
 						<li><a href="">CUSTOME SERVICE</a></li>
@@ -1002,6 +998,12 @@
 	
 	</section>
 
+		<script type="text/javascript" src="js/sliderk.js"></script>
+		<script type="text/javascript" src="js/myslider.js"></script>
+			
+		<script type="text/javascript" src="js/mobile/sidebar_mobile.js"></script>
+		
+		
 	</body>
 	
 </html>
