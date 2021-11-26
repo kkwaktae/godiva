@@ -177,12 +177,6 @@ body {
 	border-bottom: 1px solid #f7e18a;	
 }
 
-#sidebar_mobile #categori_content .main { /* 밑줄 생성시간 */
-	transition: all 0.5s ease;
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-}
-
 #sidebar_mobile #categori_content > li { /* brand, menu, news, store */
 	margin: 10% 0;
 }
