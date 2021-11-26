@@ -297,11 +297,12 @@ body {
 	}
 
 	.metaphor_box {
-	  width: 50%;
+	  width: 70%;
+	  margin-top: 5%;
 	}
 
 	.metaphor .co img {
-	  width: 60%;
+	  width: 70%;
 	  vertical-align: bottom;
 	  border: none;
 	}
@@ -338,14 +339,14 @@ body {
 @media all and (max-width: 1023px) {
 			
 	.page_04 {
-	  background: #000 url("../img/menu/background.png") no-repeat center / 100% auto;
+	  background: #000 url("../img/menu/background.png") no-repeat right center / cover;
 	  background-attachment: fixed;
 	  padding: 200px 0;
 	  margin-bottom: 100px;
 	}
 
 	.menu_con {
-		width: 70%;
+		width: 400px;
 	}
 
 	.menu_chocolate,
@@ -439,7 +440,6 @@ body {
 
 @media all and (max-width: 1023px) {
 
-
 	.footer_logo_box {
 	  margin: 0 auto;
 	  padding: 3% 0;
@@ -481,6 +481,7 @@ body {
 	.customer_service_title,
 	.business_time_title {
 	  padding: 1% 0;
+	  font-size: 0.6rem;
 	}
 
 	.business_time li {
@@ -514,5 +515,39 @@ body {
 	  color: #666;
 	}
 		
+	.footer_sns_box {
+	  width: 50%;
+	  padding: 3% 0;
+	  margin: 0 auto;
+	  float: none;
+	  text-align: center;
+	}
+
+	.footer_sns_box img {
+		width: 8%;
+		margin-left: 0;
+		margin: 0 5px;
+	  vertical-align: bottom;
+	  border: none;
+	  padding: 10px 0;
+	  border: 1px solid transparent;
+	}
+
+
+}
+
+
+/* --------------------quick_side------------------- */
+
+@media all and (max-width: 1023px) {
+
+	.fixed_content .plus_icon {
+		display: none;
+	}
+	
+	.fixed_content .plus_image {
+		display: none;
+	}
+	
 
 }
