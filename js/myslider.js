@@ -1,5 +1,5 @@
 $(window).on('load', function(){
-
+	
 	const slideBox = $('.slider');
 	const slides = $('.slider li');
 
@@ -19,7 +19,7 @@ $(window).on('load', function(){
 			}
 		}
 	}).resize();
-
+	
 
 	$('.slider').slider();
 	
