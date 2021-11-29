@@ -220,34 +220,6 @@ body {
 
 /* --------------------대슬라이드------------------- */
 
-.slider_container .slider_mobile {
-	display: none;
-}
-
-@media all and (max-width: 1023px) {
-		
-	.slider_container .slider { /* PC버전 슬라이더 숨김 */
-		display: none;
-	}
-
-	.slider_container .slider_mobile { /* 모바일버전 슬라이더 보임 */
-		display: block;
-		width: 100%;
-		overflow: hidden;
-	}
-
-	.slider_container .slider_mobile li {
-		width: 100%;
-		float: left;
-	}
-
-	ul.slider_mobile li img {
-		display: block;
-		max-width: 100%;
-		vertical-align: bottom;
-		border: none;
-	}
-
 	.dot {
 		width: 12px;
 		height: 12px;
