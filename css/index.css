@@ -389,13 +389,13 @@ main.slider_container .next {
 .pagination-container {
 	position: absolute;
 	width: 100%;
-	bottom: 10%;
+	bottom: 5%;
 	text-align: center;
 }
 
 .dot {
-	width: 8px;
-	height: 8px;
+	width: 12px;
+	height: 12px;
 	border-radius: 50%;
 	display: inline-block;
 	cursor: pointer;

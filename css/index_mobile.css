@@ -188,8 +188,8 @@ body {
 }
 
 #sidebar_mobile #categori_content > li > a { /* brand, menu, news, store 폰트 설정 */
-	font-size: 1.25rem;
-	line-height: 2.5rem;
+	font-size: 2rem;
+	line-height: 4rem;
 	border-bottom: 1px solid transparent;
 }
 
@@ -200,13 +200,13 @@ body {
 #sidebar_mobile #categori_content .sub_list {
 	width: 100%;
 	margin: 2% auto;
-	font-size: 0.8rem;
 	display: none; /* 토글슬라이드 위해 숨김 */
 }
 
 #sidebar_mobile #categori_content .sub_list a { /* sub_list 폰트 설정 */
 	color: #666;
-	line-height: 1.5rem;
+	font-size: 1.25rem;
+	line-height: 2.5rem;
 	padding-left: 1rem;
 	transition: all 0.5s ease;
 }
@@ -222,9 +222,12 @@ body {
 
 @media all and (max-width: 1023px) {
 	
-	.dot {
-		width: 12px;
-		height: 12px;
+	main.slider_container .prev {
+		left: 4%;
+	}
+
+	main.slider_container .next {
+		right: 4%;
 	}
 
 }
