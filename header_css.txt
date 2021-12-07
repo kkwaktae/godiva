@@ -1,4 +1,6 @@
 
+/* 브라운:#3e2723, 레몬:#f7e18a */
+
 .page_01 {
   width: 100%;
   padding-top: 130px;
@@ -25,11 +27,9 @@ header {
 }
 
 .rollingText {
-  width: 25%;
-  min-width: 450px;
+  width: 30%;
   margin-left: 5%;
   float: left;
-  margin-right: 15%;
   background: #666;
   color: #ddd;
   background: none;
@@ -40,13 +40,13 @@ header {
 }
 
 .rollingText .open-event {
-	width: 85%;
+	width: 70%;
 	float: left;
 	overflow: hidden;
 }
 
 .rollingText .control {
-	width: 15%;
+	width: 10%;
 	float: left;
 	text-align: right;
 	height: 24px;
@@ -118,23 +118,23 @@ header {
 	color: #f7e18a;
 }
 
-.nav_logo #logo {
-	
-  vertical-align: bottom;
-  border: none;
-}
-
 .nav_logo {
   width: 10%;
+  margin: 0 10%;
   display: block;
+  float: left;
   text-align: center;
-  margin: 0 auto;
   padding-top: 13px;
   float: left;
 }
 
+.nav_logo #logo {
+  vertical-align: bottom;
+  border: none;
+}
+
 .myPage {
-  width: 40%;
+  width: 30%;
   margin-right: 5%;
   float: right;
   text-align: right;
@@ -142,8 +142,31 @@ header {
   overflow: hidden;
 }
 
-.myPage #searchBar {
+.myPage>div {
+	display: inline-block;
+	text-align: right;
+}
+
+.myPage div:nth-child(1) {
   width: 30%;
+  margin-right: 2%;
+}
+
+.myPage div:nth-child(1) a {
+  width: 10%;
+  line-height: 30px;
+  margin-left: 5%;
+  display: inline-block;
+}
+
+.myPage div:nth-child(1) img {
+	width: 100%;
+  vertical-align: middle;
+  border: none;
+}
+
+.myPage #searchBar {
+  width: 60%;
   line-height: 26px;
   padding-left: 10px;
   outline: none;
@@ -156,30 +179,13 @@ header {
 }
 
 .myPage #searchBar:focus {
-  width: 40%;
+  width: 85%;
   color: #fff;
 }
 
-.myPage div:nth-child(1) {
-  width: 60%;
-  float: left;
-  margin-right: 2%;
-}
-
-.myPage div:nth-child(1) a {
-  line-height: 30px;
-  margin-left: 10px;
-}
-
-.myPage div:nth-child(1) img {
-  width: 4%;
-  vertical-align: middle;
-  border: none;
-}
-
 .myPage div:nth-child(2) {
-  width: 12%;
-  float: left;
+  width: 15%;
+  min-width: 75px;
   margin-right: 2%;
 }
 
@@ -196,8 +202,8 @@ header {
 }
 
 .myPage div:nth-child(3) {
-  width: 12%;
-  float: left;
+  width: 15%;
+  min-width: 75px;
 }
 
 .myPage div:nth-child(3) a {
@@ -228,7 +234,6 @@ ul.main_container:nth-child(1) {
 	margin-left: 30%;
 }
 
-
 ul.main_container > li.co {
   width: 8%;
   height: 100%;
@@ -237,7 +242,6 @@ ul.main_container > li.co {
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
 }
-
 
 a.main_a {
   display: block;
@@ -274,17 +278,17 @@ li.co:hover ul.sub_box {
   padding: 20px;
 }
 
+li.co > ul.sub_box > li {
+  width: 15%;
+  float: left;
+}
+
 li.co > ul.sub_box > li:first-child {
   margin-left: 20%;
 }
 
 li.co > ul.sub_box > li:last-child {
   margin-right: 20%;
-}
-
-li.co > ul.sub_box > li {
-  width: 12%;
-  float: left;
 }
 
 ul.sub_box > li > ul {

@@ -390,6 +390,7 @@ main.slider_container .next {
 	position: absolute;
 	width: 100%;
 	bottom: 5%;
+	left: calc (50% - 50px);
 	text-align: center;
 }
 

@@ -94,16 +94,12 @@
   font-weight: bold;
 }
 
-.image_tel {
-  width: 100%;
-}
-
-.image_tel li {
+.business_time .tel {
   color: #fff;
   overflow: hidden;
 }
 
-.image_tel img {
+.business_time img {
   display: block;
   float: left;
   width: 5%;
@@ -111,7 +107,7 @@
   border: none;
 }
 
-.image_tel span {
+.business_time .tel span {
   display: block;
   float: left;
   padding-left: 10px;
@@ -120,20 +116,13 @@
   color: #666;
 }
 
-.image_time li {
+.business_time .time {
+  width: 100%;
   color: #fff;
   overflow: hidden;
 }
 
-.image_time img {
-  display: block;
-  float: left;
-  width: 5%;
-  vertical-align: bottom;
-  border: none;
-}
-
-.image_time span {
+.business_time .time span {
   display: block;
   float: left;
   padding-left: 10px;
@@ -178,7 +167,7 @@
   position: fixed;
   bottom: 20px;
   right: 20px;
-  z-index: 9999;
+  z-index: 998;
   letter-spacing: 0.1em;
   text-indent: 0.1em;
   overflow: hidden;
@@ -286,20 +275,4 @@ label.plus:hover {
   -moz-transition: all 1s ease;
   width: 23px;
   height: 23px;
-}
-
-/* ---------------------------------------feedback-------*/
-
-
-
-/* ---------------------------------------반응형-------*/
-
-@media all and (min-width: 1025px) {
-}
-
-@media all and (min-width: 769px) and (max-width: 1024px) {
-}
-
-@media all and (max-width: 768px) {
-  /* --------------------------------------대슬라이드-------*/
 }

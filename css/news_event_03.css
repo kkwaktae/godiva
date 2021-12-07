@@ -30,16 +30,19 @@
 	
 		/* ---------------------------------------네비게이션-------*/
 	
+/* 브라운:#3e2723, 레몬:#f7e18a */
+
 .page_01 {
   width: 100%;
-  padding-top: 150px;
+  padding-top: 130px;
   background: #000;
+  position: relative;
 }
 
 header {
   width: 100%;
   text-align: center;
-  height: 150px;
+  height: 130px;
   position: fixed;
   top: 0;
   left: 0;
@@ -50,24 +53,110 @@ header {
 
 .nav_top {
   width: 100%;
-  height: 100px;
+  height: 80px;
   overflow: hidden;
 }
 
 .rollingText {
-  width: 20%;
+  width: 30%;
   margin-left: 5%;
   float: left;
-  margin-right: 20%;
-  text-overflow: ellipsis;
-  white-space: nowrap;
   background: #666;
   color: #ddd;
-  background: #131313;
+  background: none;
   outline: none;
   overflow: hidden;
-  margin-top: 74px;
-  padding: 5px;
+  margin-top: 33px;
+  padding: 5px 10px;
+}
+
+.rollingText .open-event {
+	width: 70%;
+	float: left;
+	overflow: hidden;
+}
+
+.rollingText .control {
+	width: 10%;
+	float: left;
+	text-align: right;
+	height: 24px;
+	line-height: 24px;
+}
+
+.control .play {
+	font-size: 1.2em;
+	margin-right: 10%;
+}
+
+.control .stop {
+	font-size: 1.2em;	
+}
+
+.rollingText .notice-list {
+	width: 90%;
+	height: 24px;
+	line-height: 24px;
+	float: left;
+	overflow: hidden;
+}
+
+.rollingText #bt5 {
+	margin-left: 1%;
+	width: 9%;
+	float: right;
+}
+
+.rollingText #bt5 a {
+	height: 12px;
+	display: block;
+	text-align: center;
+}
+
+.rollingText .open-event #bt5 .next img {
+	width: 30%;
+	vertical-align: top;
+	border: none;
+}
+
+.rollingText .open-event #bt5 .prev img {
+	width: 30%;
+	vertical-align: bottom;
+	border: none;
+}
+
+
+.rollingText .notice-list li {
+	overflow: hidden;
+	width: 330px;
+}
+
+.rollingText .notice-list li a {
+	color: #ccc;
+	float: left;
+}
+
+.rollingText .notice-list li a:hover {
+	color: #f7e18a;
+}
+
+.rollingText .notice-list li p {
+	font-size: 0.6em;
+	float: right;
+} 
+
+.rollingText .on {
+	color: #f7e18a;
+}
+
+.nav_logo {
+  width: 10%;
+  margin: 0 10%;
+  display: block;
+  float: left;
+  text-align: center;
+  padding-top: 13px;
+  float: left;
 }
 
 .nav_logo #logo {
@@ -75,26 +164,40 @@ header {
   border: none;
 }
 
-.nav_logo {
-  width: 10%;
-  display: block;
-  text-align: center;
-  margin: 0 auto;
-  padding: 21.5px 0;
-  float: left;
-}
-
 .myPage {
-  width: 40%;
+  width: 30%;
   margin-right: 5%;
   float: right;
   text-align: right;
-  margin-top: 43px;
+  margin-top: 41px;
   overflow: hidden;
 }
 
-.myPage #searchBar {
+.myPage>div {
+	display: inline-block;
+	text-align: right;
+}
+
+.myPage div:nth-child(1) {
   width: 30%;
+  margin-right: 2%;
+}
+
+.myPage div:nth-child(1) a {
+  width: 10%;
+  line-height: 30px;
+  margin-left: 5%;
+  display: inline-block;
+}
+
+.myPage div:nth-child(1) img {
+	width: 100%;
+  vertical-align: middle;
+  border: none;
+}
+
+.myPage #searchBar {
+  width: 60%;
   line-height: 26px;
   padding-left: 10px;
   outline: none;
@@ -107,30 +210,13 @@ header {
 }
 
 .myPage #searchBar:focus {
-  width: 40%;
+  width: 85%;
   color: #fff;
 }
 
-.myPage div:nth-child(1) {
-  width: 60%;
-  float: left;
-  margin-right: 2%;
-}
-
-.myPage div:nth-child(1) a {
-  line-height: 30px;
-  margin-left: 10px;
-}
-
-.myPage div:nth-child(1) img {
-  width: 4%;
-  vertical-align: middle;
-  border: none;
-}
-
 .myPage div:nth-child(2) {
-  width: 12%;
-  float: left;
+  width: 15%;
+  min-width: 75px;
   margin-right: 2%;
 }
 
@@ -147,8 +233,8 @@ header {
 }
 
 .myPage div:nth-child(3) {
-  width: 12%;
-  float: left;
+  width: 15%;
+  min-width: 75px;
 }
 
 .myPage div:nth-child(3) a {
@@ -172,18 +258,22 @@ nav {
 ul.main_container {
   width: 100%;
   height: 100%;
-  padding-left: 50%;
   overflow: hidden;
 }
 
+ul.main_container:nth-child(1) {
+	margin-left: 30%;
+}
+
 ul.main_container > li.co {
-  width: 15%;
+  width: 8%;
   height: 100%;
   float: left;
   transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
 }
+
 a.main_a {
   display: block;
   line-height: 50px;
@@ -208,136 +298,28 @@ li.co ul.sub_box {
   height: 0;
   overflow: hidden;
   position: absolute;
-  top: 150px;
+  top: 130px;
   left: 0;
   z-index: 9999;
   background: rgba(19, 19, 19, 0.9);
 }
 
 li.co:hover ul.sub_box {
-  height: 350px;
+  height: 280px;
   padding: 20px;
 }
 
-li.co > ul.sub_box > li:first-child {
-  width: 35%;
-  margin: 5%;
-}
-
-li.co > ul.sub_box > li:last-child {
-  margin-right: 5%;
-}
-
 li.co > ul.sub_box > li {
-  width: 10%;
+  width: 15%;
   float: left;
 }
 
-li.main02 > ul.sub_box > li > img:nth-child(1) {
-  width: 20%;
-  vertical-align: bottom;
-  border: none;
-  border-radius: 10px;
-  position: absolute;
-  top: 30%;
-  left: 5%;
-}
-
-li.main02 > ul.sub_box > li > img:nth-child(2) {
-  width: 10%;
-  vertical-align: bottom;
-  border: none;
-  border-radius: 10px;
-  position: absolute;
-  top: 30%;
-  left: 29%;
-}
-
-li.main03 > ul.sub_box > li > img:nth-child(1) {
-  width: 10%;
-  vertical-align: bottom;
-  border: none;
-  border-radius: 10px;
-  position: absolute;
-  top: 30%;
-  left: 5%;
-}
-
-li.main03 > ul.sub_box > li > img:nth-child(2) {
-  width: 10%;
-  vertical-align: bottom;
-  border: none;
-  border-radius: 10px;
-  position: absolute;
-  top: 30%;
-  left: 17%;
-}
-li.main03 > ul.sub_box > li > img:nth-child(3) {
-  width: 10%;
-  vertical-align: bottom;
-  border: none;
-  border-radius: 10px;
-  position: absolute;
-  top: 30%;
-  left: 29%;
-}
-
-li.main04 > ul.sub_box > li > img:nth-child(1) {
-  width: 10%;
-  vertical-align: bottom;
-  border: none;
-  border-radius: 10px;
-  position: absolute;
-  top: 30%;
-  left: 17%;
-}
-
-li.main04 > ul.sub_box > li > img:nth-child(2) {
-  width: 10%;
-  vertical-align: bottom;
-  border: none;
-  border-radius: 10px;
-  position: absolute;
-  top: 30%;
-  left: 29%;
-}
-
-li.main05 > ul.sub_box > li > img:nth-child(1) {
-  width: 10%;
-  vertical-align: bottom;
-  border: none;
-  border-radius: 10px;
-  position: absolute;
-  top: 30%;
-  left: 5%;
-}
-
-li.main05 > ul.sub_box > li > img:nth-child(2) {
-  width: 10%;
-  vertical-align: bottom;
-  border: none;
-  border-radius: 10px;
-  position: absolute;
-  top: 30%;
-  left: 17%;
-}
-
-li.main05 > ul.sub_box > li > img:nth-child(3) {
-  width: 10%;
-  vertical-align: bottom;
-  border: none;
-  border-radius: 10px;
-  position: absolute;
-  top: 30%;
-  left: 29%;
-}
-
-li.co > ul.sub_box > li > span {
-  border-bottom: 1px solid #f7e18a;
-}
-
 li.co > ul.sub_box > li:first-child {
-  margin-top: 25px;
+  margin-left: 20%;
+}
+
+li.co > ul.sub_box > li:last-child {
+  margin-right: 20%;
 }
 
 ul.sub_box > li > ul {
@@ -345,7 +327,7 @@ ul.sub_box > li > ul {
 }
 
 ul.sub_box > li > ul > li > a {
-  line-height: 40px;
+  line-height: 30px;
   color: #fff;
 }
 
@@ -355,12 +337,13 @@ ul.sub_box > li > ul > li > a:hover {
 
 ul.sub_box > li > span.sub_title {
   display: block;
-  line-height: 50px;
+  line-height: 49px;
   text-decoration: none;
   font-size: 1em;
   color: #f7e18a;
+  border-bottom: 1px solid #f7e18a;
 }
-	
+
 		.menu_content {
 			color: #fff;
 			background: url('../img/menu/back_banner_02.jpg') no-repeat center center / cover;
@@ -570,16 +553,12 @@ ul.sub_box > li > span.sub_title {
   font-weight: bold;
 }
 
-.image_tel {
-  width: 100%;
-}
-
-.image_tel li {
+.business_time .tel {
   color: #fff;
   overflow: hidden;
 }
 
-.image_tel img {
+.business_time img {
   display: block;
   float: left;
   width: 5%;
@@ -587,7 +566,7 @@ ul.sub_box > li > span.sub_title {
   border: none;
 }
 
-.image_tel span {
+.business_time .tel span {
   display: block;
   float: left;
   padding-left: 10px;
@@ -596,20 +575,13 @@ ul.sub_box > li > span.sub_title {
   color: #666;
 }
 
-.image_time li {
+.business_time .time {
+  width: 100%;
   color: #fff;
   overflow: hidden;
 }
 
-.image_time img {
-  display: block;
-  float: left;
-  width: 5%;
-  vertical-align: bottom;
-  border: none;
-}
-
-.image_time span {
+.business_time .time span {
   display: block;
   float: left;
   padding-left: 10px;
@@ -634,10 +606,6 @@ ul.sub_box > li > span.sub_title {
   border: 1px solid transparent;
 }
 
-.footer_sns_box img:hover {
-	border-bottom: 1px solid #f7e18a;
-}
-
 
 .box_02 {
   width: 100%;
@@ -658,7 +626,7 @@ ul.sub_box > li > span.sub_title {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  z-index: 9999;
+  z-index: 998;
   letter-spacing: 0.1em;
   text-indent: 0.1em;
   overflow: hidden;
@@ -685,7 +653,6 @@ ul.sub_box > li > span.sub_title {
   width: 200px;
   background: rgba(19, 19, 19, 0.9);
   padding: 20px;
-  padding-bottom: 5%;
   position: fixed;
   transition: all 1.5s ease;
   -webkit-transition: all 1.5s ease;
