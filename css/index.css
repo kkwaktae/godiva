@@ -389,7 +389,7 @@ main.slider_container .next {
 .pagination-container {
 	position: absolute;
 	width: 100%;
-	bottom: 5%;
+	bottom: 8%;
 	left: calc (50% - 50px);
 	text-align: center;
 }

@@ -1,3 +1,8 @@
+$(window).on('load', function(){
+	$('.slider').slider();
+});
+
+
 /* global jQuery */
 (function ($) {
   'use strict'
@@ -23,8 +28,8 @@
         direction: 'right',
         responsive: true,
         buttons: {
-          prev: "<div class='prev slider-buttons'></div>",
-          next: "<div class='next slider-buttons'></div>"
+          prev: "<div class='prev slider-buttons'><span>&#8249;</span></div>",
+          next: "<div class='next slider-buttons'><span>&#8250;</span></div>"
         }
       }
       _.markup = {
@@ -102,7 +107,7 @@
 
     // add slider pagination
     if (_.options.pagination === true) {
-      for (var i = 1; i < 6 ; i++) {
+      for (var i = 1; i < _.markup.$slides.length; i++) {
         _.markup.$dots.push("<li class='dot' data-number='" + i + "'></li>")
       }
       var pagination = ''

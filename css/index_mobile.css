@@ -316,8 +316,8 @@ body {
 @media all and (max-width: 1023px) {
 			
 	.page_04 {
-	  background: #000 url("../img/menu/background.png") no-repeat right center / cover;
-	  background-attachment: fixed;
+	  background: initial;
+	  background-attachment: scroll;
 	  padding: 200px 0;
 	  margin-bottom: 100px;
 	}

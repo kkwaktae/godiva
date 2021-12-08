@@ -1,4 +1,6 @@
-
+ $(function(){
+	 fn_article3("notice5", "bt5", true);
+ });
 
 //롤링 제이쿼리파일
 function fn_article3(containerID, buttonID, autoStart){
