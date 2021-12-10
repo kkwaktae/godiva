@@ -28,8 +28,8 @@ $(window).on('load', function(){
         direction: 'right',
         responsive: true,
         buttons: {
-          prev: "<div class='prev slider-buttons'><span>&#8249;</span></div>",
-          next: "<div class='next slider-buttons'><span>&#8250;</span></div>"
+          prev: "<div class='prev slider-buttons'></div>",
+          next: "<div class='next slider-buttons'></div>"
         }
       }
       _.markup = {
