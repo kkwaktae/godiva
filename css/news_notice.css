@@ -389,7 +389,7 @@ ul.sub_box > li > span.sub_title {
 		
 		
 		.news_container ul {
-			width: 60%;
+			width: 50%;
 			margin: 0 auto;	
 			overflow: hidden;
 			font-size: 1.2em;
@@ -403,6 +403,9 @@ ul.sub_box > li > span.sub_title {
 		.news_container ul a {
 			display: block;
 			padding: 5%;
+			transition: all 0.5s ease;
+			-webkit-transition: all 0.5s ease;
+			-moz-transition: all 0.5s ease;
 		}
 		
 		.news_container ul a:hover {
@@ -411,19 +414,19 @@ ul.sub_box > li > span.sub_title {
 		}
 		
 		.news_container li {
-			width: 19%;
+			width: 23.5%;
 			float: left;
 			line-height: 1.5;
 		}
 		
 		.news_01 a {
-			color: #fff;
-			background: #666;
+			color: #f7e18a;
+			background: #222;
 		}
 		
 		.news_02 a {
-			color: #f7e18a;
-			background: #222;			
+			color: #fff;
+			background: #666;			
 		}
 		
 		.news_03 a {
@@ -437,7 +440,7 @@ ul.sub_box > li > span.sub_title {
 		}
 		
 		.news_container .mar {
-			margin-right: 8%;
+			margin-right: 2%;
 		}
 		
 
