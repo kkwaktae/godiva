@@ -420,13 +420,13 @@ ul.sub_box > li > span.sub_title {
 		}
 		
 		.news_01 a {
-			color: #f7e18a;
-			background: #222;
+			color: #fff;
+			background: #666;
 		}
 		
 		.news_02 a {
-			color: #fff;
-			background: #666;			
+			color: #f7e18a;
+			background: #222;			
 		}
 		
 		.news_03 a {
